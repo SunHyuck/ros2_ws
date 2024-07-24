@@ -1,0 +1,18 @@
+[0.010s] Invoking command in '/home/sunny/ros2_ws/src/cpp_srvcli/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/src/cpp_srvcli/build/cpp_srvcli -- -j8 -l8
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[0.300s] [01m[K/home/sunny/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/srv/AddThreeInts.hpp: No such file or directory
+[0.300s]     2 | #include [01;31m[K"tutorial_interfaces/srv/AddThreeInts.hpp"[m[K                                       // CHANGE
+[0.300s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.301s] compilation terminated.
+[0.301s] [01m[K/home/sunny/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/srv/AddThreeInts.hpp: No such file or directory
+[0.301s]     2 | #include [01;31m[K"tutorial_interfaces/srv/AddThreeInts.hpp"[m[K                                        // CHANGE
+[0.301s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.301s] compilation terminated.
+[0.304s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1
+[0.304s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Error 1
+[0.305s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+[0.305s] gmake[1]: *** Waiting for unfinished jobs....
+[0.305s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[0.305s] gmake: *** [Makefile:146: all] Error 2
+[0.307s] Invoked command in '/home/sunny/ros2_ws/src/cpp_srvcli/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/src/cpp_srvcli/build/cpp_srvcli -- -j8 -l8

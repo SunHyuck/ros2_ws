@@ -1,0 +1,30 @@
+[0.011s] Invoking command in '/home/sunny/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/polygon_base -- -j8 -l8
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target area_node[0m
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/area_node.dir/src/area_node.cpp.o[0m
+[2.560s] [100%] [32m[1mLinking CXX executable area_node[0m
+[2.690s] [100%] Built target area_node
+[2.700s] Invoked command in '/home/sunny/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/polygon_base -- -j8 -l8
+[2.735s] Invoking command in '/home/sunny/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sunny/ros2_ws/build/polygon_base
+[2.741s] -- Install configuration: ""
+[2.741s] -- Installing: /home/sunny/ros2_ws/install/polygon_base/lib/polygon_base/area_node
+[2.743s] -- Set runtime path of "/home/sunny/ros2_ws/install/polygon_base/lib/polygon_base/area_node" to ""
+[2.743s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/include
+[2.743s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/include/polygon_base
+[2.743s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/include/polygon_base/regular_polygon.hpp
+[2.743s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+[2.743s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+[2.744s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+[2.744s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+[2.744s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/environment/path.sh
+[2.744s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/environment/path.dsv
+[2.744s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/local_setup.bash
+[2.744s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/local_setup.sh
+[2.744s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/local_setup.zsh
+[2.744s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/local_setup.dsv
+[2.744s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/package.dsv
+[2.744s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+[2.745s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.745s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+[2.745s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+[2.745s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/package.xml
+[2.746s] Invoked command in '/home/sunny/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sunny/ros2_ws/build/polygon_base

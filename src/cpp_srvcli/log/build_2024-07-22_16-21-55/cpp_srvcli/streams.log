@@ -1,0 +1,30 @@
+[0.010s] Invoking command in '/home/sunny/ros2_ws/src/cpp_srvcli/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/src/cpp_srvcli/build/cpp_srvcli -- -j8 -l8
+[0.062s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[3.061s] [ 75%] [32m[1mLinking CXX executable server[0m
+[3.199s] [ 75%] Built target server
+[3.231s] [100%] [32m[1mLinking CXX executable client[0m
+[3.371s] [100%] Built target client
+[3.381s] Invoked command in '/home/sunny/ros2_ws/src/cpp_srvcli/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/src/cpp_srvcli/build/cpp_srvcli -- -j8 -l8
+[3.415s] Invoking command in '/home/sunny/ros2_ws/src/cpp_srvcli/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sunny/ros2_ws/src/cpp_srvcli/build/cpp_srvcli
+[3.422s] -- Install configuration: ""
+[3.422s] -- Installing: /home/sunny/ros2_ws/src/cpp_srvcli/install/cpp_srvcli/lib/cpp_srvcli/server
+[3.423s] -- Set runtime path of "/home/sunny/ros2_ws/src/cpp_srvcli/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[3.423s] -- Installing: /home/sunny/ros2_ws/src/cpp_srvcli/install/cpp_srvcli/lib/cpp_srvcli/client
+[3.424s] -- Set runtime path of "/home/sunny/ros2_ws/src/cpp_srvcli/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[3.424s] -- Up-to-date: /home/sunny/ros2_ws/src/cpp_srvcli/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[3.424s] -- Up-to-date: /home/sunny/ros2_ws/src/cpp_srvcli/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[3.425s] -- Up-to-date: /home/sunny/ros2_ws/src/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[3.425s] -- Up-to-date: /home/sunny/ros2_ws/src/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[3.425s] -- Up-to-date: /home/sunny/ros2_ws/src/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[3.425s] -- Up-to-date: /home/sunny/ros2_ws/src/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[3.425s] -- Up-to-date: /home/sunny/ros2_ws/src/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[3.425s] -- Up-to-date: /home/sunny/ros2_ws/src/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[3.425s] -- Up-to-date: /home/sunny/ros2_ws/src/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[3.425s] -- Up-to-date: /home/sunny/ros2_ws/src/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[3.425s] -- Installing: /home/sunny/ros2_ws/src/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[3.425s] -- Up-to-date: /home/sunny/ros2_ws/src/cpp_srvcli/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[3.425s] -- Up-to-date: /home/sunny/ros2_ws/src/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[3.425s] -- Up-to-date: /home/sunny/ros2_ws/src/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[3.426s] -- Up-to-date: /home/sunny/ros2_ws/src/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[3.427s] Invoked command in '/home/sunny/ros2_ws/src/cpp_srvcli/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sunny/ros2_ws/src/cpp_srvcli/build/cpp_srvcli

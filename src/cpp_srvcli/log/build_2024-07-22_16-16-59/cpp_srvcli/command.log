@@ -1,0 +1,2 @@
+Invoking command in '/home/sunny/ros2_ws/src/cpp_srvcli/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/src/cpp_srvcli/build/cpp_srvcli -- -j8 -l8
+Invoked command in '/home/sunny/ros2_ws/src/cpp_srvcli/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/src/cpp_srvcli/build/cpp_srvcli -- -j8 -l8

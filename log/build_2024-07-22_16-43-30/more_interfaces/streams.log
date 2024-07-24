@@ -1,0 +1,13 @@
+[0.010s] Invoking command in '/home/sunny/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunny/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/sunny/ros2_ws/install/more_interfaces
+[0.020s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.131s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.132s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.135s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.193s] [31mCMake Error at CMakeLists.txt:17 (rosidl_default_generators):
+[0.193s]   Unknown CMake command "rosidl_default_generators".
+[0.193s] 
+[0.193s] [0m
+[0.193s] -- Configuring incomplete, errors occurred!
+[0.193s] See also "/home/sunny/ros2_ws/build/more_interfaces/CMakeFiles/CMakeOutput.log".
+[0.197s] Invoked command in '/home/sunny/ros2_ws/build/more_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunny/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/sunny/ros2_ws/install/more_interfaces

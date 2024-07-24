@@ -1,0 +1,6 @@
+Invoking command in '/home/sunny/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunny/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/sunny/ros2_ws/install/more_interfaces
+Invoked command in '/home/sunny/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunny/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/sunny/ros2_ws/install/more_interfaces
+Invoking command in '/home/sunny/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/more_interfaces -- -j8 -l8
+Invoked command in '/home/sunny/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/more_interfaces -- -j8 -l8
+Invoking command in '/home/sunny/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunny/ros2_ws/build/more_interfaces
+Invoked command in '/home/sunny/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunny/ros2_ws/build/more_interfaces

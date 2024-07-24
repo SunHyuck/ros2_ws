@@ -1,0 +1,7 @@
+[0.008s] Invoking command in '/home/sunny/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces': /usr/bin/cmake /home/sunny/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/sunny/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces
+[0.014s] [31mCMake Error at CMakeLists.txt:16:
+[0.014s]   Parse error.  Expected "(", got identifier with text "executable".
+[0.014s] 
+[0.014s] [0m
+[0.014s] -- Configuring incomplete, errors occurred!
+[0.015s] Invoked command in '/home/sunny/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces' returned '1': /usr/bin/cmake /home/sunny/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/sunny/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces

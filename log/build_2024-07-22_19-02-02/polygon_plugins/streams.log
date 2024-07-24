@@ -1,0 +1,13 @@
+[0.010s] Invoking command in '/home/sunny/ros2_ws/build/polygon_plugins': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/cpp_parameters:/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/polygon_plugins -- -j8 -l8
+[0.032s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.142s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.144s] -- Found polygon_base: 0.0.0 (/home/sunny/ros2_ws/install/polygon_base/share/polygon_base/cmake)
+[0.145s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.176s] [31mCMake Error at CMakeLists.txt:13 (pluginlib_export_plugin_descrioption_file):
+[0.176s]   Unknown CMake command "pluginlib_export_plugin_descrioption_file".
+[0.176s] 
+[0.176s] [0m
+[0.176s] -- Configuring incomplete, errors occurred!
+[0.176s] See also "/home/sunny/ros2_ws/build/polygon_plugins/CMakeFiles/CMakeOutput.log".
+[0.179s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.181s] Invoked command in '/home/sunny/ros2_ws/build/polygon_plugins' returned '2': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/cpp_parameters:/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/polygon_plugins -- -j8 -l8

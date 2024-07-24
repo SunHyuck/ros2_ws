@@ -1,0 +1,16 @@
+[0.008s] Invoking command in '/home/sunny/ros2_ws/build/polygon_plugins': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/cpp_parameters:/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/polygon_plugins -- -j8 -l8
+[0.030s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.141s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.143s] -- Found polygon_base: 0.0.0 (/home/sunny/ros2_ws/install/polygon_base/share/polygon_base/cmake)
+[0.144s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.170s] [31mCMake Error at /opt/ros/humble/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:84 (message):
+[0.171s]   Given plugin description file
+[0.171s]   '/home/sunny/ros2_ws/src/polygon_plugins/plugin.xml' does not exist
+[0.171s] Call Stack (most recent call first):
+[0.171s]   CMakeLists.txt:13 (pluginlib_export_plugin_description_file)
+[0.171s] 
+[0.171s] [0m
+[0.171s] -- Configuring incomplete, errors occurred!
+[0.171s] See also "/home/sunny/ros2_ws/build/polygon_plugins/CMakeFiles/CMakeOutput.log".
+[0.174s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.176s] Invoked command in '/home/sunny/ros2_ws/build/polygon_plugins' returned '2': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/cpp_parameters:/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/polygon_plugins -- -j8 -l8

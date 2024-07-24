@@ -1,0 +1,10 @@
+/home/sunny/ros2_ws/build/cpp_proj/CMakeFiles/uninstall.dir
+/home/sunny/ros2_ws/build/cpp_proj/CMakeFiles/cpp_proj_uninstall.dir
+/home/sunny/ros2_ws/build/cpp_proj/CMakeFiles/transpose.dir
+/home/sunny/ros2_ws/build/cpp_proj/CMakeFiles/test.dir
+/home/sunny/ros2_ws/build/cpp_proj/CMakeFiles/edit_cache.dir
+/home/sunny/ros2_ws/build/cpp_proj/CMakeFiles/rebuild_cache.dir
+/home/sunny/ros2_ws/build/cpp_proj/CMakeFiles/list_install_components.dir
+/home/sunny/ros2_ws/build/cpp_proj/CMakeFiles/install.dir
+/home/sunny/ros2_ws/build/cpp_proj/CMakeFiles/install/local.dir
+/home/sunny/ros2_ws/build/cpp_proj/CMakeFiles/install/strip.dir

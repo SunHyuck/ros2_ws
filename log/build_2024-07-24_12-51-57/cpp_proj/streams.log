@@ -1,0 +1,23 @@
+[0.009s] Invoking command in '/home/sunny/ros2_ws/build/cpp_proj': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_proj -- -j8 -l8
+[0.037s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.150s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.188s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.190s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.195s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.205s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.223s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.276s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.277s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.397s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.620s] -- Configuring done
+[0.632s] -- Generating done
+[0.634s] -- Build files have been written to: /home/sunny/ros2_ws/build/cpp_proj
+[0.656s] [35m[1mConsolidate compiler generated dependencies of target transpose[0m
+[0.668s] [ 50%] [32m[1mLinking CXX executable transpose[0m
+[0.744s] /usr/bin/ld: CMakeFiles/transpose.dir/src/proj_coordinate.cpp.o: in function `main':
+[0.744s] proj_coordinate.cpp:(.text+0x1fd): undefined reference to `proj_context_create'
+[0.749s] collect2: error: ld returned 1 exit status
+[0.750s] gmake[2]: *** [CMakeFiles/transpose.dir/build.make:159: transpose] Error 1
+[0.750s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/transpose.dir/all] Error 2
+[0.751s] gmake: *** [Makefile:146: all] Error 2
+[0.753s] Invoked command in '/home/sunny/ros2_ws/build/cpp_proj' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_proj -- -j8 -l8

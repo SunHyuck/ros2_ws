@@ -1,0 +1,57 @@
+[0.010s] Invoking command in '/home/sunny/ros2_ws/build/cpp_proj': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_proj -- -j8 -l8
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target transpose[0m
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/transpose.dir/src/proj_coordinate.cpp.o[0m
+[0.359s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[0.359s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:53:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[0.359s]    53 |             for (int i = 0; [01;35m[Ki < result.size()[m[K; i++) {
+[0.360s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[0.360s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:32:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kutc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.360s]    32 |     float [01;35m[Kutc[m[K;
+[0.360s]       |           [01;35m[K^~~[m[K
+[0.360s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:33:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.360s]    33 |     float [01;35m[Klat[m[K;
+[0.360s]       |           [01;35m[K^~~[m[K
+[0.360s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:35:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klon[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.360s]    35 |     float [01;35m[Klon[m[K;
+[0.360s]       |           [01;35m[K^~~[m[K
+[0.360s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:37:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kquality[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.360s]    37 |     int [01;35m[Kquality[m[K;
+[0.361s]       |         [01;35m[K^~~~~~~[m[K
+[0.361s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:38:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knum_satelite[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.361s]    38 |     int [01;35m[Knum_satelite[m[K;
+[0.361s]       |         [01;35m[K^~~~~~~~~~~~[m[K
+[0.361s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:39:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KHDOP[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.361s]    39 |     float [01;35m[KHDOP[m[K;
+[0.361s]       |           [01;35m[K^~~~[m[K
+[0.361s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:40:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kalt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.361s]    40 |     float [01;35m[Kalt[m[K;
+[0.361s]       |           [01;35m[K^~~[m[K
+[0.361s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:42:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksep[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.361s]    42 |     float [01;35m[Ksep[m[K;
+[0.361s]       |           [01;35m[K^~~[m[K
+[0.361s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:44:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdiff_age[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.361s]    44 |     float [01;35m[Kdiff_age[m[K;
+[0.361s]       |           [01;35m[K^~~~~~~~[m[K
+[0.442s] [100%] [32m[1mLinking CXX executable transpose[0m
+[0.534s] [100%] Built target transpose
+[0.544s] Invoked command in '/home/sunny/ros2_ws/build/cpp_proj' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_proj -- -j8 -l8
+[0.576s] Invoking command in '/home/sunny/ros2_ws/build/cpp_proj': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunny/ros2_ws/build/cpp_proj
+[0.582s] -- Install configuration: ""
+[0.582s] -- Installing: /home/sunny/ros2_ws/install/cpp_proj/lib/cpp_proj/transpose
+[0.583s] -- Set runtime path of "/home/sunny/ros2_ws/install/cpp_proj/lib/cpp_proj/transpose" to ""
+[0.583s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/ament_index/resource_index/package_run_dependencies/cpp_proj
+[0.583s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/ament_index/resource_index/parent_prefix_path/cpp_proj
+[0.583s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/environment/ament_prefix_path.sh
+[0.583s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/environment/ament_prefix_path.dsv
+[0.583s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/environment/path.sh
+[0.583s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/environment/path.dsv
+[0.583s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/local_setup.bash
+[0.584s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/local_setup.sh
+[0.584s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/local_setup.zsh
+[0.584s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/local_setup.dsv
+[0.584s] -- Installing: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/package.dsv
+[0.584s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/ament_index/resource_index/packages/cpp_proj
+[0.584s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/cmake/cpp_projConfig.cmake
+[0.584s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/cmake/cpp_projConfig-version.cmake
+[0.584s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/package.xml
+[0.586s] Invoked command in '/home/sunny/ros2_ws/build/cpp_proj' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunny/ros2_ws/build/cpp_proj

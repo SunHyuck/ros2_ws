@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target transpose[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/transpose.dir/src/proj_coordinate.cpp.o[0m
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:16:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope
+   16 |             [01;31m[Kcout[m[K << line << endl;
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:4:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+    3 | #include <fstream>
+  +++ |+[32m[K#include <iostream>[m[K
+    4 | #include <string>
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:8:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    8 | int main([01;35m[Kint argc[m[K, char **argv)
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:8:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    8 | int main(int argc, [01;35m[Kchar **argv[m[K)
+      |                    [01;35m[K~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/transpose.dir/build.make:76: CMakeFiles/transpose.dir/src/proj_coordinate.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/transpose.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

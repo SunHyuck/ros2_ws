@@ -1,0 +1,20 @@
+[0.010s] Invoking command in '/home/sunny/ros2_ws/build/cpp_proj': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_proj -- -j8 -l8
+[0.059s] [ 50%] [32mBuilding CXX object CMakeFiles/transpose.dir/src/proj_coordinate.cpp.o[0m
+[0.325s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.325s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:18:23:[m[K [01;31m[Kerror: [m[K‘[01m[KopenFile[m[K’ was not declared in this scope
+[0.325s]    18 |         while(getline([01;31m[KopenFile[m[K, line)) {
+[0.325s]       |                       [01;31m[K^~~~~~~~[m[K
+[0.325s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:19:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope
+[0.326s]    19 |             [01;31m[Kcout[m[K << line << endl;
+[0.326s]       |             [01;31m[K^~~~[m[K
+[0.326s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:4:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[0.326s]     3 | #include <fstream>
+[0.326s]   +++ |+[32m[K#include <iostream>[m[K
+[0.326s]     4 | 
+[0.327s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[KopenFile[m[K’ was not declared in this scope
+[0.327s]    21 |         [01;31m[KopenFile[m[K.close();
+[0.327s]       |         [01;31m[K^~~~~~~~[m[K
+[0.369s] gmake[2]: *** [CMakeFiles/transpose.dir/build.make:76: CMakeFiles/transpose.dir/src/proj_coordinate.cpp.o] Error 1
+[0.369s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/transpose.dir/all] Error 2
+[0.369s] gmake: *** [Makefile:146: all] Error 2
+[0.371s] Invoked command in '/home/sunny/ros2_ws/build/cpp_proj' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_proj -- -j8 -l8

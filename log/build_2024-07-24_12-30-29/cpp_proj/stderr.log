@@ -1,0 +1,50 @@
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:71:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   71 |             for (int i = 0; [01;35m[Ki < result.size()[m[K; i++) {
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:43:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kutc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   43 |     float [01;35m[Kutc[m[K;
+      |           [01;35m[K^~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:44:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   44 |     float [01;35m[Klat[m[K;
+      |           [01;35m[K^~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:46:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klon[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   46 |     float [01;35m[Klon[m[K;
+      |           [01;35m[K^~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:48:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kquality[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   48 |     int [01;35m[Kquality[m[K;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:49:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knum_satelite[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   49 |     int [01;35m[Knum_satelite[m[K;
+      |         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:50:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KHDOP[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   50 |     float [01;35m[KHDOP[m[K;
+      |           [01;35m[K^~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:51:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kalt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   51 |     float [01;35m[Kalt[m[K;
+      |           [01;35m[K^~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:53:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksep[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   53 |     float [01;35m[Ksep[m[K;
+      |           [01;35m[K^~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:55:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdiff_age[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   55 |     float [01;35m[Kdiff_age[m[K;
+      |           [01;35m[K^~~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:59:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KP[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   59 |     PJ *[01;35m[KP[m[K;
+      |         [01;35m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:60:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knorm[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   60 |     PJ *[01;35m[Knorm[m[K;
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:61:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   61 |     PJ_COORD [01;35m[Ka[m[K, b;
+      |              [01;35m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:61:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   61 |     PJ_COORD a, [01;35m[Kb[m[K;
+      |                 [01;35m[K^[m[K
+/usr/bin/ld: CMakeFiles/transpose.dir/src/proj_coordinate.cpp.o: in function `main':
+proj_coordinate.cpp:(.text+0x1fd): undefined reference to `proj_context_create'
+/usr/bin/ld: proj_coordinate.cpp:(.text+0x226): undefined reference to `proj_create_crs_to_crs'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/transpose.dir/build.make:159: transpose] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/transpose.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

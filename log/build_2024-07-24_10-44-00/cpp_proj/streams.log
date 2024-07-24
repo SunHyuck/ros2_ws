@@ -1,0 +1,34 @@
+[0.009s] Invoking command in '/home/sunny/ros2_ws/build/cpp_proj': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_proj -- -j8 -l8
+[0.028s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.153s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.197s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.201s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.212s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.228s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.249s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.320s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.322s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.413s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.436s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.476s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.485s] -- Looking for pthread.h
+[0.553s] -- Looking for pthread.h - found
+[0.554s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.619s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.620s] -- Found Threads: TRUE  
+[0.848s] -- Configuring done
+[0.855s] -- Generating done
+[0.857s] -- Build files have been written to: /home/sunny/ros2_ws/build/cpp_proj
+[0.886s] [ 50%] [32mBuilding CXX object CMakeFiles/transpose.dir/src/proj_coordinate.cpp.o[0m
+[0.921s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.921s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:8:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprintf[m[K’ was not declared in this scope
+[0.921s]     8 |     [01;31m[Kprintf[m[K("test\n");
+[0.921s]       |     [01;31m[K^~~~~~[m[K
+[0.921s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:2:1:[m[K [01;36m[Knote: [m[K‘[01m[Kprintf[m[K’ is defined in header ‘[01m[K<cstdio>[m[K’; did you forget to ‘[01m[K#include <cstdio>[m[K’?
+[0.921s]     1 | #include <stdlib.h>
+[0.921s]   +++ |+[32m[K#include <cstdio>[m[K
+[0.922s]     2 | 
+[0.922s] gmake[2]: *** [CMakeFiles/transpose.dir/build.make:76: CMakeFiles/transpose.dir/src/proj_coordinate.cpp.o] Error 1
+[0.923s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/transpose.dir/all] Error 2
+[0.923s] gmake: *** [Makefile:146: all] Error 2
+[0.925s] Invoked command in '/home/sunny/ros2_ws/build/cpp_proj' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_proj -- -j8 -l8

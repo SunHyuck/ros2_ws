@@ -1,0 +1,5 @@
+  File "/home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages/py_proj/proj_coordinate.py", line 58
+    f"GGA.Easting : {msg.Easting}\n
+    ^
+SyntaxError: unterminated string literal (detected at line 58)
+

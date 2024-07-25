@@ -16,7 +16,7 @@ setup(
     maintainer='sunny',
     maintainer_email='sunhyuck98@gmail.com',
     description='TODO: Package description',
-    license='Apach-2.0',
+    license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [

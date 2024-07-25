@@ -1,0 +1,26 @@
+[0.060s] Invoking command in '/home/sunny/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/polygon_base -- -j8 -l8
+[0.211s] [100%] Built target area_node
+[0.256s] Invoked command in '/home/sunny/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/polygon_base -- -j8 -l8
+[0.479s] Invoking command in '/home/sunny/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble /usr/bin/cmake --install /home/sunny/ros2_ws/build/polygon_base
+[0.516s] -- Install configuration: ""
+[0.519s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/lib/polygon_base/area_node
+[0.522s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/include
+[0.523s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/include/polygon_base
+[0.526s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/include/polygon_base/regular_polygon.hpp
+[0.527s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+[0.527s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+[0.528s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+[0.529s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+[0.530s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/environment/path.sh
+[0.530s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/environment/path.dsv
+[0.531s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/local_setup.bash
+[0.533s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/local_setup.sh
+[0.535s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/local_setup.zsh
+[0.536s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/local_setup.dsv
+[0.538s] -- Installing: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/package.dsv
+[0.539s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+[0.540s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.541s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+[0.542s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+[0.543s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_base/share/polygon_base/package.xml
+[0.562s] Invoked command in '/home/sunny/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble /usr/bin/cmake --install /home/sunny/ros2_ws/build/polygon_base

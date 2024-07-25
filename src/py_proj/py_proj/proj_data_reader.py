@@ -6,7 +6,7 @@ from pyproj import pyproj, Transformer
 
 class RawDataPub(Node):
     def __init__(self, raw_dataset):
-        super().__init__('raw_data_pub')
+        super().__init__('raw_data_publisher')
         self.raw_dataset = raw_dataset
         self.publisher_ = self.create_publisher(String, 'nmea_data', 10)
         timer_period = 0.5
@@ -28,11 +28,11 @@ def main(args=None):
     f = open(filename, 'r')
     lines = f.readlines()
 
-    raw_data_pub = RawDataPub(lines)
+    raw_data_publisher = RawDataPub(lines)
 
-    rclpy.spin(raw_data_pub)
+    rclpy.spin(raw_data_publisher)
 
-    raw_data_pub.destroy_node()
+    raw_data_publisher.destroy_node()
     rclpy.shutdown()
 
 if __name__ == "__main__":

@@ -1,0 +1,25 @@
+[0.918s] Invoking command in '/home/sunny/ros2_ws/src/py_proj': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:/home/sunny/ros2_ws/install/tutorial_interfaces/lib:/home/sunny/ros2_ws/install/turtlesim/lib:/home/sunny/ros2_ws/install/polygon_plugins/lib:/home/sunny/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/sunny/ros2_ws/build/py_proj/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_proj build --build-base /home/sunny/ros2_ws/build/py_proj/build install --record /home/sunny/ros2_ws/build/py_proj/install.log --single-version-externally-managed install_data
+[1.204s] running egg_info
+[1.205s] writing ../../build/py_proj/py_proj.egg-info/PKG-INFO
+[1.205s] writing dependency_links to ../../build/py_proj/py_proj.egg-info/dependency_links.txt
+[1.205s] writing entry points to ../../build/py_proj/py_proj.egg-info/entry_points.txt
+[1.206s] writing requirements to ../../build/py_proj/py_proj.egg-info/requires.txt
+[1.206s] writing top-level names to ../../build/py_proj/py_proj.egg-info/top_level.txt
+[1.208s] reading manifest file '../../build/py_proj/py_proj.egg-info/SOURCES.txt'
+[1.209s] writing manifest file '../../build/py_proj/py_proj.egg-info/SOURCES.txt'
+[1.210s] running build
+[1.210s] running build_py
+[1.210s] copying py_proj/proj_coordinate.py -> /home/sunny/ros2_ws/build/py_proj/build/lib/py_proj
+[1.210s] running install
+[1.211s] running install_lib
+[1.212s] copying /home/sunny/ros2_ws/build/py_proj/build/lib/py_proj/proj_coordinate.py -> /home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages/py_proj
+[1.213s] byte-compiling /home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages/py_proj/proj_coordinate.py to proj_coordinate.cpython-310.pyc
+[1.214s] running install_data
+[1.214s] running install_egg_info
+[1.215s] removing '/home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages/py_proj-0.0.0-py3.10.egg-info' (and everything under it)
+[1.216s] Copying ../../build/py_proj/py_proj.egg-info to /home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages/py_proj-0.0.0-py3.10.egg-info
+[1.217s] running install_scripts
+[1.239s] Installing publisher script to /home/sunny/ros2_ws/install/py_proj/lib/py_proj
+[1.240s] Installing reader script to /home/sunny/ros2_ws/install/py_proj/lib/py_proj
+[1.240s] writing list of installed files to '/home/sunny/ros2_ws/build/py_proj/install.log'
+[1.269s] Invoked command in '/home/sunny/ros2_ws/src/py_proj' returned '0': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:/home/sunny/ros2_ws/install/tutorial_interfaces/lib:/home/sunny/ros2_ws/install/turtlesim/lib:/home/sunny/ros2_ws/install/polygon_plugins/lib:/home/sunny/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/sunny/ros2_ws/build/py_proj/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_proj build --build-base /home/sunny/ros2_ws/build/py_proj/build install --record /home/sunny/ros2_ws/build/py_proj/install.log --single-version-externally-managed install_data

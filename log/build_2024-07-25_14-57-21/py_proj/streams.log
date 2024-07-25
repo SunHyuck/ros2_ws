@@ -1,0 +1,25 @@
+[0.640s] Invoking command in '/home/sunny/ros2_ws/src/py_proj': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/build/py_proj/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages:/home/sunny/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_proj build --build-base /home/sunny/ros2_ws/build/py_proj/build install --record /home/sunny/ros2_ws/build/py_proj/install.log --single-version-externally-managed install_data
+[0.877s] running egg_info
+[0.878s] writing ../../build/py_proj/py_proj.egg-info/PKG-INFO
+[0.878s] writing dependency_links to ../../build/py_proj/py_proj.egg-info/dependency_links.txt
+[0.878s] writing entry points to ../../build/py_proj/py_proj.egg-info/entry_points.txt
+[0.878s] writing requirements to ../../build/py_proj/py_proj.egg-info/requires.txt
+[0.878s] writing top-level names to ../../build/py_proj/py_proj.egg-info/top_level.txt
+[0.881s] reading manifest file '../../build/py_proj/py_proj.egg-info/SOURCES.txt'
+[0.882s] writing manifest file '../../build/py_proj/py_proj.egg-info/SOURCES.txt'
+[0.882s] running build
+[0.882s] running build_py
+[0.882s] copying py_proj/proj_coordinate.py -> /home/sunny/ros2_ws/build/py_proj/build/lib/py_proj
+[0.882s] running install
+[0.883s] running install_lib
+[0.884s] copying /home/sunny/ros2_ws/build/py_proj/build/lib/py_proj/proj_coordinate.py -> /home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages/py_proj
+[0.884s] byte-compiling /home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages/py_proj/proj_coordinate.py to proj_coordinate.cpython-310.pyc
+[0.885s] running install_data
+[0.885s] running install_egg_info
+[0.887s] removing '/home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages/py_proj-0.0.0-py3.10.egg-info' (and everything under it)
+[0.887s] Copying ../../build/py_proj/py_proj.egg-info to /home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages/py_proj-0.0.0-py3.10.egg-info
+[0.888s] running install_scripts
+[0.909s] Installing publisher script to /home/sunny/ros2_ws/install/py_proj/lib/py_proj
+[0.909s] Installing reader script to /home/sunny/ros2_ws/install/py_proj/lib/py_proj
+[0.910s] writing list of installed files to '/home/sunny/ros2_ws/build/py_proj/install.log'
+[0.941s] Invoked command in '/home/sunny/ros2_ws/src/py_proj' returned '0': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/build/py_proj/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages:/home/sunny/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_proj build --build-base /home/sunny/ros2_ws/build/py_proj/build install --record /home/sunny/ros2_ws/build/py_proj/install.log --single-version-externally-managed install_data

@@ -1,0 +1,46 @@
+[0.014s] Invoking command in '/home/sunny/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.047s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.202s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.248s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.252s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.262s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.282s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.306s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.389s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.390s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.518s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.802s] -- Found tutorial_interfaces: 0.0.0 (/home/sunny/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.085s] -- Configuring done
+[1.100s] -- Generating done
+[1.102s] -- Build files have been written to: /home/sunny/ros2_ws/build/cpp_pubsub
+[1.129s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[1.133s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[1.149s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.157s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[6.349s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[6.599s] [ 75%] Built target talker
+[11.162s] [100%] [32m[1mLinking CXX executable listener[0m
+[11.622s] [100%] Built target listener
+[11.634s] Invoked command in '/home/sunny/ros2_ws/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[11.662s] Invoking command in '/home/sunny/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sunny/ros2_ws/build/cpp_pubsub
+[11.670s] -- Install configuration: ""
+[11.670s] -- Installing: /home/sunny/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[11.672s] -- Set runtime path of "/home/sunny/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[11.672s] -- Installing: /home/sunny/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[11.676s] -- Set runtime path of "/home/sunny/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[11.676s] -- Installing: /home/sunny/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[11.676s] -- Installing: /home/sunny/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[11.676s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[11.677s] -- Installing: /home/sunny/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[11.677s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[11.677s] -- Installing: /home/sunny/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[11.677s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[11.677s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[11.677s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[11.677s] -- Installing: /home/sunny/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[11.677s] -- Installing: /home/sunny/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[11.677s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[11.678s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[11.678s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[11.678s] -- Installing: /home/sunny/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[11.680s] Invoked command in '/home/sunny/ros2_ws/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sunny/ros2_ws/build/cpp_pubsub

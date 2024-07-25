@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/py_proj/py_proj.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_proj/py_proj.egg-info/dependency_links.txt
+writing entry points to ../../build/py_proj/py_proj.egg-info/entry_points.txt
+writing requirements to ../../build/py_proj/py_proj.egg-info/requires.txt
+writing top-level names to ../../build/py_proj/py_proj.egg-info/top_level.txt
+reading manifest file '../../build/py_proj/py_proj.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_proj/py_proj.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py_proj/proj_coordinate.py -> /home/sunny/ros2_ws/build/py_proj/build/lib/py_proj
+running install
+running install_lib
+copying /home/sunny/ros2_ws/build/py_proj/build/lib/py_proj/proj_coordinate.py -> /home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages/py_proj
+byte-compiling /home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages/py_proj/proj_coordinate.py to proj_coordinate.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages/py_proj-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/py_proj/py_proj.egg-info to /home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages/py_proj-0.0.0-py3.10.egg-info
+running install_scripts
+Installing publisher script to /home/sunny/ros2_ws/install/py_proj/lib/py_proj
+Installing reader script to /home/sunny/ros2_ws/install/py_proj/lib/py_proj
+writing list of installed files to '/home/sunny/ros2_ws/build/py_proj/install.log'

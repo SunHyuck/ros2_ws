@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.000178] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000329] (-) JobUnselected: {'identifier': 'cpp_proj'}
+[0.000375] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000411] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000465] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000500] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000539] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.000580] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.000645] (-) JobUnselected: {'identifier': 'py_proj'}
+[0.000680] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000697] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000731] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.000752] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.007654] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.008368] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/sunny/ros2_ws/src/custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/sunny/ros2_ws/install/custom_interfaces'], 'cwd': '/home/sunny/ros2_ws/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'sunny'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sunny'), ('OLDPWD', '/home/sunny'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1485'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunny'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sunny'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sunny-H270-Gaming-3:@/tmp/.ICE-unix/1459,unix/sunny-H270-Gaming-3:/tmp/.ICE-unix/1459'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/45e660a4_2486_4c7d_b404_e793d12cffb8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6USVR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.939'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sunny/ros2_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/sunny/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.022178] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099217] (-) TimerEvent: {}
+[0.141298] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.142655] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.145445] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.174240] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199323] (-) TimerEvent: {}
+[0.299650] (-) TimerEvent: {}
+[0.369580] (custom_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[0.369755] (custom_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[0.369836] (custom_interfaces) StderrLine: {'line': b'  custom_interfaces --arguments-file\n'}
+[0.370037] (custom_interfaces) StderrLine: {'line': b'  /home/sunny/ros2_ws/build/custom_interfaces/rosidl_adapter__arguments__custom_interfaces.json\n'}
+[0.370105] (custom_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[0.370164] (custom_interfaces) StderrLine: {'line': b'  /home/sunny/ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces\n'}
+[0.370221] (custom_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[0.370273] (custom_interfaces) StderrLine: {'line': b'  /home/sunny/ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces.idls)\n'}
+[0.370326] (custom_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.370378] (custom_interfaces) StderrLine: {'line': b'\n'}
+[0.370430] (custom_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.370481] (custom_interfaces) StderrLine: {'line': b'\n'}
+[0.370532] (custom_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[0.370584] (custom_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.370635] (custom_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[0.370687] (custom_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.370738] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.370798] (custom_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.370850] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.370902] (custom_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.370953] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[0.371005] (custom_interfaces) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[0.371071] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[0.371136] (custom_interfaces) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[0.371188] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string\n'}
+[0.371239] (custom_interfaces) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[0.371290] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__\n'}
+[0.371343] (custom_interfaces) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[0.371394] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__\n'}
+[0.371445] (custom_interfaces) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[0.371496] (custom_interfaces) StderrLine: {'line': b'\n'}
+[0.371547] (custom_interfaces) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'utm' is an invalid message\n"}
+[0.371598] (custom_interfaces) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[0.371650] (custom_interfaces) StderrLine: {'line': b'\n'}
+[0.371701] (custom_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.371752] (custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.371804] (custom_interfaces) StderrLine: {'line': b'  CMakeLists.txt:12 (rosidl_generate_interfaces)\n'}
+[0.371855] (custom_interfaces) StderrLine: {'line': b'\n'}
+[0.371905] (custom_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.371957] (custom_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.372015] (custom_interfaces) StdoutLine: {'line': b'See also "/home/sunny/ros2_ws/build/custom_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.377651] (custom_interfaces) CommandEnded: {'returncode': 1}
+[0.396994] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 1}
+[0.399754] (-) TimerEvent: {}
+[0.407649] (-) EventReactorShutdown: {}

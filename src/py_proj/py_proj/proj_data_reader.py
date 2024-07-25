@@ -21,7 +21,8 @@ class RawDataPub(Node):
         if self.seri.in_waiting != 0:
             raw_data = self.seri.readline()
             raw_data = raw_data.decode('utf-8', 'ignore').strip()
-            self.nmea_data_callback(raw_data)
+            if len(raw_data.split(",")) <= 15:
+                self.nmea_data_callback(raw_data)
 
     def nmea_data_callback(self, raw_dataset):
         msg = String()

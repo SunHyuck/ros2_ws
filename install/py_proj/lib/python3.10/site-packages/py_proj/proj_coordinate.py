@@ -69,7 +69,7 @@ class ParsingPublisher(Node):
         f"UTM.Norting : {msg.northing}\n")
 
 class DataSubscriber(Node):
-    
+
     def __init__(self):
         super().__init__('data_subscriber')
         self.subscription = self.create_subscription(
@@ -85,7 +85,7 @@ class DataSubscriber(Node):
         # self.get_logger().info(f"Subscriber: {msg.data}")
         raw_data = [msg.data.strip()]
         raw_data += msg.data.split(",")
-        if raw_data[1][3:] == "GGA":
+        if raw_data[1][3:] == "GGA" and len(raw_data) == 16:
             processed_data = [d.strip() for d in raw_data]
 
             processed_data[3], processed_data[5] = self._calculate_lat_lon(

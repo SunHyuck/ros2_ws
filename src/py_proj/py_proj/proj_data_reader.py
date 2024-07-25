@@ -1,3 +1,4 @@
+import serial
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
@@ -5,6 +6,7 @@ from std_msgs.msg import String
 from pyproj import pyproj, Transformer
 
 class RawDataPub(Node):
+
     def __init__(self, raw_dataset):
         super().__init__('raw_data_publisher')
         self.raw_dataset = raw_dataset
@@ -25,8 +27,12 @@ def main(args=None):
     rclpy.init(args=args)
 
     filename = "/home/sunny/ros2_ws/src/py_proj/py_proj/TalkFile_nmea.txt"
-    f = open(filename, 'r')
-    lines = f.readlines()
+    try:
+        with open(filename, 'r') as file:
+            lines = file.readlines()
+    except IOError as e:
+        print(f"Error reading file: {e}")
+        return
 
     raw_data_publisher = RawDataPub(lines)
 

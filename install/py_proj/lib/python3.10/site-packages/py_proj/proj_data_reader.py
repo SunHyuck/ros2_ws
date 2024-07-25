@@ -1,3 +1,4 @@
+import serial
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
@@ -5,30 +6,34 @@ from std_msgs.msg import String
 from pyproj import pyproj, Transformer
 
 class RawDataPub(Node):
-    def __init__(self, raw_dataset):
+
+    def __init__(self):
         super().__init__('raw_data_publisher')
-        self.raw_dataset = raw_dataset
-        self.publisher_ = self.create_publisher(String, 'nmea_data', 10)
-        timer_period = 0.5
-        self.data_publisher = self.create_timer(timer_period, self.nmea_data_callback)
-        self.i = 0
+        self.data_publisher = self.create_publisher(String, 'nmea_data', 10)
+
+        self.port = "/dev/ttyACM0"
+        self.brate = 115200
+        self.seri = serial.Serial(self.port, baudrate=self.brate, timeout=None)
+        self.time = 0.1
+        self.timer = self.create_timer(self.time, self.timer_callback)
         
-    def nmea_data_callback(self):
-        if self.i < len(self.raw_dataset):
-            msg = String()
-            msg.data = self.raw_dataset[self.i]
-            self.publisher_.publish(msg)
-            self.get_logger().info(f'Publishing: {msg.data}')
-            self.i += 1
+    def timer_callback(self):
+        if self.seri.in_waiting != 0:
+            raw_data = self.seri.readline()
+            raw_data = raw_data.decode('utf-8', 'ignore').strip()
+            self.nmea_data_callback(raw_data)
+
+    def nmea_data_callback(self, raw_dataset):
+        msg = String()
+        msg.data = raw_dataset
+        self.data_publisher.publish(msg)
+        self.get_logger().info(f'Publishing: {msg.data}')
 
 def main(args=None):
+
     rclpy.init(args=args)
 
-    filename = "/home/sunny/ros2_ws/src/py_proj/py_proj/TalkFile_nmea.txt"
-    f = open(filename, 'r')
-    lines = f.readlines()
-
-    raw_data_publisher = RawDataPub(lines)
+    raw_data_publisher = RawDataPub()
 
     rclpy.spin(raw_data_publisher)
 

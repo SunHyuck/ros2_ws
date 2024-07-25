@@ -5,9 +5,8 @@ from pyproj import pyproj, Transformer
 from rclpy.node import Node
 from std_msgs.msg import String
 
-
-
 class ParsingPublisher(Node):
+
     def __init__(self):
         super().__init__('parsing_publisher')
         self.publisher_ = self.create_publisher(Utm, 'parsing_data', 10)
@@ -70,6 +69,7 @@ class ParsingPublisher(Node):
         f"UTM.Norting : {msg.northing}\n")
 
 class DataSubscriber(Node):
+    
     def __init__(self):
         super().__init__('data_subscriber')
         self.subscription = self.create_subscription(

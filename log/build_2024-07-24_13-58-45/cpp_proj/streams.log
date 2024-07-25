@@ -1,0 +1,18 @@
+[0.010s] Invoking command in '/home/sunny/ros2_ws/build/cpp_proj': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_proj -- -j8 -l8
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target transpose[0m
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/transpose.dir/src/proj_coordinate.cpp.o[0m
+[0.342s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[0.342s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:72:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[0.342s]    72 |             for (int i = 0; [01;35m[Ki < result.size()[m[K; i++) {
+[0.342s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[0.342s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:75:39:[m[K [01;31m[Kerror: [m[Kinvalid cast from type ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to type ‘[01m[Kdouble[m[K’
+[0.342s]    75 |             a = proj_coord(proj_torad((double)result[2]), proj_torad((double)result[4]), 0, 0);
+[0.343s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:75:70:[m[K [01;31m[Kerror: [m[Kinvalid cast from type ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to type ‘[01m[Kdouble[m[K’
+[0.343s]    75 |             a = proj_coord(proj_torad((double)result[2]), proj_torad((double)result[4]), 0, 0);
+[0.343s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:60:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knorm[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.343s]    60 |     PJ *[01;35m[Knorm[m[K;
+[0.343s]       |         [01;35m[K^~~~[m[K
+[0.386s] gmake[2]: *** [CMakeFiles/transpose.dir/build.make:76: CMakeFiles/transpose.dir/src/proj_coordinate.cpp.o] Error 1
+[0.386s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/transpose.dir/all] Error 2
+[0.386s] gmake: *** [Makefile:146: all] Error 2
+[0.388s] Invoked command in '/home/sunny/ros2_ws/build/cpp_proj' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_proj -- -j8 -l8

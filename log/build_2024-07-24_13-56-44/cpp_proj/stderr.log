@@ -1,0 +1,28 @@
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:72:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   72 |             for (int i = 0; [01;35m[Ki < result.size()[m[K; i++) {
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:75:38:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kdouble[m[K’
+   75 |             a = proj_coord([01;31m[Kproj_torad(result[2])[m[K, proj_torad(result[4]), 0, 0);
+      |                            [01;31m[K~~~~~~~~~~^~~~~~~~~~~[m[K
+      |                                      [01;31m[K|[m[K
+      |                                      [01;31m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type {aka std::__cxx11::basic_string<char>}[m[K
+In file included from [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:8[m[K:
+[01m[K/usr/include/proj.h:704:36:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble proj_torad(double)[m[K’
+  704 | double PROJ_DLL proj_torad ([01;36m[Kdouble angle_in_degrees[m[K);
+      |                             [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:75:61:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kdouble[m[K’
+   75 |             a = proj_coord(proj_torad(result[2]), [01;31m[Kproj_torad(result[4])[m[K, 0, 0);
+      |                                                   [01;31m[K~~~~~~~~~~^~~~~~~~~~~[m[K
+      |                                                             [01;31m[K|[m[K
+      |                                                             [01;31m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type {aka std::__cxx11::basic_string<char>}[m[K
+In file included from [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:8[m[K:
+[01m[K/usr/include/proj.h:704:36:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble proj_torad(double)[m[K’
+  704 | double PROJ_DLL proj_torad ([01;36m[Kdouble angle_in_degrees[m[K);
+      |                             [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:60:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knorm[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   60 |     PJ *[01;35m[Knorm[m[K;
+      |         [01;35m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/transpose.dir/build.make:76: CMakeFiles/transpose.dir/src/proj_coordinate.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/transpose.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,29 @@
+[0.587s] Invoking command in '/home/sunny/ros2_ws/src/py_proj': PYTHONPATH=/home/sunny/ros2_ws/build/py_proj/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_proj build --build-base /home/sunny/ros2_ws/build/py_proj/build install --record /home/sunny/ros2_ws/build/py_proj/install.log --single-version-externally-managed install_data
+[0.835s] running egg_info
+[0.836s] writing ../../build/py_proj/py_proj.egg-info/PKG-INFO
+[0.836s] writing dependency_links to ../../build/py_proj/py_proj.egg-info/dependency_links.txt
+[0.836s] writing entry points to ../../build/py_proj/py_proj.egg-info/entry_points.txt
+[0.836s] writing requirements to ../../build/py_proj/py_proj.egg-info/requires.txt
+[0.836s] writing top-level names to ../../build/py_proj/py_proj.egg-info/top_level.txt
+[0.838s] reading manifest file '../../build/py_proj/py_proj.egg-info/SOURCES.txt'
+[0.839s] writing manifest file '../../build/py_proj/py_proj.egg-info/SOURCES.txt'
+[0.839s] running build
+[0.839s] running build_py
+[0.839s] copying py_proj/proj_coordinate.py -> /home/sunny/ros2_ws/build/py_proj/build/lib/py_proj
+[0.839s] running install
+[0.839s] running install_lib
+[0.840s] copying /home/sunny/ros2_ws/build/py_proj/build/lib/py_proj/proj_coordinate.py -> /home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages/py_proj
+[0.841s] byte-compiling /home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages/py_proj/proj_coordinate.py to proj_coordinate.cpython-310.pyc
+[0.842s]   File "/home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages/py_proj/proj_coordinate.py", line 42
+[0.842s]     if (result[3] == "S") lat = -lat
+[0.842s]                           ^^^
+[0.842s] SyntaxError: invalid syntax
+[0.842s] 
+[0.843s] running install_data
+[0.843s] running install_egg_info
+[0.845s] removing '/home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages/py_proj-0.0.0-py3.10.egg-info' (and everything under it)
+[0.845s] Copying ../../build/py_proj/py_proj.egg-info to /home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages/py_proj-0.0.0-py3.10.egg-info
+[0.847s] running install_scripts
+[0.868s] Installing publisher script to /home/sunny/ros2_ws/install/py_proj/lib/py_proj
+[0.868s] writing list of installed files to '/home/sunny/ros2_ws/build/py_proj/install.log'
+[0.896s] Invoked command in '/home/sunny/ros2_ws/src/py_proj' returned '0': PYTHONPATH=/home/sunny/ros2_ws/build/py_proj/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_proj build --build-base /home/sunny/ros2_ws/build/py_proj/build install --record /home/sunny/ros2_ws/build/py_proj/install.log --single-version-externally-managed install_data

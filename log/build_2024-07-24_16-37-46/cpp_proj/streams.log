@@ -1,0 +1,30 @@
+[0.011s] Invoking command in '/home/sunny/ros2_ws/build/cpp_proj': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_proj -- -j8 -l8
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target transpose[0m
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/transpose.dir/src/proj_coordinate.cpp.o[0m
+[0.368s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[0.368s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:78:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[0.368s]    78 |             for (int i = 0; [01;35m[Ki < result.size()[m[K; i++) {
+[0.369s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[0.468s] [100%] [32m[1mLinking CXX executable transpose[0m
+[0.654s] [100%] Built target transpose
+[0.666s] Invoked command in '/home/sunny/ros2_ws/build/cpp_proj' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_proj -- -j8 -l8
+[0.703s] Invoking command in '/home/sunny/ros2_ws/build/cpp_proj': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunny/ros2_ws/build/cpp_proj
+[0.711s] -- Install configuration: ""
+[0.711s] -- Installing: /home/sunny/ros2_ws/install/cpp_proj/lib/cpp_proj/transpose
+[0.711s] -- Set runtime path of "/home/sunny/ros2_ws/install/cpp_proj/lib/cpp_proj/transpose" to ""
+[0.712s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/ament_index/resource_index/package_run_dependencies/cpp_proj
+[0.712s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/ament_index/resource_index/parent_prefix_path/cpp_proj
+[0.712s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/environment/ament_prefix_path.sh
+[0.712s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/environment/ament_prefix_path.dsv
+[0.712s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/environment/path.sh
+[0.712s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/environment/path.dsv
+[0.712s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/local_setup.bash
+[0.712s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/local_setup.sh
+[0.712s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/local_setup.zsh
+[0.712s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/local_setup.dsv
+[0.712s] -- Installing: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/package.dsv
+[0.712s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/ament_index/resource_index/packages/cpp_proj
+[0.713s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/cmake/cpp_projConfig.cmake
+[0.713s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/cmake/cpp_projConfig-version.cmake
+[0.713s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/package.xml
+[0.714s] Invoked command in '/home/sunny/ros2_ws/build/cpp_proj' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunny/ros2_ws/build/cpp_proj

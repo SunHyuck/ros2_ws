@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target transpose[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/transpose.dir/src/proj_coordinate.cpp.o[0m
+[100%] [32m[1mLinking CXX executable transpose[0m
+[100%] Built target transpose
+-- Install configuration: ""
+-- Installing: /home/sunny/ros2_ws/install/cpp_proj/lib/cpp_proj/transpose
+-- Set runtime path of "/home/sunny/ros2_ws/install/cpp_proj/lib/cpp_proj/transpose" to ""
+-- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/ament_index/resource_index/package_run_dependencies/cpp_proj
+-- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/ament_index/resource_index/parent_prefix_path/cpp_proj
+-- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/environment/path.sh
+-- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/environment/path.dsv
+-- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/local_setup.bash
+-- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/local_setup.sh
+-- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/local_setup.zsh
+-- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/local_setup.dsv
+-- Installing: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/package.dsv
+-- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/ament_index/resource_index/packages/cpp_proj
+-- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/cmake/cpp_projConfig.cmake
+-- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/cmake/cpp_projConfig-version.cmake
+-- Up-to-date: /home/sunny/ros2_ws/install/cpp_proj/share/cpp_proj/package.xml

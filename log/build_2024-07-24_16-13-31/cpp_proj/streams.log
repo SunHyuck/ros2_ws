@@ -1,0 +1,284 @@
+[0.010s] Invoking command in '/home/sunny/ros2_ws/build/cpp_proj': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_proj -- -j8 -l8
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target transpose[0m
+[0.059s] [ 50%] [32mBuilding CXX object CMakeFiles/transpose.dir/src/proj_coordinate.cpp.o[0m
+[0.379s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[0.379s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:73:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[0.379s]    73 |             for (int i = 0; [01;35m[Ki < result.size()[m[K; i++) {
+[0.379s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[0.381s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:92:18:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<<[m[K’ (operand types are ‘[01m[Kstd::ostream[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>[m[K’} and ‘[01m[KPJ_COORD[m[K’)
+[0.381s]    92 |             [32m[Kcout[m[K [01;31m[K<<[m[K [34m[Ka[m[K << endl;
+[0.381s]       |             [32m[K~~~~[m[K [01;31m[K^~[m[K [34m[K~[m[K
+[0.381s]       |             [32m[K|[m[K       [34m[K|[m[K
+[0.381s]       |             [32m[K|[m[K       [34m[KPJ_COORD[m[K
+[0.381s]       |             [32m[Kstd::ostream {aka std::basic_ostream<char>}[m[K
+[0.387s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[0.388s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:2[m[K:
+[0.388s] [01m[K/usr/include/c++/11/ostream:108:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.389s]   108 |       [01;36m[Koperator[m[K<<(__ostream_type& (*__pf)(__ostream_type&))
+[0.389s]       |       [01;36m[K^~~~~~~~[m[K
+[0.389s] [01m[K/usr/include/c++/11/ostream:108:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPJ_COORD[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>& (*)(std::basic_ostream<char>&)[m[K’}
+[0.389s]   108 |       operator<<([01;36m[K__ostream_type& (*__pf)(__ostream_type&)[m[K)
+[0.389s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.390s] [01m[K/usr/include/c++/11/ostream:117:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>][m[K’
+[0.390s]   117 |       [01;36m[Koperator[m[K<<(__ios_type& (*__pf)(__ios_type&))
+[0.390s]       |       [01;36m[K^~~~~~~~[m[K
+[0.390s] [01m[K/usr/include/c++/11/ostream:117:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPJ_COORD[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)[m[K’ {aka ‘[01m[Kstd::basic_ios<char>& (*)(std::basic_ios<char>&)[m[K’}
+[0.390s]   117 |       operator<<([01;36m[K__ios_type& (*__pf)(__ios_type&)[m[K)
+[0.390s]       |                  [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[0.390s] [01m[K/usr/include/c++/11/ostream:127:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.390s]   127 |       [01;36m[Koperator[m[K<<(ios_base& (*__pf) (ios_base&))
+[0.390s]       |       [01;36m[K^~~~~~~~[m[K
+[0.391s] [01m[K/usr/include/c++/11/ostream:127:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPJ_COORD[m[K’ to ‘[01m[Kstd::ios_base& (*)(std::ios_base&)[m[K’
+[0.391s]   127 |       operator<<([01;36m[Kios_base& (*__pf) (ios_base&)[m[K)
+[0.391s]       |                  [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[0.391s] [01m[K/usr/include/c++/11/ostream:166:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.391s]   166 |       [01;36m[Koperator[m[K<<(long __n)
+[0.391s]       |       [01;36m[K^~~~~~~~[m[K
+[0.391s] [01m[K/usr/include/c++/11/ostream:166:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPJ_COORD[m[K’ to ‘[01m[Klong int[m[K’
+[0.391s]   166 |       operator<<([01;36m[Klong __n[m[K)
+[0.391s]       |                  [01;36m[K~~~~~^~~[m[K
+[0.391s] [01m[K/usr/include/c++/11/ostream:170:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.392s]   170 |       [01;36m[Koperator[m[K<<(unsigned long __n)
+[0.392s]       |       [01;36m[K^~~~~~~~[m[K
+[0.392s] [01m[K/usr/include/c++/11/ostream:170:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPJ_COORD[m[K’ to ‘[01m[Klong unsigned int[m[K’
+[0.392s]   170 |       operator<<([01;36m[Kunsigned long __n[m[K)
+[0.392s]       |                  [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[0.392s] [01m[K/usr/include/c++/11/ostream:174:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.392s]   174 |       [01;36m[Koperator[m[K<<(bool __n)
+[0.392s]       |       [01;36m[K^~~~~~~~[m[K
+[0.392s] [01m[K/usr/include/c++/11/ostream:174:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPJ_COORD[m[K’ to ‘[01m[Kbool[m[K’
+[0.392s]   174 |       operator<<([01;36m[Kbool __n[m[K)
+[0.393s]       |                  [01;36m[K~~~~~^~~[m[K
+[0.393s] In file included from [01m[K/usr/include/c++/11/ostream:829[m[K,
+[0.393s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[0.393s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:2[m[K:
+[0.393s] [01m[K/usr/include/c++/11/bits/ostream.tcc:91:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+[0.393s]    91 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+[0.393s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.393s] [01m[K/usr/include/c++/11/bits/ostream.tcc:92:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPJ_COORD[m[K’ to ‘[01m[Kshort int[m[K’
+[0.393s]    92 |     operator<<([01;36m[Kshort __n[m[K)
+[0.394s]       |                [01;36m[K~~~~~~^~~[m[K
+[0.394s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[0.394s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:2[m[K:
+[0.394s] [01m[K/usr/include/c++/11/ostream:181:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.394s]   181 |       [01;36m[Koperator[m[K<<(unsigned short __n)
+[0.394s]       |       [01;36m[K^~~~~~~~[m[K
+[0.394s] [01m[K/usr/include/c++/11/ostream:181:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPJ_COORD[m[K’ to ‘[01m[Kshort unsigned int[m[K’
+[0.394s]   181 |       operator<<([01;36m[Kunsigned short __n[m[K)
+[0.394s]       |                  [01;36m[K~~~~~~~~~~~~~~~^~~[m[K
+[0.395s] In file included from [01m[K/usr/include/c++/11/ostream:829[m[K,
+[0.395s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[0.395s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:2[m[K:
+[0.395s] [01m[K/usr/include/c++/11/bits/ostream.tcc:105:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+[0.395s]   105 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+[0.395s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.395s] [01m[K/usr/include/c++/11/bits/ostream.tcc:106:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPJ_COORD[m[K’ to ‘[01m[Kint[m[K’
+[0.395s]   106 |     operator<<([01;36m[Kint __n[m[K)
+[0.395s]       |                [01;36m[K~~~~^~~[m[K
+[0.395s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[0.396s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:2[m[K:
+[0.396s] [01m[K/usr/include/c++/11/ostream:192:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.396s]   192 |       [01;36m[Koperator[m[K<<(unsigned int __n)
+[0.396s]       |       [01;36m[K^~~~~~~~[m[K
+[0.396s] [01m[K/usr/include/c++/11/ostream:192:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPJ_COORD[m[K’ to ‘[01m[Kunsigned int[m[K’
+[0.396s]   192 |       operator<<([01;36m[Kunsigned int __n[m[K)
+[0.396s]       |                  [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[0.396s] [01m[K/usr/include/c++/11/ostream:201:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.396s]   201 |       [01;36m[Koperator[m[K<<(long long __n)
+[0.397s]       |       [01;36m[K^~~~~~~~[m[K
+[0.397s] [01m[K/usr/include/c++/11/ostream:201:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPJ_COORD[m[K’ to ‘[01m[Klong long int[m[K’
+[0.397s]   201 |       operator<<([01;36m[Klong long __n[m[K)
+[0.397s]       |                  [01;36m[K~~~~~~~~~~^~~[m[K
+[0.397s] [01m[K/usr/include/c++/11/ostream:205:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.397s]   205 |       [01;36m[Koperator[m[K<<(unsigned long long __n)
+[0.397s]       |       [01;36m[K^~~~~~~~[m[K
+[0.397s] [01m[K/usr/include/c++/11/ostream:205:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPJ_COORD[m[K’ to ‘[01m[Klong long unsigned int[m[K’
+[0.397s]   205 |       operator<<([01;36m[Kunsigned long long __n[m[K)
+[0.397s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[0.398s] [01m[K/usr/include/c++/11/ostream:220:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.398s]   220 |       [01;36m[Koperator[m[K<<(double __f)
+[0.398s]       |       [01;36m[K^~~~~~~~[m[K
+[0.398s] [01m[K/usr/include/c++/11/ostream:220:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPJ_COORD[m[K’ to ‘[01m[Kdouble[m[K’
+[0.398s]   220 |       operator<<([01;36m[Kdouble __f[m[K)
+[0.398s]       |                  [01;36m[K~~~~~~~^~~[m[K
+[0.398s] [01m[K/usr/include/c++/11/ostream:224:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.398s]   224 |       [01;36m[Koperator[m[K<<(float __f)
+[0.398s]       |       [01;36m[K^~~~~~~~[m[K
+[0.398s] [01m[K/usr/include/c++/11/ostream:224:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPJ_COORD[m[K’ to ‘[01m[Kfloat[m[K’
+[0.399s]   224 |       operator<<([01;36m[Kfloat __f[m[K)
+[0.399s]       |                  [01;36m[K~~~~~~^~~[m[K
+[0.399s] [01m[K/usr/include/c++/11/ostream:232:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.399s]   232 |       [01;36m[Koperator[m[K<<(long double __f)
+[0.399s]       |       [01;36m[K^~~~~~~~[m[K
+[0.399s] [01m[K/usr/include/c++/11/ostream:232:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPJ_COORD[m[K’ to ‘[01m[Klong double[m[K’
+[0.399s]   232 |       operator<<([01;36m[Klong double __f[m[K)
+[0.399s]       |                  [01;36m[K~~~~~~~~~~~~^~~[m[K
+[0.400s] [01m[K/usr/include/c++/11/ostream:245:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[0.400s]   245 |       [01;36m[Koperator[m[K<<(const void* __p)
+[0.400s]       |       [01;36m[K^~~~~~~~[m[K
+[0.400s] [01m[K/usr/include/c++/11/ostream:245:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPJ_COORD[m[K’ to ‘[01m[Kconst void*[m[K’
+[0.400s]   245 |       operator<<([01;36m[Kconst void* __p[m[K)
+[0.400s]       |                  [01;36m[K~~~~~~~~~~~~^~~[m[K
+[0.400s] [01m[K/usr/include/c++/11/ostream:250:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::nullptr_t) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::nullptr_t = std::nullptr_t][m[K’
+[0.400s]   250 |       [01;36m[Koperator[m[K<<(nullptr_t)
+[0.400s]       |       [01;36m[K^~~~~~~~[m[K
+[0.401s] [01m[K/usr/include/c++/11/ostream:250:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPJ_COORD[m[K’ to ‘[01m[Kstd::nullptr_t[m[K’
+[0.401s]   250 |       operator<<([01;36m[Knullptr_t[m[K)
+[0.401s]       |                  [01;36m[K^~~~~~~~~[m[K
+[0.401s] In file included from [01m[K/usr/include/c++/11/ostream:829[m[K,
+[0.401s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[0.401s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:2[m[K:
+[0.401s] [01m[K/usr/include/c++/11/bits/ostream.tcc:119:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>][m[K’
+[0.401s]   119 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+[0.401s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.401s] [01m[K/usr/include/c++/11/bits/ostream.tcc:120:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KPJ_COORD[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__streambuf_type*[m[K’ {aka ‘[01m[Kstd::basic_streambuf<char>*[m[K’}
+[0.402s]   120 |     operator<<([01;36m[K__streambuf_type* __sbin[m[K)
+[0.402s]       |                [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.402s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[0.402s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[0.402s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[0.402s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[0.402s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[0.402s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[0.402s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[0.403s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:2[m[K:
+[0.403s] [01m[K/usr/include/c++/11/string_view:667:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::basic_string_view<_CharT, _Traits>)[m[K’
+[0.403s]   667 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os,
+[0.403s]       |     [01;36m[K^~~~~~~~[m[K
+[0.403s] [01m[K/usr/include/c++/11/string_view:667:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.403s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:92:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’ and ‘[01m[KPJ_COORD[m[K’
+[0.403s]    92 |             cout << [01;36m[Ka[m[K << endl;
+[0.403s]       |                     [01;36m[K^[m[K
+[0.403s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[0.404s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[0.404s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[0.404s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[0.404s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[0.404s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[0.404s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:2[m[K:
+[0.404s] [01m[K/usr/include/c++/11/bits/basic_string.h:6531:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[0.404s]  6531 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os,
+[0.404s]       |     [01;36m[K^~~~~~~~[m[K
+[0.405s] [01m[K/usr/include/c++/11/bits/basic_string.h:6531:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.405s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:92:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[KPJ_COORD[m[K’
+[0.405s]    92 |             cout << [01;36m[Ka[m[K << endl;
+[0.405s]       |                     [01;36m[K^[m[K
+[0.405s] In file included from [01m[K/usr/include/c++/11/bits/ios_base.h:46[m[K,
+[0.405s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[0.405s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[0.405s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[0.405s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:2[m[K:
+[0.405s] [01m[K/usr/include/c++/11/system_error:279:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)[m[K’
+[0.406s]   279 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+[0.406s]       |     [01;36m[K^~~~~~~~[m[K
+[0.406s] [01m[K/usr/include/c++/11/system_error:279:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.406s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:92:21:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ka[m[K’ (type ‘[01m[KPJ_COORD[m[K’) to type ‘[01m[Kconst std::error_code&[m[K’
+[0.406s]    92 |             cout << [01;36m[Ka[m[K << endl;
+[0.406s]       |                     [01;36m[K^[m[K
+[0.406s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[0.406s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:2[m[K:
+[0.406s] [01m[K/usr/include/c++/11/ostream:513:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)[m[K’
+[0.407s]   513 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+[0.407s]       |     [01;36m[K^~~~~~~~[m[K
+[0.407s] [01m[K/usr/include/c++/11/ostream:513:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.407s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:92:21:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[K_CharT[m[K’ (‘[01m[Kchar[m[K’ and ‘[01m[KPJ_COORD[m[K’)
+[0.407s]    92 |             cout << [01;36m[Ka[m[K << endl;
+[0.407s]       |                     [01;36m[K^[m[K
+[0.407s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[0.407s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:2[m[K:
+[0.407s] [01m[K/usr/include/c++/11/ostream:518:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)[m[K’
+[0.407s]   518 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+[0.408s]       |     [01;36m[K^~~~~~~~[m[K
+[0.408s] [01m[K/usr/include/c++/11/ostream:518:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.408s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:92:21:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ka[m[K’ (type ‘[01m[KPJ_COORD[m[K’) to type ‘[01m[Kchar[m[K’
+[0.408s]    92 |             cout << [01;36m[Ka[m[K << endl;
+[0.408s]       |                     [01;36m[K^[m[K
+[0.408s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[0.408s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:2[m[K:
+[0.408s] [01m[K/usr/include/c++/11/ostream:524:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)[m[K’
+[0.408s]   524 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, char __c)
+[0.408s]       |     [01;36m[K^~~~~~~~[m[K
+[0.409s] [01m[K/usr/include/c++/11/ostream:524:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.409s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:92:21:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ka[m[K’ (type ‘[01m[KPJ_COORD[m[K’) to type ‘[01m[Kchar[m[K’
+[0.409s]    92 |             cout << [01;36m[Ka[m[K << endl;
+[0.409s]       |                     [01;36m[K^[m[K
+[0.409s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[0.409s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:2[m[K:
+[0.409s] [01m[K/usr/include/c++/11/ostream:530:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)[m[K’
+[0.409s]   530 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, signed char __c)
+[0.409s]       |     [01;36m[K^~~~~~~~[m[K
+[0.410s] [01m[K/usr/include/c++/11/ostream:530:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.410s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:92:21:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ka[m[K’ (type ‘[01m[KPJ_COORD[m[K’) to type ‘[01m[Ksigned char[m[K’
+[0.410s]    92 |             cout << [01;36m[Ka[m[K << endl;
+[0.410s]       |                     [01;36m[K^[m[K
+[0.410s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[0.410s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:2[m[K:
+[0.410s] [01m[K/usr/include/c++/11/ostream:535:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)[m[K’
+[0.410s]   535 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+[0.410s]       |     [01;36m[K^~~~~~~~[m[K
+[0.410s] [01m[K/usr/include/c++/11/ostream:535:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.411s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:92:21:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ka[m[K’ (type ‘[01m[KPJ_COORD[m[K’) to type ‘[01m[Kunsigned char[m[K’
+[0.411s]    92 |             cout << [01;36m[Ka[m[K << endl;
+[0.411s]       |                     [01;36m[K^[m[K
+[0.411s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[0.411s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:2[m[K:
+[0.411s] [01m[K/usr/include/c++/11/ostream:594:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)[m[K’
+[0.411s]   594 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+[0.411s]       |     [01;36m[K^~~~~~~~[m[K
+[0.411s] [01m[K/usr/include/c++/11/ostream:594:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.411s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:92:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[KPJ_COORD[m[K’
+[0.412s]    92 |             cout << [01;36m[Ka[m[K << endl;
+[0.412s]       |                     [01;36m[K^[m[K
+[0.412s] In file included from [01m[K/usr/include/c++/11/ostream:829[m[K,
+[0.412s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[0.412s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:2[m[K:
+[0.412s] [01m[K/usr/include/c++/11/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)[m[K’
+[0.412s]   321 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+[0.412s]       |     [01;36m[K^~~~~~~~[m[K
+[0.412s] [01m[K/usr/include/c++/11/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.413s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:92:21:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ka[m[K’ (type ‘[01m[KPJ_COORD[m[K’) to type ‘[01m[Kconst char*[m[K’
+[0.413s]    92 |             cout << [01;36m[Ka[m[K << endl;
+[0.413s]       |                     [01;36m[K^[m[K
+[0.413s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[0.413s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:2[m[K:
+[0.413s] [01m[K/usr/include/c++/11/ostream:611:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)[m[K’
+[0.413s]   611 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const char* __s)
+[0.413s]       |     [01;36m[K^~~~~~~~[m[K
+[0.413s] [01m[K/usr/include/c++/11/ostream:611:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.413s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:92:21:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ka[m[K’ (type ‘[01m[KPJ_COORD[m[K’) to type ‘[01m[Kconst char*[m[K’
+[0.414s]    92 |             cout << [01;36m[Ka[m[K << endl;
+[0.414s]       |                     [01;36m[K^[m[K
+[0.414s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[0.414s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:2[m[K:
+[0.414s] [01m[K/usr/include/c++/11/ostream:624:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)[m[K’
+[0.414s]   624 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+[0.414s]       |     [01;36m[K^~~~~~~~[m[K
+[0.414s] [01m[K/usr/include/c++/11/ostream:624:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.414s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:92:21:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ka[m[K’ (type ‘[01m[KPJ_COORD[m[K’) to type ‘[01m[Kconst signed char*[m[K’
+[0.414s]    92 |             cout << [01;36m[Ka[m[K << endl;
+[0.415s]       |                     [01;36m[K^[m[K
+[0.415s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[0.415s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:2[m[K:
+[0.415s] [01m[K/usr/include/c++/11/ostream:629:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)[m[K’
+[0.415s]   629 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+[0.415s]       |     [01;36m[K^~~~~~~~[m[K
+[0.415s] [01m[K/usr/include/c++/11/ostream:629:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.415s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:92:21:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ka[m[K’ (type ‘[01m[KPJ_COORD[m[K’) to type ‘[01m[Kconst unsigned char*[m[K’
+[0.415s]    92 |             cout << [01;36m[Ka[m[K << endl;
+[0.415s]       |                     [01;36m[K^[m[K
+[0.416s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[0.416s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:2[m[K:
+[0.416s] [01m[K/usr/include/c++/11/ostream:750:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&)[m[K’
+[0.416s]   750 |     [01;36m[Koperator[m[K<<(_Ostream&& __os, const _Tp& __x)
+[0.416s]       |     [01;36m[K^~~~~~~~[m[K
+[0.416s] [01m[K/usr/include/c++/11/ostream:750:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.416s] /usr/include/c++/11/ostream: In substitution of ‘[01m[Ktemplate<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_ostream<char>&; _Tp = PJ_COORD][m[K’:
+[0.416s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:92:21:[m[K   required from here
+[0.416s] [01m[K/usr/include/c++/11/ostream:750:5:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[0.416s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:60:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knorm[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.417s]    60 |     PJ *[01;35m[Knorm[m[K;
+[0.417s]       |         [01;35m[K^~~~[m[K
+[0.445s] gmake[2]: *** [CMakeFiles/transpose.dir/build.make:76: CMakeFiles/transpose.dir/src/proj_coordinate.cpp.o] Error 1
+[0.445s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/transpose.dir/all] Error 2
+[0.446s] gmake: *** [Makefile:146: all] Error 2
+[0.448s] Invoked command in '/home/sunny/ros2_ws/build/cpp_proj' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_proj -- -j8 -l8

@@ -1,7 +1,8 @@
 #include <string>
 
 #include "rclcpp/rclcpp.hpp"
-#include "custom_interfaces/msg/utm"
+#include "std_msgs/msg/string.hpp"
+#include "custom_interfaces/msg/utm.hpp"
 
 using namespace std;
 
@@ -14,10 +15,7 @@ public:
     }
 private:
     rclcpp::Publisher<custom_interfaces::msg::Utm>::SharedPtr publisher_;
-    string _log_message_form()
-    {
-    }
-}
+};
 
 class NmeaSubscriber: public rclcpp::Node
 {
@@ -25,13 +23,17 @@ public:
     NmeaSubscriber(): Node("nmea_subscriber")
     {
         subscription_ = this->create_subscription<std_msgs::msg::String>(
-            "nmea_data", 10, std::bind(&NmeaSubscriber::topic_callback, this, _1));
-        )
+            "nmea_data", 10, std::bind(&NmeaSubscriber::nmea_data_transformer, this));
     }
 private:
     UtmParser parser;
-    
-}
+    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
+
+    void nmea_data_transformer()
+    {
+
+    }
+};
 
 int main(int argc, char * argv[])
 {

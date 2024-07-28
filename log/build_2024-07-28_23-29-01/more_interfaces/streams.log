@@ -1,0 +1,36 @@
+[0.038s] Invoking command in '/home/sunny/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/more_interfaces -- -j12 -l12
+[0.116s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_c[0m
+[0.136s] [  3%] Built target more_interfaces__cpp
+[0.147s] [ 12%] Built target more_interfaces__rosidl_generator_c
+[0.163s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.167s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_c[0m
+[0.168s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.176s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_cpp[0m
+[0.179s] [ 12%] Built target ament_cmake_python_copy_more_interfaces
+[0.185s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.195s] [ 21%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.198s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_c[0m
+[0.200s] [ 30%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.201s] [ 39%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.205s] [ 48%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.211s] [ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.225s] [ 66%] Built target more_interfaces__rosidl_typesupport_c
+[0.230s] [35m[1mConsolidate compiler generated dependencies of target publish_address_book[0m
+[0.257s] [ 66%] Built target more_interfaces
+[0.259s] [ 72%] Built target publish_address_book
+[0.288s] [ 75%] Built target more_interfaces__py
+[0.305s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_py[0m
+[0.326s] [ 81%] Built target more_interfaces__rosidl_generator_py
+[0.346s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.353s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.366s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_c__pyext[0m
+[0.375s] [ 93%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.375s] [ 93%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.387s] [100%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[0.476s] running egg_info
+[0.477s] writing more_interfaces.egg-info/PKG-INFO
+[0.478s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[0.479s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[0.480s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.480s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.536s] [100%] Built target ament_cmake_python_build_more_interfaces_egg

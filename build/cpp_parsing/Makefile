@@ -210,6 +210,19 @@ reader/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reader.dir/build.make CMakeFiles/reader.dir/build
 .PHONY : reader/fast
 
+#=============================================================================
+# Target rules for targets named parser
+
+# Build rule for target.
+parser: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 parser
+.PHONY : parser
+
+# fast build rule for target.
+parser/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parser.dir/build.make CMakeFiles/parser.dir/build
+.PHONY : parser/fast
+
 src/nmea_reader.o: src/nmea_reader.cpp.o
 .PHONY : src/nmea_reader.o
 
@@ -234,6 +247,30 @@ src/nmea_reader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reader.dir/build.make CMakeFiles/reader.dir/src/nmea_reader.cpp.s
 .PHONY : src/nmea_reader.cpp.s
 
+src/utm_parser.o: src/utm_parser.cpp.o
+.PHONY : src/utm_parser.o
+
+# target to build an object file
+src/utm_parser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parser.dir/build.make CMakeFiles/parser.dir/src/utm_parser.cpp.o
+.PHONY : src/utm_parser.cpp.o
+
+src/utm_parser.i: src/utm_parser.cpp.i
+.PHONY : src/utm_parser.i
+
+# target to preprocess a source file
+src/utm_parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parser.dir/build.make CMakeFiles/parser.dir/src/utm_parser.cpp.i
+.PHONY : src/utm_parser.cpp.i
+
+src/utm_parser.s: src/utm_parser.cpp.s
+.PHONY : src/utm_parser.s
+
+# target to generate assembly for a file
+src/utm_parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parser.dir/build.make CMakeFiles/parser.dir/src/utm_parser.cpp.s
+.PHONY : src/utm_parser.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -249,10 +286,14 @@ help:
 	@echo "... test"
 	@echo "... cpp_parsing_uninstall"
 	@echo "... uninstall"
+	@echo "... parser"
 	@echo "... reader"
 	@echo "... src/nmea_reader.o"
 	@echo "... src/nmea_reader.i"
 	@echo "... src/nmea_reader.s"
+	@echo "... src/utm_parser.o"
+	@echo "... src/utm_parser.i"
+	@echo "... src/utm_parser.s"
 .PHONY : help
 
 

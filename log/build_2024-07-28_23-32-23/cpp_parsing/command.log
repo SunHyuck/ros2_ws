@@ -1,0 +1,2 @@
+Invoking command in '/home/sunny/ros2_ws/build/cpp_parsing': /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12
+Invoked command in '/home/sunny/ros2_ws/build/cpp_parsing' returned '2': /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12

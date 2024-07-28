@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target reader[0m
+[35m[1mConsolidate compiler generated dependencies of target parser[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/parser.dir/src/utm_parser.cpp.o[0m
+[ 75%] Built target reader

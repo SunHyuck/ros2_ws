@@ -1,0 +1,4 @@
+Invoking command in '/home/sunny/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/polygon_base -- -j12 -l12
+Invoked command in '/home/sunny/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/polygon_base -- -j12 -l12
+Invoking command in '/home/sunny/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble /usr/bin/cmake --install /home/sunny/ros2_ws/build/polygon_base
+Invoked command in '/home/sunny/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble /usr/bin/cmake --install /home/sunny/ros2_ws/build/polygon_base

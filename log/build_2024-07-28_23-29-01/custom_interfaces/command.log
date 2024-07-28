@@ -1,0 +1,1 @@
+Invoking command in '/home/sunny/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/custom_interfaces -- -j12 -l12

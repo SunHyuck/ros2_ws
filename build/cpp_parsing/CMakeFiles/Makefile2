@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/sunny/ros2_ws/build/cpp_parsing
 
 # The main recursive "all" target.
 all: CMakeFiles/reader.dir/all
+all: CMakeFiles/parser.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/cpp_parsing_uninstall.dir/clean
 clean: CMakeFiles/reader.dir/clean
+clean: CMakeFiles/parser.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -135,7 +137,7 @@ CMakeFiles/cpp_parsing_uninstall.dir/clean:
 CMakeFiles/reader.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reader.dir/build.make CMakeFiles/reader.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reader.dir/build.make CMakeFiles/reader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sunny/ros2_ws/build/cpp_parsing/CMakeFiles --progress-num=1,2 "Built target reader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sunny/ros2_ws/build/cpp_parsing/CMakeFiles --progress-num=3,4 "Built target reader"
 .PHONY : CMakeFiles/reader.dir/all
 
 # Build rule for subdir invocation for target.
@@ -153,6 +155,32 @@ reader: CMakeFiles/reader.dir/rule
 CMakeFiles/reader.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reader.dir/build.make CMakeFiles/reader.dir/clean
 .PHONY : CMakeFiles/reader.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/parser.dir
+
+# All Build rule for target.
+CMakeFiles/parser.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parser.dir/build.make CMakeFiles/parser.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parser.dir/build.make CMakeFiles/parser.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sunny/ros2_ws/build/cpp_parsing/CMakeFiles --progress-num=1,2 "Built target parser"
+.PHONY : CMakeFiles/parser.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/parser.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sunny/ros2_ws/build/cpp_parsing/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/parser.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sunny/ros2_ws/build/cpp_parsing/CMakeFiles 0
+.PHONY : CMakeFiles/parser.dir/rule
+
+# Convenience name for target.
+parser: CMakeFiles/parser.dir/rule
+.PHONY : parser
+
+# clean rule for target.
+CMakeFiles/parser.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parser.dir/build.make CMakeFiles/parser.dir/clean
+.PHONY : CMakeFiles/parser.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

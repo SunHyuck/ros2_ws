@@ -1,0 +1,54 @@
+[0.008s] Invoking command in '/home/sunny/ros2_ws/build/polygon_plugins': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/polygon_plugins -- -j12 -l12
+[0.032s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.147s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.149s] -- Found polygon_base: 0.0.0 (/home/sunny/ros2_ws/install/polygon_base/share/polygon_base/cmake)
+[0.150s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.180s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.249s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.249s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sunny/ros2_ws/src/polygon_plugins/include>
+[0.249s] -- Configured cppcheck exclude dirs and/or files: 
+[0.249s] -- Added test 'lint_cmake' to check CMake code style
+[0.250s] -- Added test 'uncrustify' to check C / C++ code style
+[0.251s] -- Configured uncrustify additional arguments: 
+[0.251s] -- Added test 'xmllint' to check XML markup files
+[0.253s] -- Configuring done
+[0.258s] -- Generating done
+[0.258s] -- Build files have been written to: /home/sunny/ros2_ws/build/polygon_plugins
+[0.283s] [35m[1mConsolidate compiler generated dependencies of target polygon_plugins[0m
+[0.298s] [ 50%] [32mBuilding CXX object CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o[0m
+[0.811s] [100%] [32m[1mLinking CXX shared library libpolygon_plugins.so[0m
+[0.891s] [100%] Built target polygon_plugins
+[0.904s] Invoked command in '/home/sunny/ros2_ws/build/polygon_plugins' returned '0': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/polygon_plugins -- -j12 -l12
+[0.932s] Invoking command in '/home/sunny/ros2_ws/build/polygon_plugins': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble /usr/bin/cmake --install /home/sunny/ros2_ws/build/polygon_plugins
+[0.940s] -- Install configuration: ""
+[0.940s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_plugins/share/polygon_plugins/plugins.xml
+[0.940s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_plugins/include
+[0.941s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_plugins/include/polygon_plugins
+[0.941s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_plugins/include/polygon_plugins/polygon_plugins.hpp
+[0.941s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_plugins/include/polygon_plugins/visibility_control.h
+[0.941s] -- Installing: /home/sunny/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so
+[0.941s] -- Set runtime path of "/home/sunny/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so" to ""
+[0.941s] -- Installing: /home/sunny/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.sh
+[0.941s] -- Installing: /home/sunny/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.dsv
+[0.941s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/package_run_dependencies/polygon_plugins
+[0.942s] -- Installing: /home/sunny/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/parent_prefix_path/polygon_plugins
+[0.942s] -- Installing: /home/sunny/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.sh
+[0.942s] -- Installing: /home/sunny/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.dsv
+[0.942s] -- Installing: /home/sunny/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.sh
+[0.942s] -- Installing: /home/sunny/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.dsv
+[0.942s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.bash
+[0.942s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.sh
+[0.943s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.zsh
+[0.943s] -- Installing: /home/sunny/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.dsv
+[0.943s] -- Installing: /home/sunny/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.dsv
+[0.943s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/packages/polygon_plugins
+[0.943s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/polygon_base__pluginlib__plugin/polygon_plugins
+[0.943s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport.cmake
+[0.943s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport-noconfig.cmake
+[0.943s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.944s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[0.944s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[0.944s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig.cmake
+[0.944s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig-version.cmake
+[0.944s] -- Up-to-date: /home/sunny/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.xml
+[0.946s] Invoked command in '/home/sunny/ros2_ws/build/polygon_plugins' returned '0': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble /usr/bin/cmake --install /home/sunny/ros2_ws/build/polygon_plugins

@@ -1,0 +1,56 @@
+[0.015s] Invoking command in '/home/sunny/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_srvcli -- -j12 -l12
+[0.037s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.151s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.176s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.177s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.182s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.192s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.204s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.251s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.252s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.372s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.491s] -- Found tutorial_interfaces: 0.0.0 (/home/sunny/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.577s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.647s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.647s] -- Configured cppcheck include dirs: 
+[0.647s] -- Configured cppcheck exclude dirs and/or files: 
+[0.649s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.652s] -- Added test 'lint_cmake' to check CMake code style
+[0.654s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.666s] -- Added test 'uncrustify' to check C / C++ code style
+[0.666s] -- Configured uncrustify additional arguments: 
+[0.668s] -- Added test 'xmllint' to check XML markup files
+[0.668s] -- Configuring done
+[0.680s] -- Generating done
+[0.682s] -- Build files have been written to: /home/sunny/ros2_ws/build/cpp_srvcli
+[0.711s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.715s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.732s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[0.743s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[3.749s] [ 75%] [32m[1mLinking CXX executable server[0m
+[3.779s] [100%] [32m[1mLinking CXX executable client[0m
+[3.889s] [100%] Built target server
+[3.920s] [100%] Built target client
+[3.932s] Invoked command in '/home/sunny/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_srvcli -- -j12 -l12
+[3.964s] Invoking command in '/home/sunny/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble /usr/bin/cmake --install /home/sunny/ros2_ws/build/cpp_srvcli
+[3.972s] -- Install configuration: ""
+[3.972s] -- Installing: /home/sunny/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[3.973s] -- Set runtime path of "/home/sunny/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[3.973s] -- Installing: /home/sunny/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[3.974s] -- Set runtime path of "/home/sunny/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[3.975s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[3.975s] -- Installing: /home/sunny/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[3.975s] -- Installing: /home/sunny/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[3.975s] -- Installing: /home/sunny/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[3.975s] -- Installing: /home/sunny/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[3.975s] -- Installing: /home/sunny/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[3.975s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[3.975s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[3.976s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[3.976s] -- Installing: /home/sunny/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[3.976s] -- Installing: /home/sunny/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[3.976s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[3.976s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[3.976s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[3.976s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[3.979s] Invoked command in '/home/sunny/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble /usr/bin/cmake --install /home/sunny/ros2_ws/build/cpp_srvcli

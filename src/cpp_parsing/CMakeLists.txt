@@ -13,17 +13,13 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(custom_interfaces REQUIRED)
-find_package(Qt5 COMPONENTS SerialPort REQUIRED)
+find_package(Boost REQUIRED COMPONENTS system)
 
 add_executable(reader src/nmea_reader.cpp)
-ament_target_dependencies(reader rclcpp std_msgs)
+ament_target_dependencies(reader rclcpp std_msgs Boost)
 
 add_executable(parser src/utm_parser.cpp)
 ament_target_dependencies(parser rclcpp std_msgs custom_interfaces)
-
-target_link_libraries(reader
-  Qt5::SerialPort
-)
 
 install(TARGETS
   reader

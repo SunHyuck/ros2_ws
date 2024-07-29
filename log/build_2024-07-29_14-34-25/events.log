@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.000193] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000221] (-) JobUnselected: {'identifier': 'cpp_proj'}
+[0.000241] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000259] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000275] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000291] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000307] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000323] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.000337] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.000396] (-) JobUnselected: {'identifier': 'py_proj'}
+[0.000414] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000432] (cpp_parsing) JobQueued: {'identifier': 'cpp_parsing', 'dependencies': OrderedDict([('custom_interfaces', '/home/sunny/ros2_ws/install/custom_interfaces')])}
+[0.000453] (cpp_parsing) JobStarted: {'identifier': 'cpp_parsing'}
+[0.010028] (cpp_parsing) JobProgress: {'identifier': 'cpp_parsing', 'progress': 'cmake'}
+[0.010492] (cpp_parsing) JobProgress: {'identifier': 'cpp_parsing', 'progress': 'build'}
+[0.010994] (cpp_parsing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunny/ros2_ws/build/cpp_parsing', '--', '-j12', '-l12'], 'cwd': '/home/sunny/ros2_ws/build/cpp_parsing', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'sunny'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunny/ros2_ws/install/custom_interfaces/lib:/home/sunny/ros2_ws/install/tutorial_interfaces/lib:/home/sunny/ros2_ws/install/turtlesim/lib:/home/sunny/ros2_ws/install/polygon_plugins/lib:/home/sunny/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sunny'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1338'), ('SYSTEMD_EXEC_PID', '3826'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4585'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sunny/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunny'), ('JOURNAL_STREAM', '8:53981'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sunny'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sunny-Swift-SFX14-41G:@/tmp/.ICE-unix/3810,unix/sunny-Swift-SFX14-41G:/tmp/.ICE-unix/3810'), ('INVOCATION_ID', '9020b1f6a89d440093e0ea5c57d2858a'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZF4WR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a1a2f13dca.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/py_proj:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sunny/ros2_ws/build/cpp_parsing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunny/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages:/home/sunny/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/sunny/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble')]), 'shell': False}
+[0.056865] (cpp_parsing) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target reader\x1b[0m\n'}
+[0.068093] (cpp_parsing) StdoutLine: {'line': b'[ 50%] Built target parser\n'}
+[0.099270] (-) TimerEvent: {}
+[0.120201] (cpp_parsing) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/reader.dir/src/nmea_reader.cpp.o\x1b[0m\n'}
+[0.199686] (-) TimerEvent: {}
+[0.300181] (-) TimerEvent: {}
+[0.400524] (-) TimerEvent: {}
+[0.500849] (-) TimerEvent: {}
+[0.601181] (-) TimerEvent: {}
+[0.701770] (-) TimerEvent: {}
+[0.802938] (-) TimerEvent: {}
+[0.903273] (-) TimerEvent: {}
+[1.003617] (-) TimerEvent: {}
+[1.104229] (-) TimerEvent: {}
+[1.205404] (-) TimerEvent: {}
+[1.305775] (-) TimerEvent: {}
+[1.406112] (-) TimerEvent: {}
+[1.506446] (-) TimerEvent: {}
+[1.606779] (-) TimerEvent: {}
+[1.707103] (-) TimerEvent: {}
+[1.807431] (-) TimerEvent: {}
+[1.908063] (-) TimerEvent: {}
+[2.009512] (-) TimerEvent: {}
+[2.110551] (-) TimerEvent: {}
+[2.210874] (-) TimerEvent: {}
+[2.311213] (-) TimerEvent: {}
+[2.411826] (-) TimerEvent: {}
+[2.513080] (-) TimerEvent: {}
+[2.613423] (-) TimerEvent: {}
+[2.714060] (-) TimerEvent: {}
+[2.814895] (-) TimerEvent: {}
+[2.915229] (-) TimerEvent: {}
+[3.015859] (-) TimerEvent: {}
+[3.116961] (-) TimerEvent: {}
+[3.217483] (-) TimerEvent: {}
+[3.318502] (-) TimerEvent: {}
+[3.419133] (-) TimerEvent: {}
+[3.520130] (-) TimerEvent: {}
+[3.522522] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:35:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreference to \xe2\x80\x98\x1b[01m\x1b[Kstreambuf\x1b[m\x1b[K\xe2\x80\x99 is ambiguous\n'}
+[3.522820] (cpp_parsing) StderrLine: {'line': b'   35 |     \x1b[01;31m\x1b[Kstreambuf\x1b[m\x1b[K buffer;\n'}
+[3.522900] (cpp_parsing) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.522970] (cpp_parsing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/asio.hpp:157\x1b[m\x1b[K,\n'}
+[3.523035] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:5\x1b[m\x1b[K:\n'}
+[3.523097] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/asio/streambuf.hpp:28:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidates are: \xe2\x80\x98\x1b[01m\x1b[Ktypedef class boost::asio::basic_streambuf<> boost::asio::streambuf\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.523160] (cpp_parsing) StderrLine: {'line': b'   28 | typedef basic_streambuf<> \x1b[01;36m\x1b[Kstreambuf\x1b[m\x1b[K;\n'}
+[3.523220] (cpp_parsing) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.523280] (cpp_parsing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/localefwd.h:41\x1b[m\x1b[K,\n'}
+[3.523340] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:43\x1b[m\x1b[K,\n'}
+[3.523400] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:1\x1b[m\x1b[K:\n'}
+[3.523464] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iosfwd:135:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[Ktypedef class std::basic_streambuf<char> std::streambuf\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.523527] (cpp_parsing) StderrLine: {'line': b'  135 |   typedef basic_streambuf<char>         \x1b[01;36m\x1b[Kstreambuf\x1b[m\x1b[K;\n'}
+[3.523588] (cpp_parsing) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.540740] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid NmeaReader::handle_read(const boost::system::error_code&, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.541054] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:50:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<char>::basic_istream(<unresolved overloaded function type>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.541134] (cpp_parsing) StderrLine: {'line': b'   50 |             istream is(&buffer\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.541201] (cpp_parsing) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.541269] (cpp_parsing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/iostream:40\x1b[m\x1b[K,\n'}
+[3.541347] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:3\x1b[m\x1b[K:\n'}
+[3.541412] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/istream:613:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<_CharT, _Traits>::basic_istream(std::basic_istream<_CharT, _Traits>&&) [with _CharT = char; _Traits = std::char_traits<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.541476] (cpp_parsing) StderrLine: {'line': b'  613 |       \x1b[01;36m\x1b[Kbasic_istream\x1b[m\x1b[K(basic_istream&& __rhs)\n'}
+[3.541537] (cpp_parsing) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.541596] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/istream:613:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<char>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.541662] (cpp_parsing) StderrLine: {'line': b'  613 |       basic_istream(\x1b[01;36m\x1b[Kbasic_istream&& __rhs\x1b[m\x1b[K)\n'}
+[3.541724] (cpp_parsing) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.541774] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/istream:606:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<_CharT, _Traits>::basic_istream() [with _CharT = char; _Traits = std::char_traits<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.541826] (cpp_parsing) StderrLine: {'line': b'  606 |       \x1b[01;36m\x1b[Kbasic_istream\x1b[m\x1b[K()\n'}
+[3.541874] (cpp_parsing) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.541922] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/istream:606:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[3.541972] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/istream:93:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<_CharT, _Traits>::basic_istream(std::basic_istream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.542039] (cpp_parsing) StderrLine: {'line': b'   93 |       \x1b[01;36m\x1b[Kbasic_istream\x1b[m\x1b[K(__streambuf_type* __sb)\n'}
+[3.542097] (cpp_parsing) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.542178] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/istream:93:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_istream<char>::__streambuf_type*\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_streambuf<char>*\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.542235] (cpp_parsing) StderrLine: {'line': b'   93 |       basic_istream(\x1b[01;36m\x1b[K__streambuf_type* __sb\x1b[m\x1b[K)\n'}
+[3.542293] (cpp_parsing) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.542344] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:46:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kbytes_transferred\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.542407] (cpp_parsing) StderrLine: {'line': b'   46 |  void handle_read(const boost::system::error_code &error, \x1b[01;35m\x1b[Ksize_t bytes_transferred\x1b[m\x1b[K)\n'}
+[3.542463] (cpp_parsing) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.542513] (cpp_parsing) StderrLine: {'line': b'\n'}
+[3.542563] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid NmeaReader::publish_data(const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.542618] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:58:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.542670] (cpp_parsing) StderrLine: {'line': b'   58 |     void publish_data(\x1b[01;35m\x1b[Kconst string &data\x1b[m\x1b[K)\n'}
+[3.542716] (cpp_parsing) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.620268] (-) TimerEvent: {}
+[3.720991] (-) TimerEvent: {}
+[3.822404] (-) TimerEvent: {}
+[3.922729] (-) TimerEvent: {}
+[4.023059] (-) TimerEvent: {}
+[4.123388] (-) TimerEvent: {}
+[4.223713] (-) TimerEvent: {}
+[4.324051] (-) TimerEvent: {}
+[4.424758] (-) TimerEvent: {}
+[4.525756] (-) TimerEvent: {}
+[4.626752] (-) TimerEvent: {}
+[4.727342] (-) TimerEvent: {}
+[4.828017] (-) TimerEvent: {}
+[4.928353] (-) TimerEvent: {}
+[5.028690] (-) TimerEvent: {}
+[5.129045] (-) TimerEvent: {}
+[5.229379] (-) TimerEvent: {}
+[5.262069] (cpp_parsing) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/reader.dir/build.make:76: CMakeFiles/reader.dir/src/nmea_reader.cpp.o] Error 1\n'}
+[5.262316] (cpp_parsing) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/reader.dir/all] Error 2\n'}
+[5.262575] (cpp_parsing) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.264977] (cpp_parsing) CommandEnded: {'returncode': 2}
+[5.329914] (-) TimerEvent: {}
+[5.332369] (cpp_parsing) JobEnded: {'identifier': 'cpp_parsing', 'rc': 2}
+[5.342921] (-) EventReactorShutdown: {}

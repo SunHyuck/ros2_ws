@@ -1,0 +1,53 @@
+[0.013s] Invoking command in '/home/sunny/ros2_ws/build/cpp_parsing': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:/home/sunny/ros2_ws/install/tutorial_interfaces/lib:/home/sunny/ros2_ws/install/turtlesim/lib:/home/sunny/ros2_ws/install/polygon_plugins/lib:/home/sunny/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target reader[0m
+[0.067s] [ 50%] Built target parser
+[0.074s] [ 75%] [32mBuilding CXX object CMakeFiles/reader.dir/src/nmea_reader.cpp.o[0m
+[2.746s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:65:5:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KRosQtApp[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.747s]    65 |     [01;31m[KRosQtApp[m[K(int &argc, char **argv) : QCoreApplication(argc, argv)
+[2.747s]       |     [01;31m[K^~~~~~~~[m[K
+[2.748s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:81:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[2.748s]    81 | }
+[2.748s]       |  [01;31m[K^[m[K
+[2.748s]       |  [32m[K;[m[K
+[2.748s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:[m[K In member function ‘[01m[Kint ROsQtApp::RosQtApp(int&, char**)[m[K’:
+[2.748s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:65:40:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+[2.748s]    65 |     RosQtApp(int &argc, char **argv) : [01;31m[KQCoreApplication[m[K(argc, argv)
+[2.748s]       |                                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.748s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:68:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[2.748s]    68 |     [01;35m[K}[m[K
+[2.748s]       |     [01;35m[K^[m[K
+[2.753s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:[m[K In member function ‘[01m[Kvoid ROsQtApp::run()[m[K’:
+[2.753s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:73:9:[m[K [01;31m[Kerror: [m[K‘[01m[KQTimer[m[K’ was not declared in this scope; did you mean ‘[01m[KQTime[m[K’?
+[2.753s]    73 |         [01;31m[KQTimer[m[K *timer = new QTimer(this);
+[2.754s]       |         [01;31m[K^~~~~~[m[K
+[2.754s]       |         [32m[KQTime[m[K
+[2.757s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:73:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimex[m[K’?
+[2.757s]    73 |         QTimer *[01;31m[Ktimer[m[K = new QTimer(this);
+[2.758s]       |                 [01;31m[K^~~~~[m[K
+[2.758s]       |                 [32m[Ktimex[m[K
+[2.758s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:73:29:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KQTimer[m[K’
+[2.758s]    73 |         QTimer *timer = new [01;31m[KQTimer[m[K(this);
+[2.758s]       |                             [01;31m[K^~~~~~[m[K
+[2.758s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:74:25:[m[K [01;31m[Kerror: [m[K‘[01m[KQTimer[m[K’ is not a class, namespace, or enumeration
+[2.758s]    74 |         connect(timer, &[01;31m[KQTimer[m[K::timeout, [](){
+[2.758s]       |                         [01;31m[K^~~~~~[m[K
+[2.758s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:[m[K In lambda function:
+[2.758s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:75:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[2.758s]    75 |             rclcpp::spin_some(rclcpp::Node::SharedPtr([01;31m[Kreader[m[K));
+[2.758s]       |                                                       [01;31m[K^~~~~~[m[K
+[2.758s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:75:55:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KROsQtApp::reader[m[K’
+[2.758s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:80:28:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.758s]    80 |     shared_ptr<NmeaReader> [01;36m[Kreader[m[K;
+[2.758s]       |                            [01;36m[K^~~~~~[m[K
+[2.760s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.760s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:90:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRosQtApp[m[K’ was not declared in this scope; did you mean ‘[01m[KROsQtApp[m[K’?
+[2.760s]    90 |     [01;31m[KRosQtApp[m[K app(argc, argv);
+[2.761s]       |     [01;31m[K^~~~~~~~[m[K
+[2.761s]       |     [32m[KROsQtApp[m[K
+[2.763s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:91:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kapp[m[K’ was not declared in this scope
+[2.763s]    91 |     [01;31m[Kapp[m[K.run();
+[2.763s]       |     [01;31m[K^~~[m[K
+[3.959s] gmake[2]: *** [CMakeFiles/reader.dir/build.make:76: CMakeFiles/reader.dir/src/nmea_reader.cpp.o] Error 1
+[3.959s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/reader.dir/all] Error 2
+[3.959s] gmake: *** [Makefile:146: all] Error 2
+[3.961s] Invoked command in '/home/sunny/ros2_ws/build/cpp_parsing' returned '2': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:/home/sunny/ros2_ws/install/tutorial_interfaces/lib:/home/sunny/ros2_ws/install/turtlesim/lib:/home/sunny/ros2_ws/install/polygon_plugins/lib:/home/sunny/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12

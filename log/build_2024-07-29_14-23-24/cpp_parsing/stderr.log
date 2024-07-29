@@ -1,0 +1,12 @@
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:[m[K In member function ‘[01m[Kvoid NmeaReader::start_reading()[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:34:110:[m[K [01;31m[Kerror: [m[K‘[01m[Kboost::placeholders[m[K’ has not been declared
+   34 | fer(raw_data), "\n", bind(&NmeaReader::handle_read, this, boost::[01;31m[Kplaceholders[m[K::error, boost::placeholders::bytes_transferred));
+      |                                                                  [01;31m[K^~~~~~~~~~~~[m[K
+
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:34:138:[m[K [01;31m[Kerror: [m[K‘[01m[Kboost::placeholders[m[K’ has not been declared
+   34 | meaReader::handle_read, this, boost::placeholders::error, boost::[01;31m[Kplaceholders[m[K::bytes_transferred));
+      |                                                                  [01;31m[K^~~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/reader.dir/build.make:76: CMakeFiles/reader.dir/src/nmea_reader.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/reader.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

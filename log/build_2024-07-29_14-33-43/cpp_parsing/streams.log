@@ -1,0 +1,46 @@
+[0.014s] Invoking command in '/home/sunny/ros2_ws/build/cpp_parsing': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:/home/sunny/ros2_ws/install/tutorial_interfaces/lib:/home/sunny/ros2_ws/install/turtlesim/lib:/home/sunny/ros2_ws/install/polygon_plugins/lib:/home/sunny/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target reader[0m
+[0.069s] [ 50%] Built target parser
+[0.103s] [ 75%] [32mBuilding CXX object CMakeFiles/reader.dir/src/nmea_reader.cpp.o[0m
+[3.153s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:[m[K In constructor ‘[01m[KNmeaReader::NmeaReader()[m[K’:
+[3.153s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kio_thread[m[K’ was not declared in this scope
+[3.153s]    22 |         [01;31m[Kio_thread[m[K = thread([this]() {context.run(); });
+[3.154s]       |         [01;31m[K^~~~~~~~~[m[K
+[3.160s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:[m[K In destructor ‘[01m[Kvirtual NmeaReader::~NmeaReader()[m[K’:
+[3.160s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:26:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kio_thread[m[K’ was not declared in this scope
+[3.160s]    26 |         if ([01;31m[Kio_thread[m[K.joinable()) {
+[3.160s]       |             [01;31m[K^~~~~~~~~[m[K
+[3.168s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:[m[K In member function ‘[01m[Kvoid NmeaReader::handle_read(const boost::system::error_code&, size_t)[m[K’:
+[3.168s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:48:31:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::basic_istream<char>::basic_istream(<unresolved overloaded function type>)[m[K’
+[3.168s]    48 |             istream is(&buffer[01;31m[K)[m[K;
+[3.168s]       |                               [01;31m[K^[m[K
+[3.168s] In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+[3.168s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:3[m[K:
+[3.169s] [01m[K/usr/include/c++/11/istream:613:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::basic_istream(std::basic_istream<_CharT, _Traits>&&) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+[3.169s]   613 |       [01;36m[Kbasic_istream[m[K(basic_istream&& __rhs)
+[3.169s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[3.169s] [01m[K/usr/include/c++/11/istream:613:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::basic_istream<char>&&[m[K’
+[3.169s]   613 |       basic_istream([01;36m[Kbasic_istream&& __rhs[m[K)
+[3.169s]       |                     [01;36m[K~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.169s] [01m[K/usr/include/c++/11/istream:606:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::basic_istream() [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+[3.169s]   606 |       [01;36m[Kbasic_istream[m[K()
+[3.169s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[3.169s] [01m[K/usr/include/c++/11/istream:606:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[3.169s] [01m[K/usr/include/c++/11/istream:93:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::basic_istream(std::basic_istream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>][m[K’
+[3.169s]    93 |       [01;36m[Kbasic_istream[m[K(__streambuf_type* __sb)
+[3.169s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[3.169s] [01m[K/usr/include/c++/11/istream:93:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::basic_istream<char>::__streambuf_type*[m[K’ {aka ‘[01m[Kstd::basic_streambuf<char>*[m[K’}
+[3.170s]    93 |       basic_istream([01;36m[K__streambuf_type* __sb[m[K)
+[3.170s]       |                     [01;36m[K~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.170s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:44:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbytes_transferred[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.170s]    44 |  void handle_read(const boost::system::error_code &error, [01;35m[Ksize_t bytes_transferred[m[K)
+[3.170s]       |                                                           [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[3.170s] 
+[3.170s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:[m[K In member function ‘[01m[Kvoid NmeaReader::publish_data(const string&)[m[K’:
+[3.170s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:56:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.170s]    56 |     void publish_data([01;35m[Kconst string &data[m[K)
+[3.170s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[4.527s] gmake[2]: *** [CMakeFiles/reader.dir/build.make:76: CMakeFiles/reader.dir/src/nmea_reader.cpp.o] Error 1
+[4.527s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/reader.dir/all] Error 2
+[4.527s] gmake: *** [Makefile:146: all] Error 2
+[4.530s] Invoked command in '/home/sunny/ros2_ws/build/cpp_parsing' returned '2': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:/home/sunny/ros2_ws/install/tutorial_interfaces/lib:/home/sunny/ros2_ws/install/turtlesim/lib:/home/sunny/ros2_ws/install/polygon_plugins/lib:/home/sunny/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12

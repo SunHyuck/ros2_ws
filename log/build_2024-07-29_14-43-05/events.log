@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.000297] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000366] (-) JobUnselected: {'identifier': 'cpp_proj'}
+[0.000488] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000537] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000560] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000583] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000603] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000623] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.000641] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.000659] (-) JobUnselected: {'identifier': 'py_proj'}
+[0.000675] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000693] (cpp_parsing) JobQueued: {'identifier': 'cpp_parsing', 'dependencies': OrderedDict([('custom_interfaces', '/home/sunny/ros2_ws/install/custom_interfaces')])}
+[0.000715] (cpp_parsing) JobStarted: {'identifier': 'cpp_parsing'}
+[0.010308] (cpp_parsing) JobProgress: {'identifier': 'cpp_parsing', 'progress': 'cmake'}
+[0.010858] (cpp_parsing) JobProgress: {'identifier': 'cpp_parsing', 'progress': 'build'}
+[0.011385] (cpp_parsing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunny/ros2_ws/build/cpp_parsing', '--', '-j12', '-l12'], 'cwd': '/home/sunny/ros2_ws/build/cpp_parsing', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'sunny'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunny/ros2_ws/install/custom_interfaces/lib:/home/sunny/ros2_ws/install/tutorial_interfaces/lib:/home/sunny/ros2_ws/install/turtlesim/lib:/home/sunny/ros2_ws/install/polygon_plugins/lib:/home/sunny/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sunny'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1338'), ('SYSTEMD_EXEC_PID', '3826'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4585'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sunny/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunny'), ('JOURNAL_STREAM', '8:53981'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sunny'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sunny-Swift-SFX14-41G:@/tmp/.ICE-unix/3810,unix/sunny-Swift-SFX14-41G:/tmp/.ICE-unix/3810'), ('INVOCATION_ID', '9020b1f6a89d440093e0ea5c57d2858a'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZF4WR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a1a2f13dca.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/py_proj:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sunny/ros2_ws/build/cpp_parsing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunny/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages:/home/sunny/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/sunny/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble')]), 'shell': False}
+[0.056078] (cpp_parsing) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target reader\x1b[0m\n'}
+[0.067893] (cpp_parsing) StdoutLine: {'line': b'[ 50%] Built target parser\n'}
+[0.087502] (cpp_parsing) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/reader.dir/src/nmea_reader.cpp.o\x1b[0m\n'}
+[0.099693] (-) TimerEvent: {}
+[0.200559] (-) TimerEvent: {}
+[0.300880] (-) TimerEvent: {}
+[0.401240] (-) TimerEvent: {}
+[0.501991] (-) TimerEvent: {}
+[0.603123] (-) TimerEvent: {}
+[0.704139] (-) TimerEvent: {}
+[0.804472] (-) TimerEvent: {}
+[0.904808] (-) TimerEvent: {}
+[1.005431] (-) TimerEvent: {}
+[1.106817] (-) TimerEvent: {}
+[1.207863] (-) TimerEvent: {}
+[1.308502] (-) TimerEvent: {}
+[1.409518] (-) TimerEvent: {}
+[1.509857] (-) TimerEvent: {}
+[1.610413] (-) TimerEvent: {}
+[1.711095] (-) TimerEvent: {}
+[1.811425] (-) TimerEvent: {}
+[1.911766] (-) TimerEvent: {}
+[2.012107] (-) TimerEvent: {}
+[2.112449] (-) TimerEvent: {}
+[2.212787] (-) TimerEvent: {}
+[2.313120] (-) TimerEvent: {}
+[2.413463] (-) TimerEvent: {}
+[2.513797] (-) TimerEvent: {}
+[2.614131] (-) TimerEvent: {}
+[2.714473] (-) TimerEvent: {}
+[2.814829] (-) TimerEvent: {}
+[2.915166] (-) TimerEvent: {}
+[3.015501] (-) TimerEvent: {}
+[3.115837] (-) TimerEvent: {}
+[3.216181] (-) TimerEvent: {}
+[3.298033] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid NmeaReader::handle_read(const boost::system::error_code&, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.298261] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:46:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kbytes_transferred\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.298341] (cpp_parsing) StderrLine: {'line': b'   46 |  void handle_read(const boost::system::error_code &error, \x1b[01;35m\x1b[Ksize_t bytes_transferred\x1b[m\x1b[K)\n'}
+[3.298414] (cpp_parsing) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.298478] (cpp_parsing) StderrLine: {'line': b'\n'}
+[3.316277] (-) TimerEvent: {}
+[3.416543] (-) TimerEvent: {}
+[3.516880] (-) TimerEvent: {}
+[3.617213] (-) TimerEvent: {}
+[3.717542] (-) TimerEvent: {}
+[3.817874] (-) TimerEvent: {}
+[3.918214] (-) TimerEvent: {}
+[4.018570] (-) TimerEvent: {}
+[4.118901] (-) TimerEvent: {}
+[4.219235] (-) TimerEvent: {}
+[4.319847] (-) TimerEvent: {}
+[4.420865] (-) TimerEvent: {}
+[4.521512] (-) TimerEvent: {}
+[4.622552] (-) TimerEvent: {}
+[4.723179] (-) TimerEvent: {}
+[4.824217] (-) TimerEvent: {}
+[4.924642] (-) TimerEvent: {}
+[5.025036] (-) TimerEvent: {}
+[5.125368] (-) TimerEvent: {}
+[5.225703] (-) TimerEvent: {}
+[5.326025] (-) TimerEvent: {}
+[5.426364] (-) TimerEvent: {}
+[5.527266] (-) TimerEvent: {}
+[5.628039] (-) TimerEvent: {}
+[5.728662] (-) TimerEvent: {}
+[5.829683] (-) TimerEvent: {}
+[5.930003] (-) TimerEvent: {}
+[6.030367] (-) TimerEvent: {}
+[6.131355] (-) TimerEvent: {}
+[6.232355] (-) TimerEvent: {}
+[6.332696] (-) TimerEvent: {}
+[6.433326] (-) TimerEvent: {}
+[6.534074] (-) TimerEvent: {}
+[6.634428] (-) TimerEvent: {}
+[6.734796] (-) TimerEvent: {}
+[6.820878] (cpp_parsing) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable reader\x1b[0m\n'}
+[6.834894] (-) TimerEvent: {}
+[6.935173] (-) TimerEvent: {}
+[7.035534] (-) TimerEvent: {}
+[7.051507] (cpp_parsing) StdoutLine: {'line': b'[100%] Built target reader\n'}
+[7.062647] (cpp_parsing) CommandEnded: {'returncode': 0}
+[7.105269] (cpp_parsing) JobProgress: {'identifier': 'cpp_parsing', 'progress': 'install'}
+[7.123790] (cpp_parsing) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunny/ros2_ws/build/cpp_parsing'], 'cwd': '/home/sunny/ros2_ws/build/cpp_parsing', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'sunny'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunny/ros2_ws/install/custom_interfaces/lib:/home/sunny/ros2_ws/install/tutorial_interfaces/lib:/home/sunny/ros2_ws/install/turtlesim/lib:/home/sunny/ros2_ws/install/polygon_plugins/lib:/home/sunny/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sunny'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1338'), ('SYSTEMD_EXEC_PID', '3826'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4585'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sunny/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunny'), ('JOURNAL_STREAM', '8:53981'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sunny'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sunny-Swift-SFX14-41G:@/tmp/.ICE-unix/3810,unix/sunny-Swift-SFX14-41G:/tmp/.ICE-unix/3810'), ('INVOCATION_ID', '9020b1f6a89d440093e0ea5c57d2858a'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZF4WR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a1a2f13dca.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/py_proj:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sunny/ros2_ws/build/cpp_parsing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunny/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages:/home/sunny/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/sunny/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble')]), 'shell': False}
+[7.135621] (-) TimerEvent: {}
+[7.136062] (cpp_parsing) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.136231] (cpp_parsing) StdoutLine: {'line': b'-- Installing: /home/sunny/ros2_ws/install/cpp_parsing/lib/cpp_parsing/reader\n'}
+[7.138712] (cpp_parsing) StdoutLine: {'line': b'-- Set runtime path of "/home/sunny/ros2_ws/install/cpp_parsing/lib/cpp_parsing/reader" to ""\n'}
+[7.138865] (cpp_parsing) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/lib/cpp_parsing/parser\n'}
+[7.139041] (cpp_parsing) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/ament_index/resource_index/package_run_dependencies/cpp_parsing\n'}
+[7.139194] (cpp_parsing) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/ament_index/resource_index/parent_prefix_path/cpp_parsing\n'}
+[7.139283] (cpp_parsing) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/environment/ament_prefix_path.sh\n'}
+[7.139364] (cpp_parsing) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/environment/ament_prefix_path.dsv\n'}
+[7.139476] (cpp_parsing) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/environment/path.sh\n'}
+[7.139540] (cpp_parsing) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/environment/path.dsv\n'}
+[7.139632] (cpp_parsing) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/local_setup.bash\n'}
+[7.139686] (cpp_parsing) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/local_setup.sh\n'}
+[7.139738] (cpp_parsing) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/local_setup.zsh\n'}
+[7.139788] (cpp_parsing) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/local_setup.dsv\n'}
+[7.139850] (cpp_parsing) StdoutLine: {'line': b'-- Installing: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/package.dsv\n'}
+[7.139902] (cpp_parsing) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/ament_index/resource_index/packages/cpp_parsing\n'}
+[7.139961] (cpp_parsing) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/cmake/cpp_parsingConfig.cmake\n'}
+[7.140013] (cpp_parsing) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/cmake/cpp_parsingConfig-version.cmake\n'}
+[7.140063] (cpp_parsing) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/package.xml\n'}
+[7.141188] (cpp_parsing) CommandEnded: {'returncode': 0}
+[7.206685] (cpp_parsing) JobEnded: {'identifier': 'cpp_parsing', 'rc': 0}
+[7.207334] (-) EventReactorShutdown: {}

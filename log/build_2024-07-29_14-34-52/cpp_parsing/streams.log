@@ -1,0 +1,29 @@
+[0.013s] Invoking command in '/home/sunny/ros2_ws/build/cpp_parsing': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:/home/sunny/ros2_ws/install/tutorial_interfaces/lib:/home/sunny/ros2_ws/install/turtlesim/lib:/home/sunny/ros2_ws/install/polygon_plugins/lib:/home/sunny/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target reader[0m
+[0.068s] [ 50%] Built target parser
+[0.087s] [ 75%] [32mBuilding CXX object CMakeFiles/reader.dir/src/nmea_reader.cpp.o[0m
+[2.680s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:[m[K In constructor ‘[01m[KNmeaReader::NmeaReader()[m[K’:
+[2.681s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:16:108:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::basic_streambuf<_CharT, _Traits>::basic_streambuf() [with _CharT = char; _Traits = std::char_traits<char>][m[K’ is protected within this context
+[2.681s]    16 | der"), port("/dev/ttyACM0"), brate(115200), context(), serial(context, port[01;31m[K)[m[K
+[2.681s]       |                                                                            [01;31m[K^[m[K
+[2.681s] 
+[2.681s] In file included from [01m[K/usr/include/c++/11/ios:43[m[K,
+[2.681s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[2.681s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[2.681s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:3[m[K:
+[2.681s] [01m[K/usr/include/c++/11/streambuf:468:7:[m[K [01;36m[Knote: [m[Kdeclared protected here
+[2.681s]   468 |       [01;36m[Kbasic_streambuf[m[K()
+[2.681s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[2.690s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:[m[K In member function ‘[01m[Kvoid NmeaReader::handle_read(const boost::system::error_code&, size_t)[m[K’:
+[2.690s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:46:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbytes_transferred[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.690s]    46 |  void handle_read(const boost::system::error_code &error, [01;35m[Ksize_t bytes_transferred[m[K)
+[2.690s]       |                                                           [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.690s] 
+[2.691s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:[m[K In member function ‘[01m[Kvoid NmeaReader::publish_data(const string&)[m[K’:
+[2.691s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:58:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.691s]    58 |     void publish_data([01;35m[Kconst string &data[m[K)
+[2.691s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[4.062s] gmake[2]: *** [CMakeFiles/reader.dir/build.make:76: CMakeFiles/reader.dir/src/nmea_reader.cpp.o] Error 1
+[4.062s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/reader.dir/all] Error 2
+[4.062s] gmake: *** [Makefile:146: all] Error 2
+[4.065s] Invoked command in '/home/sunny/ros2_ws/build/cpp_parsing' returned '2': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:/home/sunny/ros2_ws/install/tutorial_interfaces/lib:/home/sunny/ros2_ws/install/turtlesim/lib:/home/sunny/ros2_ws/install/polygon_plugins/lib:/home/sunny/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12

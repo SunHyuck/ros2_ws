@@ -48,18 +48,18 @@ private:
         << "GGA.raw_data : " << utm_data.raw_data << "\n"
         << "GGA.message_id : " << utm_data.message_id << "\n"
         << "GGA.utc : " << utm_data.utc << "\n"
-        << "GGA.lat : " << std::fixed << std::setprecision(7) << utm_data.lat << "\n"
+        << "GGA.lat : " << fixed << setprecision(7) << utm_data.lat << "\n"
         << "GGA.lat_dir : " << utm_data.lat_dir << "\n"
-        << "GGA.lon : " << std::fixed << std::setprecision(7) << utm_data.lon << "\n"
+        << "GGA.lon : " << fixed << setprecision(7) << utm_data.lon << "\n"
         << "GGA.lon_dir : " << utm_data.lon_dir << "\n"
         << "GGA.quality : " << utm_data.quality << "\n"
         << "GGA.num_satelite : " << utm_data.num_satelite << "\n"
-        << "GGA.HDOP : " << utm_data.hdop << "\n"
-        << "GGA.alt : " << utm_data.alt << "\n"
+        << "GGA.HDOP : " << fixed << setprecision(2) << utm_data.hdop << "\n"
+        << "GGA.alt : " << fixed << setprecision(3) << utm_data.alt << "\n"
         << "GGA.alt_unit : " << utm_data.alt_unit << "\n"
-        << "GGA.sep : " << utm_data.sep << "\n"
+        << "GGA.sep : " << fixed << setprecision(3) << utm_data.sep << "\n"
         << "GGA.sep_unit : " << utm_data.sep_unit << "\n"
-        << "GGA.diff_age : " << utm_data.diff_age << "\n"
+        << "GGA.diff_age : " << fixed << setprecision(2) << utm_data.diff_age << "\n"
         << "GGA.diff_station : " << utm_data.diff_station << "\n"
         << "GGA.check_sum : " << utm_data.check_sum << "\n"
         << "UTM.Easting : " << utm_data.easting << "\n"
@@ -96,7 +96,6 @@ private:
     void nmea_data_transformer(const std_msgs::msg::String &msg)
     {
         vector<string> raw_data = split(msg.data, ',');
-        cout << raw_data.size() << endl;
         if (raw_data[0].substr(3).compare("GGA") == 0 && raw_data.size() == 15)
         {
             calculate_latitude_longitude(latitude, longitude, stod(raw_data[2]), raw_data[3], stod(raw_data[4]), raw_data[5]);
@@ -150,12 +149,14 @@ private:
 
     void utm_data_maker(custom_interfaces::msg::Utm & utm_data, const vector<string> raw_data, const double latitude, const double longitude, const double easting, const double northing)
     {
+        string tmp;
         for (size_t i = 0; i < raw_data.size(); ++i) {
-            utm_data.raw_data += raw_data[i];
+            tmp += raw_data[i];
             if (i != raw_data.size() - 1) {
-                utm_data.raw_data += ",";
+                tmp += ",";
             }
         }
+        utm_data.raw_data = tmp;
         utm_data.message_id = raw_data[0].substr(1);
         utm_data.utc = stod(raw_data[1]);
         utm_data.lat = latitude;
@@ -176,7 +177,7 @@ private:
         else {
             utm_data.diff_station = stoi(raw_data[14]);
         }
-        utm_data.check_sum = raw_data[14].substr(raw_data[14].size()-2);
+        utm_data.check_sum = raw_data[14].substr(raw_data[14].size()-3);
         utm_data.easting = easting;
         utm_data.northing = northing;
     }

@@ -1,0 +1,30 @@
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:81:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   81 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:[m[K In member function ‘[01m[Kvoid RosQtApp::run()[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:73:9:[m[K [01;31m[Kerror: [m[K‘[01m[KQTimer[m[K’ was not declared in this scope; did you mean ‘[01m[KQTime[m[K’?
+   73 |         [01;31m[KQTimer[m[K *timer = new QTimer(this);
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[KQTime[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:73:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimex[m[K’?
+   73 |         QTimer *[01;31m[Ktimer[m[K = new QTimer(this);
+      |                 [01;31m[K^~~~~[m[K
+      |                 [32m[Ktimex[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:73:29:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KQTimer[m[K’
+   73 |         QTimer *timer = new [01;31m[KQTimer[m[K(this);
+      |                             [01;31m[K^~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:74:25:[m[K [01;31m[Kerror: [m[K‘[01m[KQTimer[m[K’ is not a class, namespace, or enumeration
+   74 |         connect(timer, &[01;31m[KQTimer[m[K::timeout, [](){
+      |                         [01;31m[K^~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:[m[K In lambda function:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:75:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+   75 |             rclcpp::spin_some(rclcpp::Node::SharedPtr([01;31m[Kreader[m[K));
+      |                                                       [01;31m[K^~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:75:55:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KRosQtApp::reader[m[K’
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:80:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   80 |     shared_ptr<NmeaReader> [01;36m[Kreader[m[K;
+      |                            [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/reader.dir/build.make:76: CMakeFiles/reader.dir/src/nmea_reader.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/reader.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

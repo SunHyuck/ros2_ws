@@ -1,0 +1,7 @@
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:60:5:[m[K [01;31m[Kerror: [m[K‘[01m[KQCoreApplication[m[K’ was not declared in this scope
+   60 |     [01;31m[KQCoreApplication[m[K app(argc, argv);
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/reader.dir/build.make:76: CMakeFiles/reader.dir/src/nmea_reader.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/reader.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -84,7 +84,6 @@ private:
     double easting;
     double northing;
 
-    // WGS84 상수
     const double R = 6378137.0;
     const double f = 1 / 298.257223563;
     const double k0 = 0.9996;

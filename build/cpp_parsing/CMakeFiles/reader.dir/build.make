@@ -99,6 +99,7 @@ reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 reader: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
+reader: /usr/lib/x86_64-linux-gnu/libQt5SerialPort.so.5.15.3
 reader: /opt/ros/humble/lib/liblibstatistics_collector.so
 reader: /opt/ros/humble/lib/librcl.so
 reader: /opt/ros/humble/lib/librmw_implementation.so
@@ -154,6 +155,7 @@ reader: /opt/ros/humble/lib/librcpputils.so
 reader: /opt/ros/humble/lib/librosidl_runtime_c.so
 reader: /opt/ros/humble/lib/librcutils.so
 reader: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+reader: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 reader: CMakeFiles/reader.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sunny/ros2_ws/build/cpp_parsing/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable reader"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/reader.dir/link.txt --verbose=$(VERBOSE)

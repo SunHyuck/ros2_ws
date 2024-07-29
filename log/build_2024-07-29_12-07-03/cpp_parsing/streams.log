@@ -1,0 +1,80 @@
+[0.014s] Invoking command in '/home/sunny/ros2_ws/build/cpp_parsing': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:/home/sunny/ros2_ws/install/tutorial_interfaces/lib:/home/sunny/ros2_ws/install/turtlesim/lib:/home/sunny/ros2_ws/install/polygon_plugins/lib:/home/sunny/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target parser[0m
+[0.071s] [ 50%] Built target reader
+[0.077s] [ 75%] [32mBuilding CXX object CMakeFiles/parser.dir/src/utm_parser.cpp.o[0m
+[2.465s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In member function ‘[01m[Kstd::string UtmParser::_log_message_form(custom_interfaces::msg::Utm)[m[K’:
+[2.465s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:44:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koistringstream[m[K’ was not declared in this scope
+[2.465s]    44 |         [01;31m[Koistringstream[m[K msg;
+[2.465s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.465s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:45:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[2.465s]    45 |         [01;31m[Kmsg[m[K << "\n---------- GGA DATA ----------\n"
+[2.466s]       |         [01;31m[K^~~[m[K
+[2.466s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:45:9:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[2.466s] In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7[m[K,
+[2.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[2.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[2.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[2.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[2.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.466s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:6[m[K:
+[2.466s] [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[2.467s]    27 | namespace [01;36m[Kmsg[m[K
+[2.467s]       |           [01;36m[K^~~[m[K
+[2.467s] In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+[2.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+[2.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+[2.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+[2.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[2.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.467s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:6[m[K:
+[2.467s] [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[2.467s]    27 | namespace [01;36m[Kmsg[m[K
+[2.467s]       |           [01;36m[K^~~[m[K
+[2.467s] In file included from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23[m[K,
+[2.468s]                  from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[2.468s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[2.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[2.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[2.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[2.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.468s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:6[m[K:
+[2.468s] [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[2.468s]    27 | namespace [01;36m[Kmsg[m[K
+[2.468s]       |           [01;36m[K^~~[m[K
+[2.468s] In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:7[m[K,
+[2.468s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:7[m[K:
+[2.468s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[2.469s]    27 | namespace [01;36m[Kmsg[m[K
+[2.469s]       |           [01;36m[K^~~[m[K
+[2.469s] In file included from [01m[K/home/sunny/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/utm.hpp:7[m[K,
+[2.469s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:8[m[K:
+[2.469s] [01m[K/home/sunny/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/utm__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcustom_interfaces::msg[m[K’
+[2.469s]    27 | namespace [01;36m[Kmsg[m[K
+[2.469s]       |           [01;36m[K^~~[m[K
+[2.469s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:42:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kutm_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.469s]    42 |     string _log_message_form([01;35m[Kconst custom_interfaces::msg::Utm utm_data[m[K)
+[2.469s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[5.273s] gmake[2]: *** [CMakeFiles/parser.dir/build.make:76: CMakeFiles/parser.dir/src/utm_parser.cpp.o] Error 1
+[5.273s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/parser.dir/all] Error 2
+[5.273s] gmake: *** [Makefile:146: all] Error 2
+[5.275s] Invoked command in '/home/sunny/ros2_ws/build/cpp_parsing' returned '2': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:/home/sunny/ros2_ws/install/tutorial_interfaces/lib:/home/sunny/ros2_ws/install/turtlesim/lib:/home/sunny/ros2_ws/install/polygon_plugins/lib:/home/sunny/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12

@@ -1,0 +1,29 @@
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:45:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   45 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:21:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   21 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In constructor ‘[01m[KNmeaSubscriber::NmeaSubscriber()[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:25:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   25 |         [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::String>(
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[Krmw_subscription_t[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In lambda function:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:26:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass NmeaSubscriber[m[K’ has no member named ‘[01m[Knmea_data_transformer[m[K’
+   26 |             "nmea_data", 10, [this](std_msgs::msg::String::SharedPtr msg) {this->[01;31m[Knmea_data_transformer[m[K(msg);
+      |                                                                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In constructor ‘[01m[KNmeaSubscriber::NmeaSubscriber()[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:28:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+   28 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:25:73:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   25 |         subscription_ = this->create_subscription<std_msgs::msg::String>[01;36m[K([m[K
+      |                                                                         [01;36m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K At global scope:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:45:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   45 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/parser.dir/build.make:76: CMakeFiles/parser.dir/src/utm_parser.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/parser.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

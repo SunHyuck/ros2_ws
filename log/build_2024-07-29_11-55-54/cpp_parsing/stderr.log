@@ -1,0 +1,50 @@
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In member function ‘[01m[Kvoid NmeaSubscriber::utm_data_maker(custom_interfaces::msg::Utm, std::vector<std::__cxx11::basic_string<char> >, double, double)[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:131:28:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  131 |         utm_data.utc = data[01;31m[K[[m[K1];
+      |                            [01;31m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:133:32:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  133 |         utm_data.lat_dir = data[01;31m[K[[m[K3];
+      |                                [01;31m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:135:32:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  135 |         utm_data.lon_dir = data[01;31m[K[[m[K5];
+      |                                [01;31m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:136:37:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  136 |         utm_data.quality = stoi(data[01;31m[K[[m[K6]);
+      |                                     [01;31m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:137:42:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  137 |         utm_data.num_satelite = stoi(data[01;31m[K[[m[K7]);
+      |                                          [01;31m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:138:34:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  138 |         utm_data.hdop = stod(data[01;31m[K[[m[K8]);
+      |                                  [01;31m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:139:33:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  139 |         utm_data.alt = stod(data[01;31m[K[[m[K9]);
+      |                                 [01;31m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:140:33:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  140 |         utm_data.alt_unit = data[01;31m[K[[m[K10];
+      |                                 [01;31m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:141:33:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  141 |         utm_data.sep = stod(data[01;31m[K[[m[K11]);
+      |                                 [01;31m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:142:33:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  142 |         utm_data.sep_unit = data[01;31m[K[[m[K12];
+      |                                 [01;31m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:143:38:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  143 |         utm_data.diff_age = stod(data[01;31m[K[[m[K13]);
+      |                                      [01;31m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:144:22:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kstd::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::size() const [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::size_type = long unsigned int][m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  144 |         if ([01;31m[Kraw_data.size[m[K <= 18) {
+      |             [01;31m[K~~~~~~~~~^~~~[m[K
+      |                          [32m[K()[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:146:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  146 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:148:46:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  148 |             utm_data.diff_station = stoi(data[01;31m[K[[m[K14]);
+      |                                              [01;31m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:150:34:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+  150 |         utm_data.check_sum = data[01;31m[K[[m[K15].substr(-2)
+      |                                  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/parser.dir/build.make:76: CMakeFiles/parser.dir/src/utm_parser.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/parser.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

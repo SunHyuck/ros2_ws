@@ -1,0 +1,51 @@
+[0.013s] Invoking command in '/home/sunny/ros2_ws/build/cpp_parsing': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:/home/sunny/ros2_ws/install/tutorial_interfaces/lib:/home/sunny/ros2_ws/install/turtlesim/lib:/home/sunny/ros2_ws/install/polygon_plugins/lib:/home/sunny/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target parser[0m
+[0.068s] [ 50%] Built target reader
+[0.075s] [ 75%] [32mBuilding CXX object CMakeFiles/parser.dir/src/utm_parser.cpp.o[0m
+[2.707s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In member function ‘[01m[Kvoid NmeaSubscriber::utm_data_maker(custom_interfaces::msg::Utm, std::vector<std::__cxx11::basic_string<char> >, double, double)[m[K’:
+[2.707s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:131:28:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+[2.707s]   131 |         utm_data.utc = data[01;31m[K[[m[K1];
+[2.707s]       |                            [01;31m[K^[m[K
+[2.707s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:133:32:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+[2.707s]   133 |         utm_data.lat_dir = data[01;31m[K[[m[K3];
+[2.707s]       |                                [01;31m[K^[m[K
+[2.707s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:135:32:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+[2.707s]   135 |         utm_data.lon_dir = data[01;31m[K[[m[K5];
+[2.707s]       |                                [01;31m[K^[m[K
+[2.707s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:136:37:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+[2.707s]   136 |         utm_data.quality = stoi(data[01;31m[K[[m[K6]);
+[2.707s]       |                                     [01;31m[K^[m[K
+[2.707s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:137:42:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+[2.707s]   137 |         utm_data.num_satelite = stoi(data[01;31m[K[[m[K7]);
+[2.707s]       |                                          [01;31m[K^[m[K
+[2.708s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:138:34:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+[2.708s]   138 |         utm_data.hdop = stod(data[01;31m[K[[m[K8]);
+[2.708s]       |                                  [01;31m[K^[m[K
+[2.708s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:139:33:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+[2.708s]   139 |         utm_data.alt = stod(data[01;31m[K[[m[K9]);
+[2.708s]       |                                 [01;31m[K^[m[K
+[2.708s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:140:33:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+[2.708s]   140 |         utm_data.alt_unit = data[01;31m[K[[m[K10];
+[2.708s]       |                                 [01;31m[K^[m[K
+[2.708s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:141:33:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+[2.708s]   141 |         utm_data.sep = stod(data[01;31m[K[[m[K11]);
+[2.708s]       |                                 [01;31m[K^[m[K
+[2.708s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:142:33:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+[2.708s]   142 |         utm_data.sep_unit = data[01;31m[K[[m[K12];
+[2.708s]       |                                 [01;31m[K^[m[K
+[2.708s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:143:38:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+[2.708s]   143 |         utm_data.diff_age = stod(data[01;31m[K[[m[K13]);
+[2.708s]       |                                      [01;31m[K^[m[K
+[2.708s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:146:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[2.708s]   146 |         [01;31m[K}[m[K
+[2.709s]       |         [01;31m[K^[m[K
+[2.709s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:148:46:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+[2.709s]   148 |             utm_data.diff_station = stoi(data[01;31m[K[[m[K14]);
+[2.709s]       |                                              [01;31m[K^[m[K
+[2.709s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:150:34:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[int][m[K’ for array subscript
+[2.709s]   150 |         utm_data.check_sum = data[01;31m[K[[m[K15].substr(-2)
+[2.709s]       |                                  [01;31m[K^[m[K
+[5.441s] gmake[2]: *** [CMakeFiles/parser.dir/build.make:76: CMakeFiles/parser.dir/src/utm_parser.cpp.o] Error 1
+[5.441s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/parser.dir/all] Error 2
+[5.442s] gmake: *** [Makefile:146: all] Error 2
+[5.445s] Invoked command in '/home/sunny/ros2_ws/build/cpp_parsing' returned '2': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:/home/sunny/ros2_ws/install/tutorial_interfaces/lib:/home/sunny/ros2_ws/install/turtlesim/lib:/home/sunny/ros2_ws/install/polygon_plugins/lib:/home/sunny/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12

@@ -1,0 +1,64 @@
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In member function ‘[01m[Kstd::string UtmParser::_log_message_form(custom_interfaces::msg::Utm)[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:48:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Kraw_data[m[K’
+   48 |         << "GGA.raw_data : " << msg.[01;31m[Kraw_data[m[K << "\n"
+      |                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:49:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Kmessage_id[m[K’
+   49 |         << "GGA.message_id : " << msg.[01;31m[Kmessage_id[m[K << "\n"
+      |                                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:50:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Kutc[m[K’
+   50 |         << "GGA.utc : " << msg.[01;31m[Kutc[m[K << "\n"
+      |                                [01;31m[K^~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:51:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Klat[m[K’
+   51 |         << "GGA.lat : " << std::fixed << std::setprecision(7) << msg.[01;31m[Klat[m[K << "\n"
+      |                                                                      [01;31m[K^~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:52:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Klat_dir[m[K’
+   52 |         << "GGA.lat_dir : " << msg.[01;31m[Klat_dir[m[K << "\n"
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:53:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Klon[m[K’
+   53 |         << "GGA.lon : " << std::fixed << std::setprecision(7) << msg.[01;31m[Klon[m[K << "\n"
+      |                                                                      [01;31m[K^~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:54:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Klon_dir[m[K’
+   54 |         << "GGA.lon_dir : " << msg.[01;31m[Klon_dir[m[K << "\n"
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:55:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Kquality[m[K’
+   55 |         << "GGA.quality : " << msg.[01;31m[Kquality[m[K << "\n"
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:56:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Knum_satelite[m[K’
+   56 |         << "GGA.num_satelite : " << msg.[01;31m[Knum_satelite[m[K << "\n"
+      |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:57:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Khdop[m[K’
+   57 |         << "GGA.HDOP : " << msg.[01;31m[Khdop[m[K << "\n"
+      |                                 [01;31m[K^~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:58:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Kalt[m[K’
+   58 |         << "GGA.alt : " << msg.[01;31m[Kalt[m[K << "\n"
+      |                                [01;31m[K^~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:59:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Kalt_unit[m[K’
+   59 |         << "GGA.alt_unit : " << msg.[01;31m[Kalt_unit[m[K << "\n"
+      |                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:60:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Ksep[m[K’
+   60 |         << "GGA.sep : " << msg.[01;31m[Ksep[m[K << "\n"
+      |                                [01;31m[K^~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:61:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Ksep_unit[m[K’
+   61 |         << "GGA.sep_unit : " << msg.[01;31m[Ksep_unit[m[K << "\n"
+      |                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:62:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Kdiff_age[m[K’
+   62 |         << "GGA.diff_age : " << msg.[01;31m[Kdiff_age[m[K << "\n"
+      |                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:63:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Kdiff_station[m[K’
+   63 |         << "GGA.diff_station : " << msg.[01;31m[Kdiff_station[m[K << "\n"
+      |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:64:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Kcheck_sum[m[K’
+   64 |         << "GGA.check_sum : " << msg.[01;31m[Kcheck_sum[m[K << "\n"
+      |                                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:65:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Keasting[m[K’
+   65 |         << "UTM.Easting : " << msg.[01;31m[Keasting[m[K << "\n"
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:66:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Knorthing[m[K’
+   66 |         << "UTM.Northing : " << msg.[01;31m[Knorthing[m[K << "\n";
+      |                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:44:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kutm_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   44 |     string _log_message_form([01;35m[Kconst custom_interfaces::msg::Utm utm_data[m[K)
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/parser.dir/build.make:76: CMakeFiles/parser.dir/src/utm_parser.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/parser.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

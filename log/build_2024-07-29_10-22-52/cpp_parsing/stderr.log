@@ -1,0 +1,21 @@
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In member function ‘[01m[Kvoid NmeaSubscriber::nmea_data_transformer(const String&)[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:61:59:[m[K [01;31m[Kerror: [m[Kinvalid cast from type ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to type ‘[01m[Kdouble[m[K’
+   61 |         calculate_latitude_longitude(latitude, longitude, (double)raw_data[3], raw_data[4], (double)raw_data[5], raw_data[6]);
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:61:93:[m[K [01;31m[Kerror: [m[Kinvalid cast from type ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to type ‘[01m[Kdouble[m[K’
+   61 |         calculate_latitude_longitude(latitude, longitude, (double)raw_data[3], raw_data[4], (double)raw_data[5], raw_data[6]);
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In member function ‘[01m[Kvoid NmeaSubscriber::calculate_latitude_longitude(double&, double&, double, std::string, double, std::string)[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:72:21:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kcompare[m[K’ in ‘[01m[Klat_deg[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   72 |         if (lat_deg.[01;31m[Kcompare[m[K("S") == 0): latitude = -latitude;
+      |                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:72:39:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+   72 |         if (lat_deg.compare("S") == 0)[01;31m[K:[m[K latitude = -latitude;
+      |                                       [01;31m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:77:39:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+   77 |         if (lon_dir.compare("W") == 0)[01;31m[K:[m[K longitude = -longitude;
+      |                                       [01;31m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:64:109:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klat_dir[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   64 |     void calculate_latitude_longitude(double & latitude, double & longitude, const double lat, [01;35m[Kconst string lat_dir[m[K, const double lon, const string lon_dir)
+      |                                                                                                [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/parser.dir/build.make:76: CMakeFiles/parser.dir/src/utm_parser.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/parser.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

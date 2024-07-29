@@ -1,0 +1,8 @@
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In member function ‘[01m[Kvoid NmeaSubscriber::nmea_data_transformer(const String&)[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:77:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kaw_data[m[K’ was not declared in this scope; did you mean ‘[01m[Kraw_data[m[K’?
+   77 |         cout << [01;31m[Kaw_data[m[K[0].substr(3) << " " << raw_data[0].substr(3).compare("GGA") << endl;
+      |                 [01;31m[K^~~~~~~[m[K
+      |                 [32m[Kraw_data[m[K
+gmake[2]: *** [CMakeFiles/parser.dir/build.make:76: CMakeFiles/parser.dir/src/utm_parser.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/parser.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

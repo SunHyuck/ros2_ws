@@ -1,0 +1,17 @@
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In member function ‘[01m[Kvoid NmeaSubscriber::nmea_data_transformer(const String&)[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:77:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kutm_data_maker[m[K’ was not declared in this scope
+   77 |             [01;31m[Kutm_data_maker[m[K(utm_data, raw_data, easting, northing);
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In member function ‘[01m[Kvoid NmeaSubscriber::format_convert(custom_interfaces::msg::Utm, std::vector<std::__cxx11::basic_string<char> >, double, double)[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:125:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kraw_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  125 |     void format_convert(custom_interfaces::msg::Utm utm_data, [01;35m[Kconst vector<string> raw_data[m[K, const double easting, const double northing)
+      |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:125:107:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Keasting[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  125 |     void format_convert(custom_interfaces::msg::Utm utm_data, const vector<string> raw_data, [01;35m[Kconst double easting[m[K, const double northing)
+      |                                                                                              [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:125:129:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knorthing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  125 |     void format_convert(custom_interfaces::msg::Utm utm_data, const vector<string> raw_data, const double easting, [01;35m[Kconst double northing[m[K)
+      |                                                                                                                    [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/parser.dir/build.make:76: CMakeFiles/parser.dir/src/utm_parser.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/parser.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

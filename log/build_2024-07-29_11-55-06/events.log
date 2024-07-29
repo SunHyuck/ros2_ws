@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000121] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000164] (-) JobUnselected: {'identifier': 'cpp_proj'}
+[0.000194] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000266] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000286] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000304] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000319] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000335] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.000375] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.000407] (-) JobUnselected: {'identifier': 'py_proj'}
+[0.000429] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000446] (cpp_parsing) JobQueued: {'identifier': 'cpp_parsing', 'dependencies': OrderedDict([('custom_interfaces', '/home/sunny/ros2_ws/install/custom_interfaces')])}
+[0.000468] (cpp_parsing) JobStarted: {'identifier': 'cpp_parsing'}
+[0.010192] (cpp_parsing) JobProgress: {'identifier': 'cpp_parsing', 'progress': 'cmake'}
+[0.010676] (cpp_parsing) JobProgress: {'identifier': 'cpp_parsing', 'progress': 'build'}
+[0.011245] (cpp_parsing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunny/ros2_ws/build/cpp_parsing', '--', '-j12', '-l12'], 'cwd': '/home/sunny/ros2_ws/build/cpp_parsing', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'sunny'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunny/ros2_ws/install/custom_interfaces/lib:/home/sunny/ros2_ws/install/tutorial_interfaces/lib:/home/sunny/ros2_ws/install/turtlesim/lib:/home/sunny/ros2_ws/install/polygon_plugins/lib:/home/sunny/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sunny'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1338'), ('SYSTEMD_EXEC_PID', '3826'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4585'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sunny/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunny'), ('JOURNAL_STREAM', '8:53981'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sunny'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sunny-Swift-SFX14-41G:@/tmp/.ICE-unix/3810,unix/sunny-Swift-SFX14-41G:/tmp/.ICE-unix/3810'), ('INVOCATION_ID', '9020b1f6a89d440093e0ea5c57d2858a'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZF4WR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a1a2f13dca.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/py_proj:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sunny/ros2_ws/build/cpp_parsing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunny/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages:/home/sunny/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/sunny/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble')]), 'shell': False}
+[0.057202] (cpp_parsing) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target parser\x1b[0m\n'}
+[0.070167] (cpp_parsing) StdoutLine: {'line': b'[ 50%] Built target reader\n'}
+[0.076771] (cpp_parsing) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/parser.dir/src/utm_parser.cpp.o\x1b[0m\n'}
+[0.099305] (-) TimerEvent: {}
+[0.199607] (-) TimerEvent: {}
+[0.299940] (-) TimerEvent: {}
+[0.400251] (-) TimerEvent: {}
+[0.500585] (-) TimerEvent: {}
+[0.600925] (-) TimerEvent: {}
+[0.701244] (-) TimerEvent: {}
+[0.801576] (-) TimerEvent: {}
+[0.901914] (-) TimerEvent: {}
+[1.002275] (-) TimerEvent: {}
+[1.102616] (-) TimerEvent: {}
+[1.202956] (-) TimerEvent: {}
+[1.303299] (-) TimerEvent: {}
+[1.403647] (-) TimerEvent: {}
+[1.503994] (-) TimerEvent: {}
+[1.604337] (-) TimerEvent: {}
+[1.704667] (-) TimerEvent: {}
+[1.805066] (-) TimerEvent: {}
+[1.905414] (-) TimerEvent: {}
+[1.984250] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid NmeaSubscriber::utm_data_maker(custom_interfaces::msg::Utm, std::vector<std::__cxx11::basic_string<char> >, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.984479] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:131:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>[int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[1.984557] (cpp_parsing) StderrLine: {'line': b'  131 |         utm_data.utc = data\x1b[01;31m\x1b[K[\x1b[m\x1b[K1];\n'}
+[1.984623] (cpp_parsing) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.984685] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:133:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>[int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[1.984747] (cpp_parsing) StderrLine: {'line': b'  133 |         utm_data.lat_dir = data\x1b[01;31m\x1b[K[\x1b[m\x1b[K3];\n'}
+[1.984808] (cpp_parsing) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.984867] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:135:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>[int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[1.984927] (cpp_parsing) StderrLine: {'line': b'  135 |         utm_data.lon_dir = data\x1b[01;31m\x1b[K[\x1b[m\x1b[K5];\n'}
+[1.984987] (cpp_parsing) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.985049] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:136:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>[int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[1.985113] (cpp_parsing) StderrLine: {'line': b'  136 |         utm_data.quality = stoi(data\x1b[01;31m\x1b[K[\x1b[m\x1b[K6]);\n'}
+[1.985175] (cpp_parsing) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.985234] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:137:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>[int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[1.985296] (cpp_parsing) StderrLine: {'line': b'  137 |         utm_data.num_satelite = stoi(data\x1b[01;31m\x1b[K[\x1b[m\x1b[K7]);\n'}
+[1.985355] (cpp_parsing) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.985415] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:138:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>[int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[1.985473] (cpp_parsing) StderrLine: {'line': b'  138 |         utm_data.hdop = stod(data\x1b[01;31m\x1b[K[\x1b[m\x1b[K8]);\n'}
+[1.985531] (cpp_parsing) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.985656] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:139:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>[int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[1.985763] (cpp_parsing) StderrLine: {'line': b'  139 |         utm_data.alt = stod(data\x1b[01;31m\x1b[K[\x1b[m\x1b[K9]);\n'}
+[1.985817] (cpp_parsing) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.985866] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:140:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>[int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[1.985923] (cpp_parsing) StderrLine: {'line': b'  140 |         utm_data.alt_unit = data\x1b[01;31m\x1b[K[\x1b[m\x1b[K10];\n'}
+[1.985991] (cpp_parsing) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.986058] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:141:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>[int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[1.986109] (cpp_parsing) StderrLine: {'line': b'  141 |         utm_data.sep = stod(data\x1b[01;31m\x1b[K[\x1b[m\x1b[K11]);\n'}
+[1.986157] (cpp_parsing) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.986206] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:142:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>[int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[1.986256] (cpp_parsing) StderrLine: {'line': b'  142 |         utm_data.sep_unit = data\x1b[01;31m\x1b[K[\x1b[m\x1b[K12];\n'}
+[1.986304] (cpp_parsing) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.986352] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:143:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>[int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[1.986401] (cpp_parsing) StderrLine: {'line': b'  143 |         utm_data.diff_age = stod(data\x1b[01;31m\x1b[K[\x1b[m\x1b[K13]);\n'}
+[1.986448] (cpp_parsing) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.986496] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:144:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::size() const [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[1.986567] (cpp_parsing) StderrLine: {'line': b'  144 |         if (\x1b[01;31m\x1b[Kraw_data.size\x1b[m\x1b[K <= 18) {\n'}
+[1.986618] (cpp_parsing) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.986668] (cpp_parsing) StderrLine: {'line': b'      |                          \x1b[32m\x1b[K()\x1b[m\x1b[K\n'}
+[1.986717] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:146:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.986767] (cpp_parsing) StderrLine: {'line': b'  146 |         \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[1.986822] (cpp_parsing) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.986870] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:148:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing Utm = struct custom_interfaces::msg::Utm_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct custom_interfaces::msg::Utm_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kidff_station\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdiff_station\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.986920] (cpp_parsing) StderrLine: {'line': b'  148 |             utm_data.\x1b[01;31m\x1b[Kidff_station\x1b[m\x1b[K = stoi(data[14]);\n'}
+[1.986969] (cpp_parsing) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.987017] (cpp_parsing) StderrLine: {'line': b'      |                      \x1b[32m\x1b[Kdiff_station\x1b[m\x1b[K\n'}
+[1.987064] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:148:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>[int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[1.987113] (cpp_parsing) StderrLine: {'line': b'  148 |             utm_data.idff_station = stoi(data\x1b[01;31m\x1b[K[\x1b[m\x1b[K14]);\n'}
+[1.987161] (cpp_parsing) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.987210] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:150:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>[int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[1.987260] (cpp_parsing) StderrLine: {'line': b'  150 |         utm_data.check_sum = data\x1b[01;31m\x1b[K[\x1b[m\x1b[K15]substr(-2)\n'}
+[1.987309] (cpp_parsing) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.989343] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:152:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kutm\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.989448] (cpp_parsing) StderrLine: {'line': b'  152 |         \x1b[01;31m\x1b[Kutm\x1b[m\x1b[K.northing = northing;\n'}
+[1.989522] (cpp_parsing) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.989589] (cpp_parsing) StderrLine: {'line': b'      |         \x1b[32m\x1b[Ktm\x1b[m\x1b[K\n'}
+[2.005514] (-) TimerEvent: {}
+[2.106024] (-) TimerEvent: {}
+[2.206366] (-) TimerEvent: {}
+[2.306710] (-) TimerEvent: {}
+[2.407058] (-) TimerEvent: {}
+[2.507399] (-) TimerEvent: {}
+[2.607736] (-) TimerEvent: {}
+[2.708431] (-) TimerEvent: {}
+[2.808781] (-) TimerEvent: {}
+[2.909123] (-) TimerEvent: {}
+[3.009469] (-) TimerEvent: {}
+[3.109936] (-) TimerEvent: {}
+[3.210290] (-) TimerEvent: {}
+[3.310621] (-) TimerEvent: {}
+[3.410958] (-) TimerEvent: {}
+[3.511300] (-) TimerEvent: {}
+[3.611655] (-) TimerEvent: {}
+[3.711991] (-) TimerEvent: {}
+[3.812322] (-) TimerEvent: {}
+[3.912662] (-) TimerEvent: {}
+[4.013006] (-) TimerEvent: {}
+[4.075529] (cpp_parsing) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/parser.dir/build.make:76: CMakeFiles/parser.dir/src/utm_parser.cpp.o] Error 1\n'}
+[4.075799] (cpp_parsing) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/parser.dir/all] Error 2\n'}
+[4.076024] (cpp_parsing) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.078374] (cpp_parsing) CommandEnded: {'returncode': 2}
+[4.113231] (-) TimerEvent: {}
+[4.117854] (cpp_parsing) JobEnded: {'identifier': 'cpp_parsing', 'rc': 2}
+[4.128578] (-) EventReactorShutdown: {}

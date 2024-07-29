@@ -1,0 +1,4 @@
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In lambda function:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:26:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   26 |             "nmea_data", 10, [this]([01;35m[Kstd_msgs::msg::String::SharedPtr msg[m[K) {this->nmea_data_transformer();});
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

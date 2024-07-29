@@ -1,0 +1,11 @@
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In lambda function:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:26:103:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KNmeaSubscriber::nmea_data_transformer(std_msgs::msg::String_<std::allocator<void> >::SharedPtr&)[m[K’
+   26 |             "nmea_data", 10, [this](std_msgs::msg::String::SharedPtr msg) {[01;31m[Kthis->nmea_data_transformer(msg)[m[K});
+      |                                                                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:32:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid NmeaSubscriber::nmea_data_transformer()[m[K’
+   32 |     void [01;36m[Knmea_data_transformer[m[K()
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:32:10:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/parser.dir/build.make:76: CMakeFiles/parser.dir/src/utm_parser.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/parser.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

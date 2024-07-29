@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target parser[0m
+[ 50%] Built target reader
+[ 75%] [32mBuilding CXX object CMakeFiles/parser.dir/src/utm_parser.cpp.o[0m
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:32:61:[m[K [01;31m[Kerror: [m[K‘[01m[KShredPtr[m[K’ in ‘[01m[Kusing String = struct std_msgs::msg::String_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_msgs::msg::String_<std::allocator<void> >[m[K’} does not name a type
+   32 |     void nmea_data_transformer(const std_msgs::msg::String::[01;31m[KShredPtr[m[K msg)
+      |                                                             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In lambda function:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:26:104:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} to ‘[01m[Kint[m[K’
+   26 |             "nmea_data", 10, [this](std_msgs::msg::String::SharedPtr msg) {this->nmea_data_transformer([01;31m[Kmsg[m[K);});
+      |                                                                                                        [01;31m[K^~~[m[K
+      |                                                                                                        [01;31m[K|[m[K
+      |                                                                                                        [01;31m[Kstd_msgs::msg::String_<std::allocator<void> >::SharedPtr {aka std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >}[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:32:70:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid NmeaSubscriber::nmea_data_transformer(int)[m[K’
+   32 |     void nmea_data_transformer([01;36m[Kconst std_msgs::msg::String::ShredPtr msg[m[K)
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In member function ‘[01m[Kvoid NmeaSubscriber::nmea_data_transformer(int)[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:32:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+gmake[2]: *** [CMakeFiles/parser.dir/build.make:76: CMakeFiles/parser.dir/src/utm_parser.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/parser.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

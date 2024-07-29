@@ -1,0 +1,69 @@
+[0.012s] Invoking command in '/home/sunny/ros2_ws/build/cpp_parsing': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:/home/sunny/ros2_ws/install/tutorial_interfaces/lib:/home/sunny/ros2_ws/install/turtlesim/lib:/home/sunny/ros2_ws/install/polygon_plugins/lib:/home/sunny/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target parser[0m
+[0.067s] [ 50%] Built target reader
+[0.074s] [ 75%] [32mBuilding CXX object CMakeFiles/parser.dir/src/utm_parser.cpp.o[0m
+[2.428s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In member function ‘[01m[Kstd::string UtmParser::_log_message_form(custom_interfaces::msg::Utm)[m[K’:
+[2.429s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:48:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Kraw_data[m[K’
+[2.429s]    48 |         << "GGA.raw_data : " << msg.[01;31m[Kraw_data[m[K << "\n"
+[2.429s]       |                                     [01;31m[K^~~~~~~~[m[K
+[2.429s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:49:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Kmessage_id[m[K’
+[2.429s]    49 |         << "GGA.message_id : " << msg.[01;31m[Kmessage_id[m[K << "\n"
+[2.429s]       |                                       [01;31m[K^~~~~~~~~~[m[K
+[2.429s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:50:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Kutc[m[K’
+[2.429s]    50 |         << "GGA.utc : " << msg.[01;31m[Kutc[m[K << "\n"
+[2.429s]       |                                [01;31m[K^~~[m[K
+[2.429s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:51:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Klat[m[K’
+[2.429s]    51 |         << "GGA.lat : " << std::fixed << std::setprecision(7) << msg.[01;31m[Klat[m[K << "\n"
+[2.430s]       |                                                                      [01;31m[K^~~[m[K
+[2.430s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:52:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Klat_dir[m[K’
+[2.430s]    52 |         << "GGA.lat_dir : " << msg.[01;31m[Klat_dir[m[K << "\n"
+[2.430s]       |                                    [01;31m[K^~~~~~~[m[K
+[2.430s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:53:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Klon[m[K’
+[2.430s]    53 |         << "GGA.lon : " << std::fixed << std::setprecision(7) << msg.[01;31m[Klon[m[K << "\n"
+[2.430s]       |                                                                      [01;31m[K^~~[m[K
+[2.430s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:54:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Klon_dir[m[K’
+[2.430s]    54 |         << "GGA.lon_dir : " << msg.[01;31m[Klon_dir[m[K << "\n"
+[2.430s]       |                                    [01;31m[K^~~~~~~[m[K
+[2.430s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:55:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Kquality[m[K’
+[2.430s]    55 |         << "GGA.quality : " << msg.[01;31m[Kquality[m[K << "\n"
+[2.430s]       |                                    [01;31m[K^~~~~~~[m[K
+[2.430s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:56:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Knum_satelite[m[K’
+[2.430s]    56 |         << "GGA.num_satelite : " << msg.[01;31m[Knum_satelite[m[K << "\n"
+[2.430s]       |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[2.430s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:57:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Khdop[m[K’
+[2.431s]    57 |         << "GGA.HDOP : " << msg.[01;31m[Khdop[m[K << "\n"
+[2.431s]       |                                 [01;31m[K^~~~[m[K
+[2.431s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:58:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Kalt[m[K’
+[2.431s]    58 |         << "GGA.alt : " << msg.[01;31m[Kalt[m[K << "\n"
+[2.431s]       |                                [01;31m[K^~~[m[K
+[2.431s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:59:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Kalt_unit[m[K’
+[2.431s]    59 |         << "GGA.alt_unit : " << msg.[01;31m[Kalt_unit[m[K << "\n"
+[2.431s]       |                                     [01;31m[K^~~~~~~~[m[K
+[2.431s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:60:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Ksep[m[K’
+[2.431s]    60 |         << "GGA.sep : " << msg.[01;31m[Ksep[m[K << "\n"
+[2.431s]       |                                [01;31m[K^~~[m[K
+[2.431s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:61:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Ksep_unit[m[K’
+[2.431s]    61 |         << "GGA.sep_unit : " << msg.[01;31m[Ksep_unit[m[K << "\n"
+[2.431s]       |                                     [01;31m[K^~~~~~~~[m[K
+[2.431s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:62:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Kdiff_age[m[K’
+[2.431s]    62 |         << "GGA.diff_age : " << msg.[01;31m[Kdiff_age[m[K << "\n"
+[2.431s]       |                                     [01;31m[K^~~~~~~~[m[K
+[2.431s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:63:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Kdiff_station[m[K’
+[2.431s]    63 |         << "GGA.diff_station : " << msg.[01;31m[Kdiff_station[m[K << "\n"
+[2.432s]       |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[2.432s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:64:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Kcheck_sum[m[K’
+[2.432s]    64 |         << "GGA.check_sum : " << msg.[01;31m[Kcheck_sum[m[K << "\n"
+[2.432s]       |                                      [01;31m[K^~~~~~~~~[m[K
+[2.432s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:65:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Keasting[m[K’
+[2.432s]    65 |         << "UTM.Easting : " << msg.[01;31m[Keasting[m[K << "\n"
+[2.432s]       |                                    [01;31m[K^~~~~~~[m[K
+[2.432s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:66:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ostringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_ostringstream<char>[m[K’} has no member named ‘[01m[Knorthing[m[K’
+[2.432s]    66 |         << "UTM.Northing : " << msg.[01;31m[Knorthing[m[K << "\n";
+[2.432s]       |                                     [01;31m[K^~~~~~~~[m[K
+[2.432s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:44:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kutm_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.432s]    44 |     string _log_message_form([01;35m[Kconst custom_interfaces::msg::Utm utm_data[m[K)
+[2.432s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[5.143s] gmake[2]: *** [CMakeFiles/parser.dir/build.make:76: CMakeFiles/parser.dir/src/utm_parser.cpp.o] Error 1
+[5.143s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/parser.dir/all] Error 2
+[5.144s] gmake: *** [Makefile:146: all] Error 2
+[5.146s] Invoked command in '/home/sunny/ros2_ws/build/cpp_parsing' returned '2': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:/home/sunny/ros2_ws/install/tutorial_interfaces/lib:/home/sunny/ros2_ws/install/turtlesim/lib:/home/sunny/ros2_ws/install/polygon_plugins/lib:/home/sunny/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12

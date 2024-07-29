@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target parser[0m
+[ 50%] Built target reader
+[ 75%] [32mBuilding CXX object CMakeFiles/parser.dir/src/utm_parser.cpp.o[0m
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In member function ‘[01m[Kvoid NmeaSubscriber::nmea_data_transformer(const String&)[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:61:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K][m[K’ before ‘[01m[K:[m[K’ token
+   61 |         if (raw_data[0][3[01;31m[K:[m[K].compare("GGA") && raw_data.size() == 16)
+      |                          [01;31m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:61:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K:[m[K’ token
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:61:12:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   61 |         if [01;36m[K([m[Kraw_data[0][3:].compare("GGA") && raw_data.size() == 16)
+      |            [01;36m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:61:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K][m[K’ token
+   61 |         if (raw_data[0][3:[01;31m[K][m[K.compare("GGA") && raw_data.size() == 16)
+      |                           [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/parser.dir/build.make:76: CMakeFiles/parser.dir/src/utm_parser.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/parser.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

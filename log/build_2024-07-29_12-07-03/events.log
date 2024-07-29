@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.000154] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000796] (-) JobUnselected: {'identifier': 'cpp_proj'}
+[0.000833] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000857] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000879] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000901] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000920] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000939] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.000958] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.000977] (-) JobUnselected: {'identifier': 'py_proj'}
+[0.000995] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001016] (cpp_parsing) JobQueued: {'identifier': 'cpp_parsing', 'dependencies': OrderedDict([('custom_interfaces', '/home/sunny/ros2_ws/install/custom_interfaces')])}
+[0.001044] (cpp_parsing) JobStarted: {'identifier': 'cpp_parsing'}
+[0.011011] (cpp_parsing) JobProgress: {'identifier': 'cpp_parsing', 'progress': 'cmake'}
+[0.011531] (cpp_parsing) JobProgress: {'identifier': 'cpp_parsing', 'progress': 'build'}
+[0.012070] (cpp_parsing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunny/ros2_ws/build/cpp_parsing', '--', '-j12', '-l12'], 'cwd': '/home/sunny/ros2_ws/build/cpp_parsing', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'sunny'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunny/ros2_ws/install/custom_interfaces/lib:/home/sunny/ros2_ws/install/tutorial_interfaces/lib:/home/sunny/ros2_ws/install/turtlesim/lib:/home/sunny/ros2_ws/install/polygon_plugins/lib:/home/sunny/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sunny'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1338'), ('SYSTEMD_EXEC_PID', '3826'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4585'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sunny/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunny'), ('JOURNAL_STREAM', '8:53981'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sunny'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sunny-Swift-SFX14-41G:@/tmp/.ICE-unix/3810,unix/sunny-Swift-SFX14-41G:/tmp/.ICE-unix/3810'), ('INVOCATION_ID', '9020b1f6a89d440093e0ea5c57d2858a'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZF4WR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a1a2f13dca.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/py_proj:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sunny/ros2_ws/build/cpp_parsing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunny/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/sunny/ros2_ws/install/py_proj/lib/python3.10/site-packages:/home/sunny/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/sunny/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble')]), 'shell': False}
+[0.058777] (cpp_parsing) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target parser\x1b[0m\n'}
+[0.071615] (cpp_parsing) StdoutLine: {'line': b'[ 50%] Built target reader\n'}
+[0.078219] (cpp_parsing) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/parser.dir/src/utm_parser.cpp.o\x1b[0m\n'}
+[0.100049] (-) TimerEvent: {}
+[0.200886] (-) TimerEvent: {}
+[0.301995] (-) TimerEvent: {}
+[0.402326] (-) TimerEvent: {}
+[0.502660] (-) TimerEvent: {}
+[0.603346] (-) TimerEvent: {}
+[0.704344] (-) TimerEvent: {}
+[0.805045] (-) TimerEvent: {}
+[0.906067] (-) TimerEvent: {}
+[1.007012] (-) TimerEvent: {}
+[1.107685] (-) TimerEvent: {}
+[1.208235] (-) TimerEvent: {}
+[1.308596] (-) TimerEvent: {}
+[1.408927] (-) TimerEvent: {}
+[1.509270] (-) TimerEvent: {}
+[1.609883] (-) TimerEvent: {}
+[1.711167] (-) TimerEvent: {}
+[1.812488] (-) TimerEvent: {}
+[1.913671] (-) TimerEvent: {}
+[2.014005] (-) TimerEvent: {}
+[2.114340] (-) TimerEvent: {}
+[2.215039] (-) TimerEvent: {}
+[2.316470] (-) TimerEvent: {}
+[2.417894] (-) TimerEvent: {}
+[2.465568] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string UtmParser::_log_message_form(custom_interfaces::msg::Utm)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.465795] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:44:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koistringstream\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.465874] (cpp_parsing) StderrLine: {'line': b'   44 |         \x1b[01;31m\x1b[Koistringstream\x1b[m\x1b[K msg;\n'}
+[2.465944] (cpp_parsing) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.466124] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:45:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.466236] (cpp_parsing) StderrLine: {'line': b'   45 |         \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K << "\\n---------- GGA DATA ----------\\n"\n'}
+[2.466540] (cpp_parsing) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.466611] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:45:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[2.466670] (cpp_parsing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7\x1b[m\x1b[K,\n'}
+[2.466728] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[2.466782] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[2.466836] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32\x1b[m\x1b[K,\n'}
+[2.466891] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[2.466945] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.467001] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.467051] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.467102] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.467152] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.467203] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.467254] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.467304] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.467363] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.467414] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:6\x1b[m\x1b[K:\n'}
+[2.467470] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.467522] (cpp_parsing) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[2.467570] (cpp_parsing) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.467620] (cpp_parsing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7\x1b[m\x1b[K,\n'}
+[2.467677] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28\x1b[m\x1b[K,\n'}
+[2.467728] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30\x1b[m\x1b[K,\n'}
+[2.467778] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45\x1b[m\x1b[K,\n'}
+[2.467827] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.467876] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.467925] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.467974] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.468022] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.468070] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.468140] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.468208] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.468259] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:6\x1b[m\x1b[K:\n'}
+[2.468309] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.468368] (cpp_parsing) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[2.468425] (cpp_parsing) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.468475] (cpp_parsing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23\x1b[m\x1b[K,\n'}
+[2.468527] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[2.468592] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[2.468666] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[2.468716] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.468764] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.468812] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.468861] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.468910] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.468960] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.469009] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.469058] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.469116] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.469173] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:6\x1b[m\x1b[K:\n'}
+[2.469221] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.469284] (cpp_parsing) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[2.469354] (cpp_parsing) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.469414] (cpp_parsing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:7\x1b[m\x1b[K,\n'}
+[2.469464] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:7\x1b[m\x1b[K:\n'}
+[2.469513] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.469561] (cpp_parsing) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[2.469610] (cpp_parsing) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.469657] (cpp_parsing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sunny/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/utm.hpp:7\x1b[m\x1b[K,\n'}
+[2.469712] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:8\x1b[m\x1b[K:\n'}
+[2.469761] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/utm__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kcustom_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.469810] (cpp_parsing) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[2.469859] (cpp_parsing) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.469907] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:42:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kutm_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.469964] (cpp_parsing) StderrLine: {'line': b'   42 |     string _log_message_form(\x1b[01;35m\x1b[Kconst custom_interfaces::msg::Utm utm_data\x1b[m\x1b[K)\n'}
+[2.470013] (cpp_parsing) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[2.517966] (-) TimerEvent: {}
+[2.618295] (-) TimerEvent: {}
+[2.718626] (-) TimerEvent: {}
+[2.818954] (-) TimerEvent: {}
+[2.919294] (-) TimerEvent: {}
+[3.019935] (-) TimerEvent: {}
+[3.121092] (-) TimerEvent: {}
+[3.221725] (-) TimerEvent: {}
+[3.322720] (-) TimerEvent: {}
+[3.423050] (-) TimerEvent: {}
+[3.523386] (-) TimerEvent: {}
+[3.623728] (-) TimerEvent: {}
+[3.724064] (-) TimerEvent: {}
+[3.824403] (-) TimerEvent: {}
+[3.925145] (-) TimerEvent: {}
+[4.026249] (-) TimerEvent: {}
+[4.126577] (-) TimerEvent: {}
+[4.226916] (-) TimerEvent: {}
+[4.327252] (-) TimerEvent: {}
+[4.427593] (-) TimerEvent: {}
+[4.528133] (-) TimerEvent: {}
+[4.628479] (-) TimerEvent: {}
+[4.729226] (-) TimerEvent: {}
+[4.830630] (-) TimerEvent: {}
+[4.931645] (-) TimerEvent: {}
+[5.031983] (-) TimerEvent: {}
+[5.132314] (-) TimerEvent: {}
+[5.232945] (-) TimerEvent: {}
+[5.273597] (cpp_parsing) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/parser.dir/build.make:76: CMakeFiles/parser.dir/src/utm_parser.cpp.o] Error 1\n'}
+[5.273848] (cpp_parsing) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/parser.dir/all] Error 2\n'}
+[5.274127] (cpp_parsing) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.276369] (cpp_parsing) CommandEnded: {'returncode': 2}
+[5.313715] (cpp_parsing) JobEnded: {'identifier': 'cpp_parsing', 'rc': 2}
+[5.324147] (-) EventReactorShutdown: {}

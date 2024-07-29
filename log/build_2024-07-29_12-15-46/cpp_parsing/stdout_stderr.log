@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target parser[0m
+[ 50%] Built target reader
+[ 75%] [32mBuilding CXX object CMakeFiles/parser.dir/src/utm_parser.cpp.o[0m
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:152:5:[m[K [01;31m[Kerror: [m[K‘[01m[KUtm[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+  152 |     [01;31m[KUtm[m[K utm_data_maker(custom_interfaces::msg::Utm utm_data, const vector<string> raw_data, const double latitude, const double longitude, const double easting, const double northing)
+      |     [01;31m[K^~~[m[K
+      |     [32m[Ktm[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In member function ‘[01m[Kvoid NmeaSubscriber::nmea_data_transformer(const String&)[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:105:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kutm_data_maker[m[K’ was not declared in this scope
+  105 |             utm_data = [01;31m[Kutm_data_maker[m[K(utm_data, raw_data, latitude, longitude, easting, northing);
+      |                        [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/parser.dir/build.make:76: CMakeFiles/parser.dir/src/utm_parser.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/parser.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,4 +1,5 @@
 /home/sunny/ros2_ws/install/cpp_parsing/lib/cpp_parsing/reader
+/home/sunny/ros2_ws/install/cpp_parsing/lib/cpp_parsing/parser
 /home/sunny/ros2_ws/install/cpp_parsing/share/ament_index/resource_index/package_run_dependencies/cpp_parsing
 /home/sunny/ros2_ws/install/cpp_parsing/share/ament_index/resource_index/parent_prefix_path/cpp_parsing
 /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/environment/ament_prefix_path.sh

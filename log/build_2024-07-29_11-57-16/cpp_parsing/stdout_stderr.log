@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target parser[0m
+[ 50%] Built target reader
+[ 75%] [32mBuilding CXX object CMakeFiles/parser.dir/src/utm_parser.cpp.o[0m
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In member function ‘[01m[Kvoid NmeaSubscriber::utm_data_maker(custom_interfaces::msg::Utm, std::vector<std::__cxx11::basic_string<char> >, double, double)[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:131:34:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kcustom_interfaces::msg::Utm_<std::allocator<void> >::_utc_type[m[K’ {aka ‘[01m[Kdouble[m[K’} in assignment
+  131 |         utm_data.utc = raw_data[1[01;31m[K][m[K;
+      |                                  [01;31m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:146:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  146 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:151:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kutm_data[m[K’
+  151 |         [01;31m[Kutm_data[m[K.easting = easting;
+      |         [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/parser.dir/build.make:76: CMakeFiles/parser.dir/src/utm_parser.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/parser.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

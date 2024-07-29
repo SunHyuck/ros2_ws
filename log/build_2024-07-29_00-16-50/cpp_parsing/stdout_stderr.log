@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target parser[0m
+[ 50%] Built target reader
+[ 75%] [32mBuilding CXX object CMakeFiles/parser.dir/src/utm_parser.cpp.o[0m
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:58:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   58 |     void _calculate_latitude_longitude([01;31m[K)[m[K
+      |                                        [01;31m[K^[m[K
+      |                                         [32m[K;[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In member function ‘[01m[Kvoid NmeaSubscriber::nmea_data_transformer(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:55:41:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kmsg[m[K’ from ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} to ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’}
+   55 |         vector<string> raw_data = split([01;31m[Kmsg[m[K, ',');
+      |                                         [01;31m[K^~~[m[K
+      |                                         [01;31m[K|[m[K
+      |                                         [01;31m[Kconst SharedPtr {aka const std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >}[m[K
+gmake[2]: *** [CMakeFiles/parser.dir/build.make:76: CMakeFiles/parser.dir/src/utm_parser.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/parser.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

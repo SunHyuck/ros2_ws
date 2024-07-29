@@ -1,0 +1,32 @@
+[0.015s] Invoking command in '/home/sunny/ros2_ws/build/cpp_parsing': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:/home/sunny/ros2_ws/install/tutorial_interfaces/lib:/home/sunny/ros2_ws/install/turtlesim/lib:/home/sunny/ros2_ws/install/polygon_plugins/lib:/home/sunny/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target parser[0m
+[0.081s] [ 50%] Built target reader
+[0.083s] [ 75%] [32mBuilding CXX object CMakeFiles/parser.dir/src/utm_parser.cpp.o[0m
+[2.139s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.139s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.140s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.140s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.140s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.140s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.140s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.140s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.140s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.140s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.140s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:8[m[K:
+[2.140s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In member function ‘[01m[Kvoid UtmParser::publishUtmData(const Utm&)[m[K’:
+[2.140s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:36:48:[m[K [01;31m[Kerror: [m[K‘[01m[K_log_message_form[m[K’ was not declared in this scope; did you mean ‘[01m[KlogMessageForm[m[K’?
+[2.140s]    36 |         RCLCPP_INFO_STREAM(this->get_logger(), [01;31m[K_log_message_form[m[K(utm_data));
+[2.140s]       |                                                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.176s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In constructor ‘[01m[KNmeaSubscriber::NmeaSubscriber()[m[K’:
+[2.176s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:76:57:[m[K [01;31m[Kerror: [m[K‘[01m[Knmea_data_transformer[m[K’ is not a member of ‘[01m[KNmeaSubscriber[m[K’
+[2.176s]    76 |             "nmea_data", 10, std::bind(&NmeaSubscriber::[01;31m[Knmea_data_transformer[m[K, this, std::placeholders::_1));
+[2.176s]       |                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.181s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In member function ‘[01m[Kvoid NmeaSubscriber::nmeaDataTransformer(const String&)[m[K’:
+[2.182s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:86:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kutm_data_[m[K’ was not declared in this scope; did you mean ‘[01m[Kutm_data[m[K’?
+[2.183s]    86 |             makeUtmData([01;31m[Kutm_data_[m[K, raw_data, latitude_, longitude_, easting_, northing_);
+[2.184s]       |                         [01;31m[K^~~~~~~~~[m[K
+[2.184s]       |                         [32m[Kutm_data[m[K
+[2.989s] gmake[2]: *** [CMakeFiles/parser.dir/build.make:76: CMakeFiles/parser.dir/src/utm_parser.cpp.o] Error 1
+[2.989s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/parser.dir/all] Error 2
+[2.990s] gmake: *** [Makefile:146: all] Error 2
+[2.992s] Invoked command in '/home/sunny/ros2_ws/build/cpp_parsing' returned '2': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:/home/sunny/ros2_ws/install/tutorial_interfaces/lib:/home/sunny/ros2_ws/install/turtlesim/lib:/home/sunny/ros2_ws/install/polygon_plugins/lib:/home/sunny/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12

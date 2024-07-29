@@ -11,8 +11,6 @@
 
 using namespace std;
 
-vector<string> split(string line, char Delimiter);
-
 vector<string> split(string line, char Delimiter) {
     istringstream iss(line);
     string buffer;
@@ -33,15 +31,13 @@ public:
     {
         publisher_ = this->create_publisher<custom_interfaces::msg::Utm>("parsing_data", 10);
     }
-    void publish_utm_data(const custom_interfaces::msg::Utm &utm_data)
+    void publishUtmData(const custom_interfaces::msg::Utm &utm_data)
     {
-        RCLCPP_INFO_STREAM(this->get_logger(), _log_message_form(utm_data));
+        RCLCPP_INFO_STREAM(this->get_logger(), logMessageForm(utm_data));
         publisher_->publish(utm_data);
     }
 private:
-    rclcpp::Publisher<custom_interfaces::msg::Utm>::SharedPtr publisher_;
-
-    string _log_message_form(const custom_interfaces::msg::Utm utm_data)
+    string logMessageForm(const custom_interfaces::msg::Utm utm_data)
     {
         ostringstream msg;
         msg << "\n---------- GGA DATA ----------\n"
@@ -67,6 +63,8 @@ private:
 
     return msg.str();
     }
+
+    rclcpp::Publisher<custom_interfaces::msg::Utm>::SharedPtr publisher_;
 };
 
 class NmeaSubscriber: public rclcpp::Node
@@ -75,54 +73,44 @@ public:
     NmeaSubscriber(): Node("nmea_subscriber")
     {
         subscription_ = this->create_subscription<std_msgs::msg::String>(
-            "nmea_data", 10, std::bind(&NmeaSubscriber::nmea_data_transformer, this, std::placeholders::_1));
+            "nmea_data", 10, std::bind(&NmeaSubscriber::nmeaDataTransformer, this, std::placeholders::_1));
     }
 private:
-    UtmParser parser_;
-    double latitude;
-    double longitude;
-    double easting;
-    double northing;
-
-    const double R = 6378137.0;
-    const double f = 1 / 298.257223563;
-    const double k0 = 0.9996;
-    const double e = sqrt(2 * f - f * f);
-    const double e_prime_sq = e * e / (1 - e * e);
-
-    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
-    custom_interfaces::msg::Utm utm_data;
-
-    void nmea_data_transformer(const std_msgs::msg::String &msg)
-    {
+    void nmeaDataTransformer(const std_msgs::msg::String &msg) {
         vector<string> raw_data = split(msg.data, ',');
-        if (raw_data[0].substr(3).compare("GGA") == 0 && raw_data.size() == 15)
-        {
-            calculate_latitude_longitude(latitude, longitude, stod(raw_data[2]), raw_data[3], stod(raw_data[4]), raw_data[5]);
-            lat_lon_to_UTM(easting, northing, latitude, longitude);
-            utm_data_maker(utm_data, raw_data, latitude, longitude, easting, northing);
+        if (raw_data[0].substr(3).compare("GGA") == 0 && raw_data.size() == 15) {
+            calculateLatitudeLongitude(latitude_, longitude_, 
+                                        stod(raw_data[2]), raw_data[3], 
+                                        stod(raw_data[4]), raw_data[5]);
+            latLonToUtm(easting_, northing_, latitude_, longitude_);
+            makeUtmData(utm_data_, raw_data, latitude_, longitude_, easting_, northing_);
 
-            parser_.publish_utm_data(utm_data);
+            parser_.publishUtmData(utm_data_);
         }
     }
 
-    void calculate_latitude_longitude(double & latitude, double & longitude, const double lat, const string lat_dir, const double lon, const string lon_dir)
+    void calculateLatitudeLongitude(double & latitude, double & longitude,
+                                    const double lat, const string lat_dir,
+                                    const double lon, const string lon_dir)
     {
-        int lat_deg, lon_deg;
-        double lat_mint, lon_mint;
-
-        lat_deg = static_cast<int>(lat / 100);
-        lat_mint = lat - (lat_deg * 100);
+        int lat_deg = static_cast<int>(lat / 100);
+        double lat_mint = lat - (lat_deg * 100);
         latitude = lat_deg + (lat_mint / 60.0);
         if (lat_dir.compare("S") == 0) latitude = -latitude;
 
-        lon_deg = static_cast<int>(lon / 100);
-        lon_mint = lon - (lon_deg * 100);
+        int lon_deg = static_cast<int>(lon / 100);
+        double lon_mint = lon - (lon_deg * 100);
         longitude = lon_deg + (lon_mint / 60.0);
         if (lon_dir.compare("W") == 0) longitude = -longitude;
     }
 
-    void lat_lon_to_UTM(double & easting, double & northing, const double latitude, const double longitude) {
+    void latLonToUtm(double& easting, double& northing, const double latitude, const double longitude) {
+        const double R = 6378137.0;
+        const double f = 1 / 298.257223563;
+        const double k0 = 0.9996;
+        const double e = sqrt(2 * f - f * f);
+        const double e_prime_sq = e * e / (1 - e * e);
+
         double phi = latitude * M_PI / 180.0;
         double lambda = longitude * M_PI / 180.0;
     
@@ -147,7 +135,8 @@ private:
         }
     }
 
-    void utm_data_maker(custom_interfaces::msg::Utm & utm_data, const vector<string> raw_data, const double latitude, const double longitude, const double easting, const double northing)
+    void makeUtmData(custom_interfaces::msg::Utm& utm_data, const vector<string> raw_data,
+                    const double latitude, const double longitude, const double easting, const double northing)
     {
         string tmp;
         for (size_t i = 0; i < raw_data.size(); ++i) {
@@ -181,6 +170,15 @@ private:
         utm_data.easting = easting;
         utm_data.northing = northing;
     }
+
+    UtmParser parser_;
+    double latitude_;
+    double longitude_;
+    double easting_;
+    double northing_;
+
+    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
+    custom_interfaces::msg::Utm utm_data_;
 };
 
 int main(int argc, char * argv[])

@@ -1,0 +1,55 @@
+[0.013s] Invoking command in '/home/sunny/ros2_ws/build/cpp_parsing': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:/home/sunny/ros2_ws/install/tutorial_interfaces/lib:/home/sunny/ros2_ws/install/turtlesim/lib:/home/sunny/ros2_ws/install/polygon_plugins/lib:/home/sunny/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12
+[0.070s] [ 25%] [32mBuilding CXX object CMakeFiles/parser.dir/src/utm_parser.cpp.o[0m
+[0.072s] [ 75%] Built target reader
+[2.287s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.287s]                  from [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:8[m[K:
+[2.287s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In member function ‘[01m[Kvoid UtmParser::publish_utm_data(const Utm&)[m[K’:
+[2.287s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:36:48:[m[K [01;31m[Kerror: [m[K‘[01m[K_log_message_form[m[K’ was not declared in this scope; did you mean ‘[01m[KlogMessageForm[m[K’?
+[2.287s]    36 |         RCLCPP_INFO_STREAM(this->get_logger(), [01;31m[K_log_message_form[m[K(utm_data));
+[2.287s]       |                                                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.335s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In constructor ‘[01m[KNmeaSubscriber::NmeaSubscriber()[m[K’:
+[2.335s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:76:57:[m[K [01;31m[Kerror: [m[K‘[01m[Knmea_data_transformer[m[K’ is not a member of ‘[01m[KNmeaSubscriber[m[K’
+[2.335s]    76 |             "nmea_data", 10, std::bind(&NmeaSubscriber::[01;31m[Knmea_data_transformer[m[K, this, std::placeholders::_1));
+[2.335s]       |                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.340s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In member function ‘[01m[Kvoid NmeaSubscriber::nmeaDataTransformer(const String&)[m[K’:
+[2.340s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:82:42:[m[K [01;31m[Kerror: [m[K‘[01m[Klatitude_[m[K’ was not declared in this scope; did you mean ‘[01m[Klatitude[m[K’?
+[2.340s]    82 |             calculate_latitude_longitude([01;31m[Klatitude_[m[K, longitude_,
+[2.340s]       |                                          [01;31m[K^~~~~~~~~[m[K
+[2.340s]       |                                          [32m[Klatitude[m[K
+[2.343s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:82:53:[m[K [01;31m[Kerror: [m[K‘[01m[Klongitude_[m[K’ was not declared in this scope; did you mean ‘[01m[Klongitude[m[K’?
+[2.343s]    82 |             calculate_latitude_longitude(latitude_, [01;31m[Klongitude_[m[K,
+[2.343s]       |                                                     [01;31m[K^~~~~~~~~~[m[K
+[2.344s]       |                                                     [32m[Klongitude[m[K
+[2.349s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:82:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcalculate_latitude_longitude[m[K’ was not declared in this scope; did you mean ‘[01m[KcalculateLatitudeLongitude[m[K’?
+[2.349s]    82 |             [01;31m[Kcalculate_latitude_longitude[m[K(latitude_, longitude_,
+[2.349s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.349s]       |             [32m[KcalculateLatitudeLongitude[m[K
+[2.352s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:85:25:[m[K [01;31m[Kerror: [m[K‘[01m[Keasting_[m[K’ was not declared in this scope; did you mean ‘[01m[Keasting[m[K’?
+[2.352s]    85 |             latLonToUtm([01;31m[Keasting_[m[K, northing_, latitude_, longitude_);
+[2.352s]       |                         [01;31m[K^~~~~~~~[m[K
+[2.352s]       |                         [32m[Keasting[m[K
+[2.355s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:85:35:[m[K [01;31m[Kerror: [m[K‘[01m[Knorthing_[m[K’ was not declared in this scope; did you mean ‘[01m[Knorthing[m[K’?
+[2.355s]    85 |             latLonToUtm(easting_, [01;31m[Knorthing_[m[K, latitude_, longitude_);
+[2.355s]       |                                   [01;31m[K^~~~~~~~~[m[K
+[2.355s]       |                                   [32m[Knorthing[m[K
+[2.358s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:86:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kutm_data_[m[K’ was not declared in this scope; did you mean ‘[01m[Kutm_data[m[K’?
+[2.358s]    86 |             makeUtmData([01;31m[Kutm_data_[m[K, raw_data, latitude_, longitude_, easting_, northing_);
+[2.358s]       |                         [01;31m[K^~~~~~~~~[m[K
+[2.358s]       |                         [32m[Kutm_data[m[K
+[2.358s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:88:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass UtmParser[m[K’ has no member named ‘[01m[KpublishUtmData[m[K’; did you mean ‘[01m[Kpublish_utm_data[m[K’?
+[2.358s]    88 |             parser_.[01;31m[KpublishUtmData[m[K(utm_data_);
+[2.358s]       |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.358s]       |                     [32m[Kpublish_utm_data[m[K
+[3.067s] gmake[2]: *** [CMakeFiles/parser.dir/build.make:76: CMakeFiles/parser.dir/src/utm_parser.cpp.o] Error 1
+[3.067s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/parser.dir/all] Error 2
+[3.067s] gmake: *** [Makefile:146: all] Error 2
+[3.070s] Invoked command in '/home/sunny/ros2_ws/build/cpp_parsing' returned '2': CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/home/sunny/ros2_ws/install/cpp_srvcli:/home/sunny/ros2_ws/install/cpp_pubsub:/home/sunny/ros2_ws/install/tutorial_interfaces:/home/sunny/ros2_ws/install/turtlesim:/home/sunny/ros2_ws/install/polygon_plugins:/home/sunny/ros2_ws/install/polygon_base:/home/sunny/ros2_ws/install/my_package:/home/sunny/ros2_ws/install/more_interfaces:/home/sunny/ros2_ws/install/cpp_parsing:/home/sunny/ros2_ws/install/cpp_proj:/home/sunny/ros2_ws/install/cpp_parameters:/home/sunny/ros2_ws/install/py_proj:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:/home/sunny/ros2_ws/install/tutorial_interfaces/lib:/home/sunny/ros2_ws/install/turtlesim/lib:/home/sunny/ros2_ws/install/polygon_plugins/lib:/home/sunny/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12

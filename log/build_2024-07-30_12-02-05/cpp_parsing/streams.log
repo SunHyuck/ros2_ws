@@ -1,0 +1,18 @@
+[0.011s] Invoking command in '/home/sunny/ros2_ws/build/cpp_parsing': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target reader[0m
+[0.064s] [ 25%] [32mBuilding CXX object CMakeFiles/parser.dir/src/utm_parser.cpp.o[0m
+[0.085s] [ 50%] [32mBuilding CXX object CMakeFiles/reader.dir/src/nmea_reader.cpp.o[0m
+[1.937s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:32:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+[1.937s]    32 |     [01;31m[K{[m[K
+[1.937s]       |     [01;31m[K^[m[K
+[1.940s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In constructor ‘[01m[KUtmParser::UtmParser()[m[K’:
+[1.940s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:31:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ at end of input
+[1.940s]    31 |     UtmParser(): Node("utm_parser")[01;31m[K;[m[K
+[1.941s]       |                                    [01;31m[K^[m[K
+[4.171s] gmake[2]: *** [CMakeFiles/parser.dir/build.make:76: CMakeFiles/parser.dir/src/utm_parser.cpp.o] Error 1
+[4.171s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/parser.dir/all] Error 2
+[4.171s] gmake[1]: *** Waiting for unfinished jobs....
+[5.718s] [ 75%] [32m[1mLinking CXX executable reader[0m
+[5.890s] [ 75%] Built target reader
+[5.891s] gmake: *** [Makefile:146: all] Error 2
+[5.893s] Invoked command in '/home/sunny/ros2_ws/build/cpp_parsing' returned '2': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12

@@ -1,0 +1,76 @@
+[0.010s] Invoking command in '/home/sunny/ros2_ws/src/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sunny/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/sunny/ros2_ws/src/install/cpp_srvcli
+[0.069s] -- The C compiler identification is GNU 11.4.0
+[0.120s] -- The CXX compiler identification is GNU 11.4.0
+[0.127s] -- Detecting C compiler ABI info
+[0.191s] -- Detecting C compiler ABI info - done
+[0.196s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.197s] -- Detecting C compile features
+[0.197s] -- Detecting C compile features - done
+[0.200s] -- Detecting CXX compiler ABI info
+[0.274s] -- Detecting CXX compiler ABI info - done
+[0.279s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.280s] -- Detecting CXX compile features
+[0.280s] -- Detecting CXX compile features - done
+[0.282s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.408s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.489s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.526s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.530s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.537s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.548s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.563s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.615s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.617s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.701s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.726s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.778s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.790s] -- Looking for pthread.h
+[0.857s] -- Looking for pthread.h - found
+[0.858s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.926s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.927s] -- Found Threads: TRUE  
+[1.064s] -- Found tutorial_interfaces: 0.0.0 (/home/sunny/ros2_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.151s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.242s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.242s] -- Configured cppcheck include dirs: 
+[1.242s] -- Configured cppcheck exclude dirs and/or files: 
+[1.244s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.247s] -- Added test 'lint_cmake' to check CMake code style
+[1.249s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.265s] -- Added test 'uncrustify' to check C / C++ code style
+[1.265s] -- Configured uncrustify additional arguments: 
+[1.267s] -- Added test 'xmllint' to check XML markup files
+[1.269s] -- Configuring done
+[1.284s] -- Generating done
+[1.287s] -- Build files have been written to: /home/sunny/ros2_ws/src/build/cpp_srvcli
+[1.299s] Invoked command in '/home/sunny/ros2_ws/src/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sunny/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/sunny/ros2_ws/src/install/cpp_srvcli
+[1.301s] Invoking command in '/home/sunny/ros2_ws/src/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunny/ros2_ws/src/build/cpp_srvcli -- -j12 -l12
+[1.357s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[1.362s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[4.448s] [ 75%] [32m[1mLinking CXX executable server[0m
+[4.596s] [ 75%] Built target server
+[4.647s] [100%] [32m[1mLinking CXX executable client[0m
+[4.807s] [100%] Built target client
+[4.821s] Invoked command in '/home/sunny/ros2_ws/src/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunny/ros2_ws/src/build/cpp_srvcli -- -j12 -l12
+[4.849s] Invoking command in '/home/sunny/ros2_ws/src/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sunny/ros2_ws/src/build/cpp_srvcli
+[4.858s] -- Install configuration: ""
+[4.858s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_srvcli/lib/cpp_srvcli/server
+[4.859s] -- Set runtime path of "/home/sunny/ros2_ws/src/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[4.859s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_srvcli/lib/cpp_srvcli/client
+[4.860s] -- Set runtime path of "/home/sunny/ros2_ws/src/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[4.860s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[4.861s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[4.861s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[4.861s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[4.861s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[4.861s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[4.861s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[4.862s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[4.862s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[4.862s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[4.862s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[4.862s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[4.862s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[4.862s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[4.863s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[4.865s] Invoked command in '/home/sunny/ros2_ws/src/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sunny/ros2_ws/src/build/cpp_srvcli

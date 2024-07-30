@@ -1,0 +1,64 @@
+[0.022s] Invoking command in '/home/sunny/ros2_ws/src/build/cpp_proj': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunny/ros2_ws/src/cpp_proj -DCMAKE_INSTALL_PREFIX=/home/sunny/ros2_ws/src/install/cpp_proj
+[0.123s] -- The C compiler identification is GNU 11.4.0
+[0.211s] -- The CXX compiler identification is GNU 11.4.0
+[0.219s] -- Detecting C compiler ABI info
+[0.294s] -- Detecting C compiler ABI info - done
+[0.302s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.302s] -- Detecting C compile features
+[0.303s] -- Detecting C compile features - done
+[0.305s] -- Detecting CXX compiler ABI info
+[0.384s] -- Detecting CXX compiler ABI info - done
+[0.390s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.390s] -- Detecting CXX compile features
+[0.391s] -- Detecting CXX compile features - done
+[0.393s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.544s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.630s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.662s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.666s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.673s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.684s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.699s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.756s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.758s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.860s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.893s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.952s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.963s] -- Looking for pthread.h
+[1.037s] -- Looking for pthread.h - found
+[1.037s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.110s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.111s] -- Found Threads: TRUE  
+[1.338s] -- Configuring done
+[1.350s] -- Generating done
+[1.352s] -- Build files have been written to: /home/sunny/ros2_ws/src/build/cpp_proj
+[1.362s] Invoked command in '/home/sunny/ros2_ws/src/build/cpp_proj' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunny/ros2_ws/src/cpp_proj -DCMAKE_INSTALL_PREFIX=/home/sunny/ros2_ws/src/install/cpp_proj
+[1.363s] Invoking command in '/home/sunny/ros2_ws/src/build/cpp_proj': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/src/build/cpp_proj -- -j12 -l12
+[1.414s] [ 50%] [32mBuilding CXX object CMakeFiles/transpose.dir/src/proj_coordinate.cpp.o[0m
+[1.687s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[1.687s] [01m[K/home/sunny/ros2_ws/src/cpp_proj/src/proj_coordinate.cpp:78:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.687s]    78 |             for (int i = 0; [01;35m[Ki < result.size()[m[K; i++) {
+[1.688s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[1.781s] [100%] [32m[1mLinking CXX executable transpose[0m
+[2.077s] [100%] Built target transpose
+[2.105s] Invoked command in '/home/sunny/ros2_ws/src/build/cpp_proj' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunny/ros2_ws/src/build/cpp_proj -- -j12 -l12
+[2.244s] Invoking command in '/home/sunny/ros2_ws/src/build/cpp_proj': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunny/ros2_ws/src/build/cpp_proj
+[2.257s] -- Install configuration: ""
+[2.257s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_proj/lib/cpp_proj/transpose
+[2.257s] -- Set runtime path of "/home/sunny/ros2_ws/src/install/cpp_proj/lib/cpp_proj/transpose" to ""
+[2.258s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_proj/share/ament_index/resource_index/package_run_dependencies/cpp_proj
+[2.258s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_proj/share/ament_index/resource_index/parent_prefix_path/cpp_proj
+[2.258s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_proj/share/cpp_proj/environment/ament_prefix_path.sh
+[2.258s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_proj/share/cpp_proj/environment/ament_prefix_path.dsv
+[2.258s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_proj/share/cpp_proj/environment/path.sh
+[2.258s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_proj/share/cpp_proj/environment/path.dsv
+[2.258s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_proj/share/cpp_proj/local_setup.bash
+[2.258s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_proj/share/cpp_proj/local_setup.sh
+[2.258s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_proj/share/cpp_proj/local_setup.zsh
+[2.258s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_proj/share/cpp_proj/local_setup.dsv
+[2.259s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_proj/share/cpp_proj/package.dsv
+[2.259s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_proj/share/ament_index/resource_index/packages/cpp_proj
+[2.259s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_proj/share/cpp_proj/cmake/cpp_projConfig.cmake
+[2.259s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_proj/share/cpp_proj/cmake/cpp_projConfig-version.cmake
+[2.259s] -- Installing: /home/sunny/ros2_ws/src/install/cpp_proj/share/cpp_proj/package.xml
+[2.272s] Invoked command in '/home/sunny/ros2_ws/src/build/cpp_proj' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunny/ros2_ws/src/build/cpp_proj

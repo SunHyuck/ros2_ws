@@ -1,0 +1,4 @@
+[console_scripts]
+publisher = py_proj.proj_coordinate:main
+reader = py_proj.proj_data_reader:main
+

@@ -1,0 +1,28 @@
+[0.011s] Invoking command in '/home/sunny/ros2_ws/build/cpp_parsing': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target parser[0m
+[0.070s] [ 50%] Built target reader
+[0.071s] [ 75%] [32mBuilding CXX object CMakeFiles/parser.dir/src/utm_parser.cpp.o[0m
+[6.878s] [100%] [32m[1mLinking CXX executable parser[0m
+[7.205s] [100%] Built target parser
+[7.217s] Invoked command in '/home/sunny/ros2_ws/build/cpp_parsing' returned '0': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12
+[7.256s] Invoking command in '/home/sunny/ros2_ws/build/cpp_parsing': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sunny/ros2_ws/build/cpp_parsing
+[7.263s] -- Install configuration: ""
+[7.263s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/lib/cpp_parsing/reader
+[7.263s] -- Installing: /home/sunny/ros2_ws/install/cpp_parsing/lib/cpp_parsing/parser
+[7.269s] -- Set runtime path of "/home/sunny/ros2_ws/install/cpp_parsing/lib/cpp_parsing/parser" to ""
+[7.270s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/ament_index/resource_index/package_run_dependencies/cpp_parsing
+[7.270s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/ament_index/resource_index/parent_prefix_path/cpp_parsing
+[7.270s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/environment/ament_prefix_path.sh
+[7.270s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/environment/ament_prefix_path.dsv
+[7.270s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/environment/path.sh
+[7.270s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/environment/path.dsv
+[7.270s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/local_setup.bash
+[7.270s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/local_setup.sh
+[7.270s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/local_setup.zsh
+[7.270s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/local_setup.dsv
+[7.270s] -- Installing: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/package.dsv
+[7.270s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/ament_index/resource_index/packages/cpp_parsing
+[7.270s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/cmake/cpp_parsingConfig.cmake
+[7.271s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/cmake/cpp_parsingConfig-version.cmake
+[7.271s] -- Up-to-date: /home/sunny/ros2_ws/install/cpp_parsing/share/cpp_parsing/package.xml
+[7.273s] Invoked command in '/home/sunny/ros2_ws/build/cpp_parsing' returned '0': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sunny/ros2_ws/build/cpp_parsing

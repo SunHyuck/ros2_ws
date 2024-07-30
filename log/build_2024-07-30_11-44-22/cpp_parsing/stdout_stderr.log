@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target reader[0m
+[ 50%] Built target parser
+[ 75%] [32mBuilding CXX object CMakeFiles/reader.dir/src/nmea_reader.cpp.o[0m
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:[m[K In constructor ‘[01m[KNmeaReader::NmeaReader()[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_reading[m[K’ was not declared in this scope; did you mean ‘[01m[KstartReading[m[K’?
+   22 |         [01;31m[Kstart_reading[m[K();
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[KstartReading[m[K
+gmake[2]: *** [CMakeFiles/reader.dir/build.make:76: CMakeFiles/reader.dir/src/nmea_reader.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/reader.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

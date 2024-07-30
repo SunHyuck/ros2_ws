@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target parser[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/reader.dir/src/nmea_reader.cpp.o[0m
+[ 75%] Built target parser
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:[m[K In constructor ‘[01m[KNmeaReader::NmeaReader()[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_reading[m[K’ was not declared in this scope; did you mean ‘[01m[KstartReading[m[K’?
+   22 |         [01;31m[Kstart_reading[m[K();
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[KstartReading[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:24:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kio_thread[m[K’ was not declared in this scope; did you mean ‘[01m[Kio_thread_[m[K’?
+   24 |         [01;31m[Kio_thread[m[K = std::thread([this]() {context_.run(); });
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[Kio_thread_[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:[m[K In member function ‘[01m[Kvoid NmeaReader::startReading()[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:35:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial[m[K’ was not declared in this scope; did you mean ‘[01m[Kserial_[m[K’?
+   35 |         async_read_until([01;31m[Kserial[m[K, buffer, "\n",
+      |                          [01;31m[K^~~~~~[m[K
+      |                          [32m[Kserial_[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:36:43:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_read[m[K’ is not a member of ‘[01m[KNmeaReader[m[K’
+   36 |                         bind(&NmeaReader::[01;31m[Khandle_read[m[K, this,
+      |                                           [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/reader.dir/build.make:76: CMakeFiles/reader.dir/src/nmea_reader.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/reader.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

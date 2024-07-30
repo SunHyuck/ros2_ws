@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target parser[0m
+[ 50%] Built target reader
+[ 75%] [32mBuilding CXX object CMakeFiles/parser.dir/src/utm_parser.cpp.o[0m
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In member function ‘[01m[Kvoid UtmParser::publishUtmData(const Utm&)[m[K’:
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:42:41:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst _raw_data_type[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kcustom_interfaces::msg::Utm[m[K’ {aka ‘[01m[Kcustom_interfaces::msg::Utm_<std::allocator<void> >[m[K’}
+   42 |         file << logMessageForm([01;31m[Kutm_data.raw_data[m[K);
+      |                                [01;31m[K~~~~~~~~~^~~~~~~~[m[K
+      |                                         [01;31m[K|[m[K
+      |                                         [01;31m[Kconst _raw_data_type {aka const std::__cxx11::basic_string<char>}[m[K
+[01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:46:61:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::string UtmParser::logMessageForm(custom_interfaces::msg::Utm)[m[K’
+   46 |     string logMessageForm([01;36m[Kconst custom_interfaces::msg::Utm utm_data[m[K)
+      |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/parser.dir/build.make:76: CMakeFiles/parser.dir/src/utm_parser.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/parser.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

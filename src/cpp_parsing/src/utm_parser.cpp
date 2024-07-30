@@ -1,5 +1,6 @@
 #include <cmath>
 #include <iostream>
+#include <fstream>
 #include <sstream>
 #include <string>
 #include <vector>
@@ -29,11 +30,17 @@ class UtmParser: public rclcpp::Node
 public:
     UtmParser(): Node("utm_parser")
     {
+        file.open("utm.csv");
+        file << "Latitude, Longitude\n";
         publisher_ = this->create_publisher<custom_interfaces::msg::Utm>("parsing_data", 10);
+    }
+    ~UtmParser() {
+        file.close();
     }
     void publishUtmData(const custom_interfaces::msg::Utm &utm_data)
     {
         RCLCPP_INFO_STREAM(this->get_logger(), logMessageForm(utm_data));
+        file << fixed << setprecision(7) << utm_data.lat << "," << fixed << setprecision(7) << utm_data.lon << "\n";
         publisher_->publish(utm_data);
     }
 private:
@@ -64,6 +71,7 @@ private:
     return msg.str();
     }
 
+    ofstream file;
     rclcpp::Publisher<custom_interfaces::msg::Utm>::SharedPtr publisher_;
 };
 
@@ -77,11 +85,12 @@ public:
     }
 private:
     void nmeaDataTransformer(const std_msgs::msg::String &msg) {
+        // RCLCPP_INFO_STREAM(this->get_logger(), "I heard: '" << msg.data << "'");     // CHANGE
         vector<string> raw_data = split(msg.data, ',');
-        if (raw_data[0].substr(3).compare("GGA") == 0 && raw_data.size() == 15) {
+        if (raw_data[0].substr(3).compare("GGA") == 0 && raw_data.size() == 15 && raw_data[2].compare("") != 0) {
             calculateLatitudeLongitude(latitude_, longitude_, 
-                                        stod(raw_data[2]), raw_data[3], 
-                                        stod(raw_data[4]), raw_data[5]);
+                                        safeStod(raw_data[2]), raw_data[3], 
+                                        safeStod(raw_data[4]), raw_data[5]);
             latLonToUtm(easting_, northing_, latitude_, longitude_);
             makeUtmData(utm_data_, raw_data, latitude_, longitude_, easting_, northing_);
 
@@ -147,28 +156,48 @@ private:
         }
         utm_data.raw_data = tmp;
         utm_data.message_id = raw_data[0].substr(1);
-        utm_data.utc = stod(raw_data[1]);
+        utm_data.utc = safeStod(raw_data[1]);
         utm_data.lat = latitude;
         utm_data.lat_dir = raw_data[3];
         utm_data.lon = longitude;
         utm_data.lon_dir = raw_data[5];
         utm_data.quality = stoi(raw_data[6]);
         utm_data.num_satelite = stoi(raw_data[7]);
-        utm_data.hdop = stod(raw_data[8]);
-        utm_data.alt = stod(raw_data[9]);
+        utm_data.hdop = safeStod(raw_data[8]);
+        utm_data.alt = safeStod(raw_data[9]);
         utm_data.alt_unit = raw_data[10];
-        utm_data.sep = stod(raw_data[11]);
+        utm_data.sep = safeStod(raw_data[11]);
         utm_data.sep_unit = raw_data[12];
-        utm_data.diff_age = stod(raw_data[13]);
+        utm_data.diff_age = safeStod(raw_data[13]);
         if (raw_data.size() <= 18) {
             utm_data.diff_station = 0;
         }
         else {
             utm_data.diff_station = stoi(raw_data[14]);
         }
-        utm_data.check_sum = raw_data[14].substr(raw_data[14].size()-3);
+        utm_data.check_sum = raw_data[14].substr(raw_data[14].size()-2);
         utm_data.easting = easting;
         utm_data.northing = northing;
+    }
+
+    bool isValidDouble(const string& str)
+    {
+        try {
+            size_t pos;
+            stod(str, &pos);
+            return pos == str.size();
+        } catch (const invalid_argument& e) {
+            return false;
+        } catch (const out_of_range& e) {
+            return false;
+        }
+    }
+
+    double safeStod(const string& str, double defaultValue = 0.0) {
+        if (str.empty() || !isValidDouble(str)) {
+            return defaultValue;
+        }
+        return stod(str);
     }
 
     UtmParser parser_;

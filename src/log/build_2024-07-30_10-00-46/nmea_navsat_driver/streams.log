@@ -1,0 +1,75 @@
+[0.670s] Invoking command in '/home/sunny/ros2_ws/src/nmea_navsat_driver': PYTHONPATH=/home/sunny/ros2_ws/src/build/nmea_navsat_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/nmea_navsat_driver build --build-base /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build install --record /home/sunny/ros2_ws/src/build/nmea_navsat_driver/install.log --single-version-externally-managed install_data
+[0.902s] running egg_info
+[0.903s] creating ../build/nmea_navsat_driver/nmea_navsat_driver.egg-info
+[0.903s] writing ../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/PKG-INFO
+[0.904s] writing dependency_links to ../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/dependency_links.txt
+[0.904s] writing entry points to ../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/entry_points.txt
+[0.904s] writing requirements to ../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/requires.txt
+[0.904s] writing top-level names to ../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/top_level.txt
+[0.904s] writing manifest file '../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/SOURCES.txt'
+[0.906s] reading manifest file '../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/SOURCES.txt'
+[0.906s] writing manifest file '../build/nmea_navsat_driver/nmea_navsat_driver.egg-info/SOURCES.txt'
+[0.907s] running build
+[0.907s] running build_py
+[0.907s] creating /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build
+[0.907s] creating /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build/lib
+[0.907s] creating /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver
+[0.907s] copying src/libnmea_navsat_driver/driver.py -> /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver
+[0.907s] copying src/libnmea_navsat_driver/checksum_utils.py -> /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver
+[0.907s] copying src/libnmea_navsat_driver/parser.py -> /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver
+[0.908s] copying src/libnmea_navsat_driver/__init__.py -> /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver
+[0.908s] creating /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes
+[0.908s] copying src/libnmea_navsat_driver/nodes/nmea_tcpclient_driver.py -> /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes
+[0.908s] copying src/libnmea_navsat_driver/nodes/nmea_socket_driver.py -> /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes
+[0.908s] copying src/libnmea_navsat_driver/nodes/nmea_topic_driver.py -> /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes
+[0.908s] copying src/libnmea_navsat_driver/nodes/__init__.py -> /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes
+[0.908s] copying src/libnmea_navsat_driver/nodes/nmea_topic_serial_reader.py -> /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes
+[0.908s] copying src/libnmea_navsat_driver/nodes/nmea_serial_driver.py -> /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes
+[0.909s] running install
+[0.909s] running install_lib
+[0.910s] creating /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver
+[0.910s] copying /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/driver.py -> /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver
+[0.910s] copying /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/checksum_utils.py -> /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver
+[0.910s] copying /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/parser.py -> /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver
+[0.910s] copying /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/__init__.py -> /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver
+[0.910s] creating /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes
+[0.910s] copying /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes/nmea_tcpclient_driver.py -> /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes
+[0.911s] copying /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes/nmea_socket_driver.py -> /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes
+[0.911s] copying /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes/nmea_topic_driver.py -> /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes
+[0.911s] copying /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes/__init__.py -> /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes
+[0.911s] copying /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes/nmea_topic_serial_reader.py -> /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes
+[0.911s] copying /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build/lib/libnmea_navsat_driver/nodes/nmea_serial_driver.py -> /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes
+[0.912s] byte-compiling /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/driver.py to driver.cpython-310.pyc
+[0.914s] byte-compiling /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/checksum_utils.py to checksum_utils.cpython-310.pyc
+[0.914s] byte-compiling /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/parser.py to parser.cpython-310.pyc
+[0.915s] byte-compiling /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/__init__.py to __init__.cpython-310.pyc
+[0.915s] byte-compiling /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes/nmea_tcpclient_driver.py to nmea_tcpclient_driver.cpython-310.pyc
+[0.916s] byte-compiling /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes/nmea_socket_driver.py to nmea_socket_driver.cpython-310.pyc
+[0.916s] byte-compiling /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes/nmea_topic_driver.py to nmea_topic_driver.cpython-310.pyc
+[0.917s] byte-compiling /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes/__init__.py to __init__.cpython-310.pyc
+[0.917s] byte-compiling /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes/nmea_topic_serial_reader.py to nmea_topic_serial_reader.cpython-310.pyc
+[0.917s] byte-compiling /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages/libnmea_navsat_driver/nodes/nmea_serial_driver.py to nmea_serial_driver.cpython-310.pyc
+[0.918s] running install_data
+[0.918s] creating /home/sunny/ros2_ws/src/install/nmea_navsat_driver/share/ament_index
+[0.918s] creating /home/sunny/ros2_ws/src/install/nmea_navsat_driver/share/ament_index/resource_index
+[0.919s] creating /home/sunny/ros2_ws/src/install/nmea_navsat_driver/share/ament_index/resource_index/packages
+[0.920s] copying resource/nmea_navsat_driver -> /home/sunny/ros2_ws/src/install/nmea_navsat_driver/share/ament_index/resource_index/packages
+[0.920s] copying package.xml -> /home/sunny/ros2_ws/src/install/nmea_navsat_driver/share/nmea_navsat_driver
+[0.921s] creating /home/sunny/ros2_ws/src/install/nmea_navsat_driver/share/nmea_navsat_driver/launch
+[0.921s] copying launch/nmea_socket_driver.launch.py -> /home/sunny/ros2_ws/src/install/nmea_navsat_driver/share/nmea_navsat_driver/launch
+[0.921s] copying launch/nmea_serial_driver.launch.py -> /home/sunny/ros2_ws/src/install/nmea_navsat_driver/share/nmea_navsat_driver/launch
+[0.921s] copying launch/nmea_tcpclient_driver.launch.py -> /home/sunny/ros2_ws/src/install/nmea_navsat_driver/share/nmea_navsat_driver/launch
+[0.921s] creating /home/sunny/ros2_ws/src/install/nmea_navsat_driver/share/nmea_navsat_driver/config
+[0.921s] copying config/nmea_serial_driver.yaml -> /home/sunny/ros2_ws/src/install/nmea_navsat_driver/share/nmea_navsat_driver/config
+[0.922s] copying config/nmea_socket_driver.yaml -> /home/sunny/ros2_ws/src/install/nmea_navsat_driver/share/nmea_navsat_driver/config
+[0.922s] copying config/nmea_tcpclient_driver.yaml -> /home/sunny/ros2_ws/src/install/nmea_navsat_driver/share/nmea_navsat_driver/config
+[0.922s] running install_egg_info
+[0.922s] Copying ../build/nmea_navsat_driver/nmea_navsat_driver.egg-info to /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages/nmea_navsat_driver-2.0.1-py3.10.egg-info
+[0.922s] running install_scripts
+[0.946s] Installing nmea_serial_driver script to /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/nmea_navsat_driver
+[0.946s] Installing nmea_socket_driver script to /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/nmea_navsat_driver
+[0.946s] Installing nmea_tcpclient_driver script to /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/nmea_navsat_driver
+[0.947s] Installing nmea_topic_driver script to /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/nmea_navsat_driver
+[0.947s] Installing nmea_topic_serial_reader script to /home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/nmea_navsat_driver
+[0.947s] writing list of installed files to '/home/sunny/ros2_ws/src/build/nmea_navsat_driver/install.log'
+[0.985s] Invoked command in '/home/sunny/ros2_ws/src/nmea_navsat_driver' returned '0': PYTHONPATH=/home/sunny/ros2_ws/src/build/nmea_navsat_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunny/ros2_ws/src/install/nmea_navsat_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/nmea_navsat_driver build --build-base /home/sunny/ros2_ws/src/build/nmea_navsat_driver/build install --record /home/sunny/ros2_ws/src/build/nmea_navsat_driver/install.log --single-version-externally-managed install_data

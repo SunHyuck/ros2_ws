@@ -1,0 +1,13 @@
+[0.011s] Invoking command in '/home/sunny/ros2_ws/build/cpp_parsing': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target reader[0m
+[0.064s] [ 50%] Built target parser
+[0.089s] [ 75%] [32mBuilding CXX object CMakeFiles/reader.dir/src/nmea_reader.cpp.o[0m
+[2.686s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:[m[K In constructor ‘[01m[KNmeaReader::NmeaReader()[m[K’:
+[2.687s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_reading[m[K’ was not declared in this scope; did you mean ‘[01m[KstartReading[m[K’?
+[2.687s]    22 |         [01;31m[Kstart_reading[m[K();
+[2.687s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[2.687s]       |         [32m[KstartReading[m[K
+[4.036s] gmake[2]: *** [CMakeFiles/reader.dir/build.make:76: CMakeFiles/reader.dir/src/nmea_reader.cpp.o] Error 1
+[4.036s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/reader.dir/all] Error 2
+[4.036s] gmake: *** [Makefile:146: all] Error 2
+[4.039s] Invoked command in '/home/sunny/ros2_ws/build/cpp_parsing' returned '2': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12

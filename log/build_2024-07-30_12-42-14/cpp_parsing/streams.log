@@ -1,0 +1,13 @@
+[0.011s] Invoking command in '/home/sunny/ros2_ws/build/cpp_parsing': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target parser[0m
+[0.068s] [ 50%] Built target reader
+[0.070s] [ 75%] [32mBuilding CXX object CMakeFiles/parser.dir/src/utm_parser.cpp.o[0m
+[2.034s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:[m[K In member function ‘[01m[Kvoid UtmParser::publishUtmData(const Utm&)[m[K’:
+[2.034s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:42:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kutm_data_lon[m[K’ was not declared in this scope; did you mean ‘[01m[Kutm_data[m[K’?
+[2.034s]    42 |         file << utm_data.lat << "," << [01;31m[Kutm_data_lon[m[K;
+[2.034s]       |                                        [01;31m[K^~~~~~~~~~~~[m[K
+[2.034s]       |                                        [32m[Kutm_data[m[K
+[4.176s] gmake[2]: *** [CMakeFiles/parser.dir/build.make:76: CMakeFiles/parser.dir/src/utm_parser.cpp.o] Error 1
+[4.176s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/parser.dir/all] Error 2
+[4.176s] gmake: *** [Makefile:146: all] Error 2
+[4.179s] Invoked command in '/home/sunny/ros2_ws/build/cpp_parsing' returned '2': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12

@@ -1,0 +1,174 @@
+[0.000000] (-) TimerEvent: {}
+[0.000720] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000760] (-) JobUnselected: {'identifier': 'cpp_proj'}
+[0.000877] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000918] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000938] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000958] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000979] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001073] (-) JobUnselected: {'identifier': 'nmea_navsat_driver'}
+[0.001095] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.001112] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.001128] (-) JobUnselected: {'identifier': 'py_proj'}
+[0.001144] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001191] (cpp_parsing) JobQueued: {'identifier': 'cpp_parsing', 'dependencies': OrderedDict([('custom_interfaces', '/home/sunny/ros2_ws/install/custom_interfaces')])}
+[0.001263] (cpp_parsing) JobStarted: {'identifier': 'cpp_parsing'}
+[0.009354] (cpp_parsing) JobProgress: {'identifier': 'cpp_parsing', 'progress': 'cmake'}
+[0.009905] (cpp_parsing) JobProgress: {'identifier': 'cpp_parsing', 'progress': 'build'}
+[0.010434] (cpp_parsing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunny/ros2_ws/build/cpp_parsing', '--', '-j12', '-l12'], 'cwd': '/home/sunny/ros2_ws/build/cpp_parsing', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'sunny'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunny/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sunny'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1306'), ('SYSTEMD_EXEC_PID', '1497'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2651'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunny'), ('JOURNAL_STREAM', '8:36055'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sunny'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sunny-Swift-SFX14-41G:@/tmp/.ICE-unix/1475,unix/sunny-Swift-SFX14-41G:/tmp/.ICE-unix/1475'), ('INVOCATION_ID', '8ebb713504224209b266f5526d2f28fd'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JBKLR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a1a2f13dca.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sunny/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sunny/ros2_ws/build/cpp_parsing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunny/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunny/ros2_ws/install/custom_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.055682] (cpp_parsing) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target reader\x1b[0m\n'}
+[0.068084] (cpp_parsing) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/parser.dir/src/utm_parser.cpp.o\x1b[0m\n'}
+[0.087963] (cpp_parsing) StdoutLine: {'line': b'[ 75%] Built target reader\n'}
+[0.099758] (-) TimerEvent: {}
+[0.199994] (-) TimerEvent: {}
+[0.275974] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:90:103:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kempty character constant\n'}
+[0.276209] (cpp_parsing) StderrLine: {'line': b'   90 |         if (raw_data[0].substr(3).compare("GGA") == 0 && raw_data.size() == 15 && raw_data[2].compare(\x1b[01;31m\x1b[K\'\'\x1b[m\x1b[K) != 0) {\n'}
+[0.276286] (cpp_parsing) StderrLine: {'line': b'      |                                                                                                       \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[0.300092] (-) TimerEvent: {}
+[0.400427] (-) TimerEvent: {}
+[0.500883] (-) TimerEvent: {}
+[0.601187] (-) TimerEvent: {}
+[0.701484] (-) TimerEvent: {}
+[0.801780] (-) TimerEvent: {}
+[0.902075] (-) TimerEvent: {}
+[1.002381] (-) TimerEvent: {}
+[1.102678] (-) TimerEvent: {}
+[1.202970] (-) TimerEvent: {}
+[1.303274] (-) TimerEvent: {}
+[1.403578] (-) TimerEvent: {}
+[1.503876] (-) TimerEvent: {}
+[1.604183] (-) TimerEvent: {}
+[1.704489] (-) TimerEvent: {}
+[1.804784] (-) TimerEvent: {}
+[1.905073] (-) TimerEvent: {}
+[2.005365] (-) TimerEvent: {}
+[2.090472] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid NmeaSubscriber::nmeaDataTransformer(const String&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.090755] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:90:102:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>::compare(char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.090917] (cpp_parsing) StderrLine: {'line': b'   90 |         if (raw_data[0].substr(3).compare("GGA") == 0 && raw_data.size() == 15 && \x1b[01;31m\x1b[Kraw_data[2].compare(\'\')\x1b[m\x1b[K != 0) {\n'}
+[2.091045] (cpp_parsing) StderrLine: {'line': b'      |                                                                                   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.091119] (cpp_parsing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[2.091215] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[2.091265] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[2.091311] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:42\x1b[m\x1b[K,\n'}
+[2.091359] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ostream:38\x1b[m\x1b[K,\n'}
+[2.091405] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.091449] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:2\x1b[m\x1b[K:\n'}
+[2.091493] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:2893:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv<_Tp, int> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::compare(const _Tp&) const [with _Tp = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.091548] (cpp_parsing) StderrLine: {'line': b' 2893 |         \x1b[01;36m\x1b[Kcompare\x1b[m\x1b[K(const _Tp& __svt) const\n'}
+[2.091592] (cpp_parsing) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.091648] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:2893:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.091696] (cpp_parsing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:57\x1b[m\x1b[K,\n'}
+[2.091741] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[2.091784] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.091828] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/specfun.h:45\x1b[m\x1b[K,\n'}
+[2.091871] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/cmath:1935\x1b[m\x1b[K,\n'}
+[2.091914] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.091957] (cpp_parsing) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = int]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.092001] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:125:8:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> template<class _Tp, class _Res> using _If_sv = std::enable_if_t<std::__and_<std::is_convertible<const _Tp&, std::basic_string_view<_CharT, _Traits> >, std::__not_<std::is_convertible<const _Tp*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>*> >, std::__not_<std::is_convertible<const _Tp&, const _CharT*> > >::value, _Res> [with _Tp = char; _Res = int; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.092068] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:2893:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::__cxx11::basic_string<char>::_If_sv<_Tp, int> std::__cxx11::basic_string<char>::compare<_Tp>(const _Tp&) const [with _Tp = char]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.092118] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:90:102:\x1b[m\x1b[K   required from here\n'}
+[2.092164] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2579:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, int>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.092220] (cpp_parsing) StderrLine: {'line': b' 2579 |     using \x1b[01;31m\x1b[Kenable_if_t\x1b[m\x1b[K = typename enable_if<_Cond, _Tp>::type;\n'}
+[2.092266] (cpp_parsing) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.092319] (cpp_parsing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[2.092419] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[2.092631] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[2.092736] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:42\x1b[m\x1b[K,\n'}
+[2.092784] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ostream:38\x1b[m\x1b[K,\n'}
+[2.092830] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.092875] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:2\x1b[m\x1b[K:\n'}
+[2.092920] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:2917:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv<_Tp, int> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::compare(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Tp&) const [with _Tp = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.092974] (cpp_parsing) StderrLine: {'line': b' 2917 |         \x1b[01;36m\x1b[Kcompare\x1b[m\x1b[K(size_type __pos, size_type __n, const _Tp& __svt) const\n'}
+[2.093019] (cpp_parsing) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.093063] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:2917:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.093107] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:90:102:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[2.093151] (cpp_parsing) StderrLine: {'line': b'   90 |         if (raw_data[0].substr(3).compare("GGA") == 0 && raw_data.size() == 15 && \x1b[01;36m\x1b[Kraw_data[2].compare(\'\')\x1b[m\x1b[K != 0) {\n'}
+[2.093195] (cpp_parsing) StderrLine: {'line': b'      |                                                                                   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.093249] (cpp_parsing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[2.093295] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[2.093340] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[2.093387] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:42\x1b[m\x1b[K,\n'}
+[2.093431] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ostream:38\x1b[m\x1b[K,\n'}
+[2.093475] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.093520] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:2\x1b[m\x1b[K:\n'}
+[2.093565] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:2936:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv<_Tp, int> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::compare(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Tp&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type) const [with _Tp = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.093612] (cpp_parsing) StderrLine: {'line': b' 2936 |         \x1b[01;36m\x1b[Kcompare\x1b[m\x1b[K(size_type __pos1, size_type __n1, const _Tp& __svt,\n'}
+[2.093661] (cpp_parsing) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.093707] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:2936:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.093751] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:90:102:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 5 arguments, 1 provided\n'}
+[2.093795] (cpp_parsing) StderrLine: {'line': b'   90 |         if (raw_data[0].substr(3).compare("GGA") == 0 && raw_data.size() == 15 && \x1b[01;36m\x1b[Kraw_data[2].compare(\'\')\x1b[m\x1b[K != 0) {\n'}
+[2.093838] (cpp_parsing) StderrLine: {'line': b'      |                                                                                   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.093882] (cpp_parsing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[2.093925] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[2.093968] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[2.094011] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:42\x1b[m\x1b[K,\n'}
+[2.094054] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ostream:38\x1b[m\x1b[K,\n'}
+[2.094105] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.094154] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:2\x1b[m\x1b[K:\n'}
+[2.094207] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:2873:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kint std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::compare(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.094261] (cpp_parsing) StderrLine: {'line': b' 2873 |       \x1b[01;36m\x1b[Kcompare\x1b[m\x1b[K(const basic_string& __str) const\n'}
+[2.094307] (cpp_parsing) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.094352] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:2873:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.094398] (cpp_parsing) StderrLine: {'line': b' 2873 |       compare(\x1b[01;36m\x1b[Kconst basic_string& __str\x1b[m\x1b[K) const\n'}
+[2.094443] (cpp_parsing) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.094487] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:2966:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kint std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::compare(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.094534] (cpp_parsing) StderrLine: {'line': b' 2966 |       \x1b[01;36m\x1b[Kcompare\x1b[m\x1b[K(size_type __pos, size_type __n, const basic_string& __str) const;\n'}
+[2.094579] (cpp_parsing) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.094623] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:2966:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[2.094667] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:2992:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kint std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::compare(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type) const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.094719] (cpp_parsing) StderrLine: {'line': b' 2992 |       \x1b[01;36m\x1b[Kcompare\x1b[m\x1b[K(size_type __pos1, size_type __n1, const basic_string& __str,\n'}
+[2.094763] (cpp_parsing) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.094805] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:2992:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 5 arguments, 1 provided\n'}
+[2.094849] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:3010:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kint std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::compare(const _CharT*) const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[2.094901] (cpp_parsing) StderrLine: {'line': b' 3010 |       \x1b[01;36m\x1b[Kcompare\x1b[m\x1b[K(const _CharT* __s) const _GLIBCXX_NOEXCEPT;\n'}
+[2.094945] (cpp_parsing) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.094988] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:3010:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[2.095037] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:90:103:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.095082] (cpp_parsing) StderrLine: {'line': b'   90 |         if (raw_data[0].substr(3).compare("GGA") == 0 && raw_data.size() == 15 && raw_data[2].compare(\x1b[01;31m\x1b[K\'\'\x1b[m\x1b[K) != 0) {\n'}
+[2.095126] (cpp_parsing) StderrLine: {'line': b'      |                                                                                                       \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.095189] (cpp_parsing) StderrLine: {'line': b'      |                                                                                                       \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.095237] (cpp_parsing) StderrLine: {'line': b'      |                                                                                                       \x1b[01;31m\x1b[Kchar\x1b[m\x1b[K\n'}
+[2.095290] (cpp_parsing) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[2.095337] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[2.095381] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[2.095429] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:42\x1b[m\x1b[K,\n'}
+[2.095474] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ostream:38\x1b[m\x1b[K,\n'}
+[2.095517] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.095560] (cpp_parsing) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunny/ros2_ws/src/cpp_parsing/src/utm_parser.cpp:2\x1b[m\x1b[K:\n'}
+[2.095604] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:3034:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kint std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::compare(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _CharT*) const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.095651] (cpp_parsing) StderrLine: {'line': b' 3034 |       \x1b[01;36m\x1b[Kcompare\x1b[m\x1b[K(size_type __pos, size_type __n1, const _CharT* __s) const;\n'}
+[2.095697] (cpp_parsing) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.095741] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:3034:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[2.095785] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:3061:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kint std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::compare(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type) const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.095842] (cpp_parsing) StderrLine: {'line': b' 3061 |       \x1b[01;36m\x1b[Kcompare\x1b[m\x1b[K(size_type __pos, size_type __n1, const _CharT* __s,\n'}
+[2.095888] (cpp_parsing) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.095933] (cpp_parsing) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:3061:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[2.105440] (-) TimerEvent: {}
+[2.205685] (-) TimerEvent: {}
+[2.305977] (-) TimerEvent: {}
+[2.406265] (-) TimerEvent: {}
+[2.506568] (-) TimerEvent: {}
+[2.607012] (-) TimerEvent: {}
+[2.707359] (-) TimerEvent: {}
+[2.807655] (-) TimerEvent: {}
+[2.907961] (-) TimerEvent: {}
+[3.008274] (-) TimerEvent: {}
+[3.108632] (-) TimerEvent: {}
+[3.208937] (-) TimerEvent: {}
+[3.309239] (-) TimerEvent: {}
+[3.409529] (-) TimerEvent: {}
+[3.509829] (-) TimerEvent: {}
+[3.610119] (-) TimerEvent: {}
+[3.710416] (-) TimerEvent: {}
+[3.810723] (-) TimerEvent: {}
+[3.911022] (-) TimerEvent: {}
+[4.011333] (-) TimerEvent: {}
+[4.111634] (-) TimerEvent: {}
+[4.211957] (-) TimerEvent: {}
+[4.274030] (cpp_parsing) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/parser.dir/build.make:76: CMakeFiles/parser.dir/src/utm_parser.cpp.o] Error 1\n'}
+[4.274255] (cpp_parsing) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/parser.dir/all] Error 2\n'}
+[4.274529] (cpp_parsing) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.276778] (cpp_parsing) CommandEnded: {'returncode': 2}
+[4.310516] (cpp_parsing) JobEnded: {'identifier': 'cpp_parsing', 'rc': 2}
+[4.312008] (-) TimerEvent: {}
+[4.321060] (-) EventReactorShutdown: {}

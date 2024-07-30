@@ -82,7 +82,7 @@ class DataSubscriber(Node):
         self.transformer = Transformer.from_crs("EPSG:4326", "EPSG:32652")
     
     def data_listener_callback(self, msg):
-        # self.get_logger().info(f"Subscriber: {msg.data}")
+        self.get_logger().info(f"Subscriber: {msg.data}")
         raw_data = [msg.data.strip()]
         raw_data += msg.data.split(",")
         if raw_data[1][3:] == "GGA" and len(raw_data) == 16:

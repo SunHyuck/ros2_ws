@@ -1,0 +1,17 @@
+[0.010s] Invoking command in '/home/sunny/ros2_ws/build/cpp_parsing': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target reader[0m
+[0.072s] [ 50%] Built target parser
+[0.091s] [ 75%] [32mBuilding CXX object CMakeFiles/reader.dir/src/nmea_reader.cpp.o[0m
+[2.700s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:[m[K In constructor ‘[01m[KNmeaReader::NmeaReader()[m[K’:
+[2.700s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_reading[m[K’ was not declared in this scope; did you mean ‘[01m[KstartReading[m[K’?
+[2.700s]    22 |         [01;31m[Kstart_reading[m[K();
+[2.700s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[2.700s]       |         [32m[KstartReading[m[K
+[2.706s] [01m[K/home/sunny/ros2_ws/src/cpp_parsing/src/nmea_reader.cpp:24:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kio_thread[m[K’ was not declared in this scope; did you mean ‘[01m[Kio_thread_[m[K’?
+[2.706s]    24 |         [01;31m[Kio_thread[m[K = std::thread([this]() {context_.run(); });
+[2.706s]       |         [01;31m[K^~~~~~~~~[m[K
+[2.706s]       |         [32m[Kio_thread_[m[K
+[4.065s] gmake[2]: *** [CMakeFiles/reader.dir/build.make:76: CMakeFiles/reader.dir/src/nmea_reader.cpp.o] Error 1
+[4.065s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/reader.dir/all] Error 2
+[4.065s] gmake: *** [Makefile:146: all] Error 2
+[4.068s] Invoked command in '/home/sunny/ros2_ws/build/cpp_parsing' returned '2': AMENT_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/ros2_ws/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunny/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunny/ros2_ws/build/cpp_parsing -- -j12 -l12
